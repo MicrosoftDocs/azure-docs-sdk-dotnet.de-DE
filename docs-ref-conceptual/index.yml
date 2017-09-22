@@ -72,7 +72,7 @@ sections:
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg'
             title: Erstellen einer .NET-App mit Cosmos DB
-            href: 'https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnet-application'
+            href: 'https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: Erstellen einer .NET-Microservice-App mit Service Fabric
