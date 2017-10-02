@@ -5,17 +5,18 @@ keywords: Azure, .NET, SDK, API, Data Factory
 author: camsoper
 ms.author: casoper
 manager: douge
-ms.date: 07/20/2017
+ms.date: 09/22/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: e0b85d7d3988febca6dce7f4038825d74e4b8d2e
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: data-factory
+ms.custom: devcenter
+ms.openlocfilehash: 6f1a1cf9ac8189af59ff4e3f42dc1d8fb9620ea2
+ms.sourcegitcommit: f35939d37f67485b3667739b02621e317db3e391
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 09/23/2017
 ---
 # <a name="azure-data-factory-libraries-for-net"></a>Azure Data Factory-Bibliotheken für .NET
 
@@ -25,11 +26,52 @@ Azure Data Factory ist ein cloudbasierter Datenintegrationsdienst. Er ermöglich
 
 Weitere Informationen finden Sie unter [Einführung in Azure Data Factory](/azure/data-factory/data-factory-introduction).
 
-## <a name="management-library"></a>Verwaltungsbibliothek
+## <a name="management-library---data-factory-v2-preview"></a>Verwaltungsbibliothek: Data Factory V2 (Vorschauversion)
 
-Verwenden Sie die Verwaltungsbibliothek zum Erstellen und Planen datengesteuerter Workflows (Pipelines).
+Verwenden Sie die Verwaltungsbibliothek zum Erstellen und Planen datengesteuerter Workflows (Pipelines) in Data Factory V2 (Vorschauversion).  Weitere Informationen finden Sie unter [Create a data factory and pipeline using .NET SDK](/azure/data-factory/quickstart-create-data-factory-dot-net) (Erstellen einer Data Factory und Pipeline mit dem .NET SDK).
 
-Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.DataFactories) direkt von der [Paket-Manager-Konsole][PackageManager] in Visual Studio aus oder mit der [.NET Core-CLI][DotNetCLI].
+Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.DataFactory) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
+
+#### <a name="visual-studio-package-manager"></a>Visual Studio-Paket-Manager
+
+```powershell
+# Get the most recent prerelease package
+Install-Package Microsoft.Azure.Management.DataFactory -Prerelease
+```
+
+```bash
+# Be sure to include the most recent version from the NuGet package page
+dotnet add package Microsoft.Azure.Management.DataFactory --version 0.2.0-preview
+```
+
+### <a name="code-example"></a>Codebeispiel
+
+Das folgende Beispiel verwendet die Verwaltungsbibliothek zum Erstellen einer Data Factory.
+
+```csharp
+/*
+using Microsoft.Azure.Management.ResourceManager;
+using Microsoft.Azure.Management.DataFactory;
+using Microsoft.Azure.Management.DataFactory.Models;
+*/
+
+DataFactoryManagementClient client = new DataFactoryManagementClient(tokenCredentials) { SubscriptionId = subscriptionId };
+Factory dataFactory = new Factory
+{
+    Location = region,
+    Identity = new FactoryIdentity()
+};
+client.Factories.CreateOrUpdate(resourceGroup, dataFactoryName, dataFactory);
+```
+
+> [!div class="nextstepaction"]
+> [Informationen zu den Verwaltungs-APIs](/dotnet/api/microsoft.azure.management.datafactory)
+
+## <a name="management-library---data-factory-v1"></a>Verwaltungsbibliothek: Data Factory V1
+
+Verwenden Sie die Verwaltungsbibliothek zum Erstellen und Planen datengesteuerter Workflows (Pipelines) in Data Factory Version 1.  Weitere Informationen finden Sie in der Dokumentation zu [Data Factory Version 1](/azure/data-factory/v1/data-factory-introduction).
+
+Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.DataFactories) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio-Paket-Manager
 
