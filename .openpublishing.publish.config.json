@@ -126,7 +126,10 @@
         "servicefabricsvcswcf-2.6.204",
         "servicefabricsvcswcf-2.7.0-preview5718"
       ],
-      "open_to_public_contributors": true,
+      "version": 0,  
++      "build_source_folder": ".",  
++      "template_folder": "_themes",  
++      "build_entry_point": "docs",  
       "type_mapping": {
         "APIConnector": "Content",
         "RestApi": "Content",
