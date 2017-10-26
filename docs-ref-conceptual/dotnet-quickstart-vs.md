@@ -11,13 +11,13 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: 1defed888972ae2f9d60d57bc34c518df9b5867c
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.openlocfilehash: eb7aa364cae9deea4ed2052eefdbd51c85379afa
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
-# <a name="get-started-with-net-for-azure-developers"></a>Erste Schritte mit NET für Azure-Entwickler
+# <a name="get-started-with-net-for-azure-developers"></a>Erste Schritte mit .NET für Azure-Entwickler
 
 Dieses Tutorial führt Sie durch das Erstellen und Bereitstellen einer Microsoft Azure-Anwendung mithilfe von Visual Studio und .NET.  Im Anschluss verfügen Sie über eine webbasierte in ASP.NET MVC Core erstellte Anwendung, die als Azure-Web-App gehostet wird und Azure CosmosDB zur Datenspeicherung nutzt.
 
@@ -74,7 +74,7 @@ Rufen Sie den Beispielcode für diese exemplarische Vorgehensweise ab, und verkn
 
 4. Drücken Sie **F5** zum Wiederherstellen der NuGet-Pakete des Projekts. Erstellen Sie das Projekt, und führen Sie es lokal aus.
 
-Die Webanwendung muss lokal in Ihrem Browser ausgeführt werden.  Sie können der Aufgabenliste neue Elemente hinzufügen, indem Sie auf **Neu erstellen** klicken.  Beachten Sie, dass die Daten, die Sie in die Anwendung eingeben, in Ihrem CosmosDB-Konto gespeichert werden.  Sie können [Ihre Daten im Azure-Portal anzeigen](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-view-json-document-explorer).
+Die Webanwendung muss lokal in Ihrem Browser ausgeführt werden.  Sie können der Aufgabenliste neue Elemente hinzufügen, indem Sie auf **Neu erstellen** klicken.  Beachten Sie, dass die Daten, die Sie in die Anwendung eingeben, in Ihrem CosmosDB-Konto gespeichert werden.  Sie können [Ihre Daten im Azure-Portal anzeigen](/azure/documentdb/documentdb-view-json-document-explorer).
 
 ## <a name="deploying-the-application-as-an-azure-web-app"></a>Bereitstellen der Anwendung als Azure-Web-App
 
@@ -85,18 +85,18 @@ Sie haben erfolgreich eine Anwendung erstellt, die Azure-Dienste wie DocumentDB 
 
 1. Klicken Sie in Visual Studio im Projektmappen-Explorer mit der rechten Maustaste auf den Projektnamen, und wählen Sie **Veröffentlichen...** aus.
 
-2. Wählen Sie im Dialogfeld „Veröffentlichen“ **Microsoft Azure App Service** -> **Neu erstellen** aus, und klicken Sie dann auf **Veröffentlichen**.
+2. Wählen Sie im Dialogfeld „Veröffentlichen“ **Microsoft Azure App Service** > **Neu erstellen** aus, und klicken Sie dann auf **Veröffentlichen**.
 
-3. Vervollständigen Sie das Dialogfeld „App Service erstellen“ wie folgt:
+3. Füllen Sie die Felder im Dialogfeld „App Service erstellen“ wie folgt aus:
 
     * Geben Sie für **Web-App-Name** einen eindeutigen Namen ein.  Dieser wird Teil der URL Ihrer App.
-    * Wählen Sie das Azure-**Abonnement** aus, in dem die Bereitstellung erfolgt.  Verwenden Sie dasselbe Abonnement, mit dem Sie zuvor bei der Cloud Shell angemeldet waren.
+    * Wählen Sie das Azure-**Abonnement** aus, in dem die Bereitstellung erfolgt.  Verwenden Sie dasselbe Abonnement, mit dem Sie zuvor bei Cloud Shell angemeldet waren.
     * Wählen Sie *DotNetAzureTutorial* als **Ressourcengruppe** für Ihre Webanwendung aus.
     * Wählen oder erstellen Sie einen **App Service-Plan**, um den Tarif für Ihre Anwendung zu bestimmen.  Hier finden Sie [weitere Informationen zu App Service-Plänen](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).
 
-4. Klicken Sie zum Bereitstellen der Anwendung auf **Erstellen**.  Wenn die Bereitstellung abgeschlossen ist, wird ein Browser mit der bereitgestellten Anwendung geöffnet.
+4. Klicken Sie zum Bereitstellen der Anwendung auf **Erstellen**.  Wenn die Bereitstellung abgeschlossen ist, wird ein Browserfenster mit der bereitgestellten Anwendung geöffnet.
 
-![Die vervollständigte App](./media/dotnet-quickstart/todo.png)
+![Die fertige App](./media/dotnet-quickstart/todo.png)
 
 ## <a name="clean-up"></a>Bereinigen
 

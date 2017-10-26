@@ -4,18 +4,19 @@ description: "Referenz für Azure Virtual Network-Bibliotheken für .NET"
 keywords: Azure, .NET, SDK, API, Virtual Network
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 08/01/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: ea605dbd632ef4deb9c97c8de3474246dd4be30d
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: virtual-network
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: b67415344ef9cbf8af598a1fd43b6b47023bb071
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-virtual-network-libraries-for-net"></a>Azure Virtual Network-Bibliotheken für .NET
 
@@ -32,7 +33,7 @@ Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azur
 Install-Package Microsoft.Azure.Management.Network.Fluent
 ```
 
-#### <a name="net-core-cli"></a>.NET Core-CLI
+#### <a name="net-core-cli"></a>.NET Core CLI
 
 ```bash
 dotnet add package Microsoft.Azure.Management.Network.Fluent
