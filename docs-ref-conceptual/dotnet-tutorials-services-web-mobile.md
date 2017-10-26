@@ -2,24 +2,26 @@
 title: Tutorials zum Erstellen von Web- und mobilen .NET-Apps in Azure
 description: "Tutorials zum Erstellen und Hinzufügen von Funktionen zu Ihren Web- und mobilen .NET-Apps, die Azure-Dienste nutzen."
 author: camsoper
-manager: douge
-ms.devlang: dotnet
-ms.topic: article
-ms.service: Azure
-ms.technology: Azure
-ms.date: 06/09/2017
 ms.author: casoper
-ms.openlocfilehash: fd0744e8cd7a777d39c656e379b53fc2ac0949f8
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: 1995f7a13e941a6178ed209b6c072c6142abba4f
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a>Tutorials zum Erstellen von Web- und mobilen Apps mit .NET in Azure
 
 Die folgende Tabelle enthält Verknüpfungen zu ausführlichen Tutorials zum Erstellen von in Azure ausgeführten Web- und mobilen .NET-Apps.
 
-Beispielquellcode finden Sie in der Liste der [Azure-Codebeispiele](https://azure.microsoft.com/resources/samples/?platform=dotnet).
+Beispielquellcode finden Sie in der Liste der [Beispiele für Azure-Dienste](https://azure.microsoft.com/resources/samples/?platform=dotnet).
 
 | | |
 |---|---|

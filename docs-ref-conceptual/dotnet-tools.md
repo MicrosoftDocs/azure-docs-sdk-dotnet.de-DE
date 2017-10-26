@@ -3,18 +3,20 @@ title: "Tools für Azure .NET-Entwickler"
 description: "Informationen zum Abrufen der Tools für das Verwenden der Azure .NET-Bibliotheken in einer Windows-, Linux- oder Mac-Umgebung."
 keywords: Azure .NET, SDK, Azure .NET-API-Referenz, Azure .NET-Klassenbibliothek
 author: camsoper
-manager: douge
 ms.author: casoper
-ms.date: 07/14/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.openlocfilehash: 1018a09c43df85f8eb0b5a8f5583f9eb7dd5a15e
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: f1d066a4db0085030e34a57a368808a659bb8942
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="tools-for-net-azure-developers"></a>Tools für .NET Azure-Entwickler
 
