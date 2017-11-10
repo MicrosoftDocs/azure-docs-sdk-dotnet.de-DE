@@ -1,6 +1,6 @@
 ---
-title: ".NET für Azure-Entwickler"
-description: ".NET für Azure-Entwickler"
+title: "Bereitstellen in Azure über die Befehlszeile mit .NET Core"
+description: In diesem Artikel wird beschrieben, wie Sie eine ASP.NET Core-Anwendung mithilfe von Befehlszeilentools in einer Azure App Service-Instanz bereitstellen.
 keywords: Azure .NET, SDK, Azure .NET-API-Referenz, Azure .NET-Klassenbibliothek
 author: camsoper
 manager: douge
@@ -11,13 +11,13 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: 14374182ee0511e942940797465858b94ec08876
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.openlocfilehash: 2ed69bfed7310c9e6b2f3f8fedb906ce33d87c3c
+ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 11/03/2017
 ---
-# <a name="get-started-with-net-cli-tools-for-azure-developers"></a>Erste Schritte mit den .NET CLI-Tools für Azure-Entwickler
+# <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Bereitstellen in Azure über die Befehlszeile mit .NET Core
 
 Dieses Tutorial führt Sie durch das Erstellen und Bereitstellen einer Microsoft Azure-Anwendung mithilfe von .NET Core.  Im Anschluss verfügen Sie über eine webbasierte in ASP.NET MVC Core erstellte Anwendung, die als Azure-Web-App gehostet wird und Azure CosmosDB zur Datenspeicherung nutzt.
 
@@ -128,7 +128,7 @@ az webapp show -n $webappname -g DotNetAzureTutorial --query defaultHostName -o 
 
 Sie können der Aufgabenliste neue Elemente hinzufügen, indem Sie auf **Neu erstellen** klicken.
 
-![Die vervollständigte App](./media/dotnet-quickstart/todo.png)
+![Die fertige App](./media/dotnet-quickstart/todo.png)
 
 ## <a name="clean-up"></a>Bereinigen
 
