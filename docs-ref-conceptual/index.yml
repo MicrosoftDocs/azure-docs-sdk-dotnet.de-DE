@@ -77,6 +77,10 @@ sections:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: Erstellen einer .NET-Microservice-App mit Service Fabric
             href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
+          - image:
+              src: 'https://docs.microsoft.com/media/logos/logo_vs-team-services.svg'
+            title: Erstellen einer CI/CD-Pipeline für .NET
+            href: 'https://docs.microsoft.com/vsts/build-release/apps/cd/azure/azure-devops-project-aspnetcore'
   - title: Erste Schritte mit .NET in Azure
     items:
       - type: markdown

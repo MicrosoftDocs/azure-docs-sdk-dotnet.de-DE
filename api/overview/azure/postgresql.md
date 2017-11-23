@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: postgresql
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: e3153a35845a2d7660aded64e5dbc3787c62afb6
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 7a8c1965432d5cca36665bce3963c30cdaee9205
+ms.sourcegitcommit: 4dba7cd869bddff3dee7315d258522dc4879abce
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="azure-database-for-postgresql-libraries-for-net"></a>Bibliotheken zu Azure-Datenbank für PostgreSQL für .NET
 
@@ -74,4 +74,8 @@ using (NpgsqlConnection conn = new NpgsqlConnection(connectionString))
 ### <a name="samples"></a>Beispiele
 
 - [ADO.NET code examples](/dotnet/framework/data/adonet/ado-net-code-examples) (ADO.NET-Codebeispiele)
-- [Entwerfen Ihrer ersten Azure-Datenbank für PostgreSQL mithilfe von Azure CLI](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli) [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
+- [Entwerfen Ihrer ersten Azure-Datenbank für PostgreSQL mithilfe der Azure CLI](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli)
+
+
+[PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
