@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: notification-hubs
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 6fe4e3f25aa420322478dc7c10aecd055a70f5c8
-ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
+ms.openlocfilehash: 9fd49ccc8d02eff09a8a53e6f1b9baa6a7a59082
+ms.sourcegitcommit: 33732307162ddf6f272b0e9cc7f74eb8e6fdda1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="azure-notification-hubs-libraries-for-net"></a>Azure Notification Hubs-Bibliotheken für .NET
 
@@ -25,6 +25,9 @@ Azure Notification Hubs bietet ein einfach zu bedienendes, horizontal skaliertes
 ## <a name="client-library"></a>Clientbibliothek
 
 Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
+
+> [!NOTE]
+> Eine [neue Vorschauversion des NuGet-Pakets](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs/2.0.0-preview1) unterstützt nun .NET Standard, wodurch die Verwendung von .NET Core für die Back-End-Nutzung von Notifications Hubs ermöglicht wird
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio-Paket-Manager
 

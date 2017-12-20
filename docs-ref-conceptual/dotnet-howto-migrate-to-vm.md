@@ -6,20 +6,34 @@ author: camsoper
 manager: wpickett
 ms.author: casoper
 ms.date: 11/15/2017
-ms.topic: article
+layout: LandingPage
+ms.topic: landing-page
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter
-ms.openlocfilehash: 718d91b98180a7584f78a2383d430c4700743306
-ms.sourcegitcommit: c360a22d5bff6eedd714b28b847d2f26b06665f4
+ms.openlocfilehash: 98f24553961793623f8a6aba10dcf45b930101fe
+ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="migrate-an-aspnet-web-application-to-an-azure-virtual-machine"></a>Migrieren einer ASP.NET-Webanwendung zu einem virtuellen Azure-Computer
 
 In diesem Übersichtsdokument erfahren Sie, wie Sie eine ASP.NET-Webanwendung aus einer lokalen Umgebung zu einem virtuellen Azure-Computer migrieren.
+
+## <a name="quickstart"></a>Schnellstart
+
+Informationen zum Erstellen eines virtuellen Computers und Veröffentlichen Ihrer App darauf:
+
+<div class="ico48Case">
+    <div class="ico48Link">
+        <a href="https://tutorials.visualstudio.com/aspnet-vm/intro">
+            <img width="48" height="48" alt="Publish to an Azure VM" src="https://docs.microsoft.com/azure/media/index/virtualmachine.svg">
+            <span>Veröffentlichen auf einem virtuellen Azure-Computer</span>
+        </a>
+    </div>
+</div>
 
 ## <a name="get-started"></a>Erste Schritte
 
@@ -43,11 +57,11 @@ Mit virtuellen Computern lässt sich eine Anwendung am einfachsten aus der lokal
 
 Wählen Sie eine VM-Größe und einen VM-Typ, die am besten für Ihre Workload geeignet sind.  Weitere Informationen finden Sie unter [Größen für virtuelle Windows-Computer in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sizes).
 
-### <a name="maintenance"></a>Wartung
+### <a name="maintenance"></a>Wartung 
 
 Virtuelle Computer müssen genau wie lokale Computer gewartet und aktualisiert werden<sup>&#42;</sup>.  Bei Anwendungen, die in einer PaaS-Umgebung (Plattform-as-a-Service) wie etwa [Azure App Service](https://docs.microsoft.com/azure/app-service/) oder in einem [Container](https://docs.microsoft.com/azure/app-service/containers/) ausgeführt werden können, entfällt diese Aufgabe.
 
-*<sup>&#42; </sup>[Automatische Betriebssystemupgrades für Azure-VM-Skalierungsgruppen](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) stehen derzeit als Vorschauversion zur Verfügung.*
+*<sup>&#42;</sup>[Automatische Betriebssystemupgrades für Azure-VM-Skalierungsgruppen](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) stehen derzeit als Vorschauversion zur Verfügung.*
 
 ### <a name="virtual-networks"></a>Virtuelle Netzwerke
 
