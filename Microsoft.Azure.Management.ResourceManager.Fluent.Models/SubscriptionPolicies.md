@@ -1,0 +1,119 @@
+<Type Name="SubscriptionPolicies" FullName="Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies">
+  <TypeSignature Language="C#" Value="public class SubscriptionPolicies" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SubscriptionPolicies extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies" />
+  <TypeSignature Language="VB.NET" Value="Public Class SubscriptionPolicies" />
+  <TypeSignature Language="F#" Value="type SubscriptionPolicies = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="83905-101">Abonnement-Richtlinien.</span><span class="sxs-lookup"><span data-stu-id="83905-101">Subscription policies.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubscriptionPolicies ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="83905-102">Initialisiert eine neue Instanz der SubscriptionPolicies-Klasse.</span><span class="sxs-lookup"><span data-stu-id="83905-102">Initializes a new instance of the SubscriptionPolicies class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SubscriptionPolicies (string locationPlacementId = null, string quotaId = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string locationPlacementId, string quotaId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional locationPlacementId As String = null, Optional quotaId As String = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies : string * string -&gt; Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies" Usage="new Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies (locationPlacementId, quotaId)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="locationPlacementId" Type="System.String" />
+        <Parameter Name="quotaId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="locationPlacementId"><span data-ttu-id="83905-103">Ruft ab oder legt die Abonnement-Speicherort-Platzierung Id.</span><span class="sxs-lookup"><span data-stu-id="83905-103">Gets or sets the subscription location placement Id.</span></span></param>
+        <param name="quotaId"><span data-ttu-id="83905-104">Ruft ab oder legt das abonnementkontingent-Id.</span><span class="sxs-lookup"><span data-stu-id="83905-104">Gets or sets the subscription quota Id.</span></span></param>
+        <summary>
+            <span data-ttu-id="83905-105">Initialisiert eine neue Instanz der SubscriptionPolicies-Klasse.</span><span class="sxs-lookup"><span data-stu-id="83905-105">Initializes a new instance of the SubscriptionPolicies class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationPlacementId">
+      <MemberSignature Language="C#" Value="public string LocationPlacementId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LocationPlacementId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies.LocationPlacementId" />
+      <MemberSignature Language="VB.NET" Value="Public Property LocationPlacementId As String" />
+      <MemberSignature Language="F#" Value="member this.LocationPlacementId : string with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies.LocationPlacementId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="locationPlacementId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="83905-106">Ruft ab oder legt die Abonnement-Speicherort-Platzierung Id.</span><span class="sxs-lookup"><span data-stu-id="83905-106">Gets or sets the subscription location placement Id.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QuotaId">
+      <MemberSignature Language="C#" Value="public string QuotaId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string QuotaId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies.QuotaId" />
+      <MemberSignature Language="VB.NET" Value="Public Property QuotaId As String" />
+      <MemberSignature Language="F#" Value="member this.QuotaId : string with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Fluent.Models.SubscriptionPolicies.QuotaId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="quotaId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="83905-107">Ruft ab oder legt das abonnementkontingent-Id.</span><span class="sxs-lookup"><span data-stu-id="83905-107">Gets or sets the subscription quota Id.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,61 @@
+<Type Name="ContainerInstanceOperationsOrigin" FullName="Microsoft.Azure.Management.ContainerInstance.Models.ContainerInstanceOperationsOrigin">
+  <TypeSignature Language="C#" Value="public static class ContainerInstanceOperationsOrigin" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ContainerInstanceOperationsOrigin extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ContainerInstance.Models.ContainerInstanceOperationsOrigin" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContainerInstanceOperationsOrigin" />
+  <TypeSignature Language="F#" Value="type ContainerInstanceOperationsOrigin = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ContainerInstance</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="8a1a6-101">Definiert Werte für ContainerInstanceOperationsOrigin an.</span><span class="sxs-lookup"><span data-stu-id="8a1a6-101">Defines values for ContainerInstanceOperationsOrigin.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="System">
+      <MemberSignature Language="C#" Value="public const string System;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string System" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.ContainerInstance.Models.ContainerInstanceOperationsOrigin.System" />
+      <MemberSignature Language="VB.NET" Value="Public Const System As String " />
+      <MemberSignature Language="F#" Value="val mutable System : string" Usage="Microsoft.Azure.Management.ContainerInstance.Models.ContainerInstanceOperationsOrigin.System" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ContainerInstance</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="public const string User;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string User" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.ContainerInstance.Models.ContainerInstanceOperationsOrigin.User" />
+      <MemberSignature Language="VB.NET" Value="Public Const User As String " />
+      <MemberSignature Language="F#" Value="val mutable User : string" Usage="Microsoft.Azure.Management.ContainerInstance.Models.ContainerInstanceOperationsOrigin.User" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ContainerInstance</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

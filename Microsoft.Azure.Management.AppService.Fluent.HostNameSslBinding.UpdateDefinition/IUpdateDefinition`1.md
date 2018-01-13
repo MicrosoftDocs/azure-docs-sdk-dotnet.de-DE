@@ -1,0 +1,45 @@
+<Type Name="IUpdateDefinition&lt;ParentT&gt;" FullName="Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IUpdateDefinition&lt;ParentT&gt;">
+  <TypeSignature Language="C#" Value="public interface IUpdateDefinition&lt;ParentT&gt; : Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IBlank&lt;ParentT&gt;, Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithAttach&lt;ParentT&gt;, Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithCertificate&lt;ParentT&gt;, Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithHostname&lt;ParentT&gt;, Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithKeyVault&lt;ParentT&gt;, Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithSslType&lt;ParentT&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.ChildResource.Update.IInUpdate&lt;ParentT&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IUpdateDefinition`1&lt;ParentT&gt; implements class Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IBlank`1&lt;!ParentT&gt;, class Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithAttach`1&lt;!ParentT&gt;, class Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithCertificate`1&lt;!ParentT&gt;, class Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithHostname`1&lt;!ParentT&gt;, class Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithKeyVault`1&lt;!ParentT&gt;, class Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithSslType`1&lt;!ParentT&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ChildResource.Update.IInUpdate`1&lt;!ParentT&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IUpdateDefinition`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IUpdateDefinition(Of ParentT)&#xA;Implements IBlank(Of ParentT), IInUpdate(Of ParentT), IWithAttach(Of ParentT), IWithCertificate(Of ParentT), IWithHostname(Of ParentT), IWithKeyVault(Of ParentT), IWithSslType(Of ParentT)" />
+  <TypeSignature Language="F#" Value="type IUpdateDefinition&lt;'ParentT&gt; = interface&#xA;    interface IBlank&lt;'ParentT&gt;&#xA;    interface IWithHostname&lt;'ParentT&gt;&#xA;    interface IWithCertificate&lt;'ParentT&gt;&#xA;    interface IWithKeyVault&lt;'ParentT&gt;&#xA;    interface IWithSslType&lt;'ParentT&gt;&#xA;    interface IWithAttach&lt;'ParentT&gt;&#xA;    interface IInUpdate&lt;'ParentT&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="ParentT" />
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IBlank&lt;ParentT&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithAttach&lt;ParentT&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithCertificate&lt;ParentT&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithHostname&lt;ParentT&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithKeyVault&lt;ParentT&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.AppService.Fluent.HostNameSslBinding.UpdateDefinition.IWithSslType&lt;ParentT&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.ChildResource.Update.IInUpdate&lt;ParentT&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="ParentT"><span data-ttu-id="8be0f-101">Der Rückgabetyp des endgültigen UpdateDefinitionStages.WithAttach.attach().</span><span class="sxs-lookup"><span data-stu-id="8be0f-101">The return type of the final  UpdateDefinitionStages.WithAttach.attach().</span></span></typeparam>
+    <summary>
+            <span data-ttu-id="8be0f-102">Die Gesamtheit der Hostname SSL-Bindungsdefinition als Teil eines Web-app-Updates.</span><span class="sxs-lookup"><span data-stu-id="8be0f-102">The entirety of a hostname SSL binding definition as part of a web app update.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

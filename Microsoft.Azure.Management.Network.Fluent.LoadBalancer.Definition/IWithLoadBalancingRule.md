@@ -1,0 +1,44 @@
+<Type Name="IWithLoadBalancingRule" FullName="Microsoft.Azure.Management.Network.Fluent.LoadBalancer.Definition.IWithLoadBalancingRule">
+  <TypeSignature Language="C#" Value="public interface IWithLoadBalancingRule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWithLoadBalancingRule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Fluent.LoadBalancer.Definition.IWithLoadBalancingRule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWithLoadBalancingRule" />
+  <TypeSignature Language="F#" Value="type IWithLoadBalancingRule = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="77d22-101">Die Stufe der einen Load Balancer-Definition, die zum Erstellen einer Regel mit Lastenausgleich ermöglicht.</span><span class="sxs-lookup"><span data-stu-id="77d22-101">The stage of a load balancer definition allowing to create a load balancing rule.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DefineLoadBalancingRule">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IBlank&lt;Microsoft.Azure.Management.Network.Fluent.LoadBalancer.Definition.IWithLBRuleOrNatOrCreate&gt; DefineLoadBalancingRule (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IBlank`1&lt;class Microsoft.Azure.Management.Network.Fluent.LoadBalancer.Definition.IWithLBRuleOrNatOrCreate&gt; DefineLoadBalancingRule(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancer.Definition.IWithLoadBalancingRule.DefineLoadBalancingRule(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DefineLoadBalancingRule (name As String) As IBlank(Of IWithLBRuleOrNatOrCreate)" />
+      <MemberSignature Language="F#" Value="abstract member DefineLoadBalancingRule : string -&gt; Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IBlank&lt;Microsoft.Azure.Management.Network.Fluent.LoadBalancer.Definition.IWithLBRuleOrNatOrCreate&gt;" Usage="iWithLoadBalancingRule.DefineLoadBalancingRule name" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IBlank&lt;Microsoft.Azure.Management.Network.Fluent.LoadBalancer.Definition.IWithLBRuleOrNatOrCreate&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

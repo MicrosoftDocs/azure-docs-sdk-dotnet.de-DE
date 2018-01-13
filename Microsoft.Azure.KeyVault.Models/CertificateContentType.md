@@ -1,0 +1,80 @@
+<Type Name="CertificateContentType" FullName="Microsoft.Azure.KeyVault.Models.CertificateContentType">
+  <TypeSignature Language="C#" Value="public static class CertificateContentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CertificateContentType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Models.CertificateContentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CertificateContentType" />
+  <TypeSignature Language="F#" Value="type CertificateContentType = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="48b92-101">Medientypen Zertifikate relevant.</span><span class="sxs-lookup"><span data-stu-id="48b92-101">Media types relevant to certificates.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllTypes">
+      <MemberSignature Language="C#" Value="public static readonly string[] AllTypes;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly string[] AllTypes" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.KeyVault.Models.CertificateContentType.AllTypes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AllTypes As String() " />
+      <MemberSignature Language="F#" Value=" staticval mutable AllTypes : string[]" Usage="Microsoft.Azure.KeyVault.Models.CertificateContentType.AllTypes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pem">
+      <MemberSignature Language="C#" Value="public const string Pem;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Pem" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.KeyVault.Models.CertificateContentType.Pem" />
+      <MemberSignature Language="VB.NET" Value="Public Const Pem As String " />
+      <MemberSignature Language="F#" Value="val mutable Pem : string" Usage="Microsoft.Azure.KeyVault.Models.CertificateContentType.Pem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pfx">
+      <MemberSignature Language="C#" Value="public const string Pfx;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Pfx" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.KeyVault.Models.CertificateContentType.Pfx" />
+      <MemberSignature Language="VB.NET" Value="Public Const Pfx As String " />
+      <MemberSignature Language="F#" Value="val mutable Pfx : string" Usage="Microsoft.Azure.KeyVault.Models.CertificateContentType.Pfx" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,22 @@
+<Type Name="FabricClient+ComposeDeploymentClient" FullName="System.Fabric.FabricClient+ComposeDeploymentClient">
+  <TypeSignature Language="C#" Value="public sealed class FabricClient.ComposeDeploymentClient" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit FabricClient/ComposeDeploymentClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.Fabric.FabricClient.ComposeDeploymentClient" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FabricClient.ComposeDeploymentClient" />
+  <TypeSignature Language="F#" Value="type FabricClient.ComposeDeploymentClient = class" />
+  <AssemblyInfo>
+    <AssemblyName>System.Fabric</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <para><span data-ttu-id="02112-101">Stellt Funktionen zum Verwalten von Service Fabric Bereitstellungen zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="02112-101">Provides the functionality to manage Service Fabric compose deployments.</span></span></para>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

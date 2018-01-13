@@ -1,0 +1,350 @@
+<Type Name="PageViewTelemetry" FullName="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry">
+  <TypeSignature Language="C#" Value="public sealed class PageViewTelemetry : Microsoft.ApplicationInsights.Channel.ITelemetry, Microsoft.ApplicationInsights.DataContracts.ISupportProperties, Microsoft.ApplicationInsights.DataContracts.ISupportSampling" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PageViewTelemetry extends System.Object implements class Microsoft.ApplicationInsights.Channel.ITelemetry, class Microsoft.ApplicationInsights.DataContracts.ISupportProperties, class Microsoft.ApplicationInsights.DataContracts.ISupportSampling" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PageViewTelemetry&#xA;Implements ISupportProperties, ISupportSampling, ITelemetry" />
+  <TypeSignature Language="F#" Value="type PageViewTelemetry = class&#xA;    interface ITelemetry&#xA;    interface ISupportProperties&#xA;    interface ISupportSampling" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+    <AssemblyVersion>2.3.0.0</AssemblyVersion>
+    <AssemblyVersion>2.5.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.ApplicationInsights.Channel.ITelemetry</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.ApplicationInsights.DataContracts.ISupportProperties</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.ApplicationInsights.DataContracts.ISupportSampling</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            <span data-ttu-id="23673-101">Telemetrie-Typ verwendet, um Seitenansichten nachzuverfolgen.</span><span class="sxs-lookup"><span data-stu-id="23673-101">Telemetry type used to track page views.</span></span>
+            </summary>
+    <remarks>
+            <span data-ttu-id="23673-102">Können Sie Informationen zu Seiten, die von der Anwendung für Application Insights angezeigt werden, indem die Übergabe einer Instanz von senden die <see cref="T:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" /> Klasse, um die <see cref="M:Microsoft.ApplicationInsights.TelemetryClient.TrackPageView(Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry)" /> Methode.</span><span class="sxs-lookup"><span data-stu-id="23673-102">You can send information about pages viewed by your application to Application Insights by passing an instance of the <see cref="T:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" /> class to the <see cref="M:Microsoft.ApplicationInsights.TelemetryClient.TrackPageView(Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry)" /> method.</span></span>
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PageViewTelemetry ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-103">Initialisiert eine neue Instanz der <see cref="T:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" />-Klasse.</span><span class="sxs-lookup"><span data-stu-id="23673-103">Initializes a new instance of the <see cref="T:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" /> class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PageViewTelemetry (string pageName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string pageName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pageName As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry : string -&gt; Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" Usage="new Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry pageName" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pageName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pageName">To be added.</param>
+        <summary>
+            <span data-ttu-id="23673-104">Initialisiert eine neue Instanz der <see cref="T:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" />-Klasse mit der angegebenen <paramref name="pageName" />.</span><span class="sxs-lookup"><span data-stu-id="23673-104">Initializes a new instance of the <see cref="T:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry" /> class with the specified <paramref name="pageName" />.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException"><span data-ttu-id="23673-105">Die <paramref name="pageName" /> ist null oder eine leere Zeichenfolge.</span><span class="sxs-lookup"><span data-stu-id="23673-105">The <paramref name="pageName" /> is null or empty string.</span></span></exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public Microsoft.ApplicationInsights.DataContracts.TelemetryContext Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.ApplicationInsights.DataContracts.TelemetryContext Context" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As TelemetryContext" />
+      <MemberSignature Language="F#" Value="member this.Context : Microsoft.ApplicationInsights.DataContracts.TelemetryContext" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Context" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ApplicationInsights.Channel.ITelemetry.Context</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ApplicationInsights.DataContracts.TelemetryContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-106">Ruft das aktuelle Element der Telemetrie zugeordneten Kontext.</span><span class="sxs-lookup"><span data-stu-id="23673-106">Gets the context associated with the current telemetry item.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeepClone">
+      <MemberSignature Language="C#" Value="public Microsoft.ApplicationInsights.Channel.ITelemetry DeepClone ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.ApplicationInsights.Channel.ITelemetry DeepClone() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.DeepClone" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeepClone () As ITelemetry" />
+      <MemberSignature Language="F#" Value="abstract member DeepClone : unit -&gt; Microsoft.ApplicationInsights.Channel.ITelemetry&#xA;override this.DeepClone : unit -&gt; Microsoft.ApplicationInsights.Channel.ITelemetry" Usage="pageViewTelemetry.DeepClone " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ApplicationInsights.Channel.ITelemetry.DeepClone</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.ApplicationInsights.Channel.ITelemetry</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.Duration : TimeSpan with get, set" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Duration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-107">Ruft ab oder legt die Dauer für die Seite anzeigen.</span><span class="sxs-lookup"><span data-stu-id="23673-107">Gets or sets the page view duration.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Metrics">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,double&gt; Metrics { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, float64&gt; Metrics" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Metrics" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Metrics As IDictionary(Of String, Double)" />
+      <MemberSignature Language="F#" Value="member this.Metrics : System.Collections.Generic.IDictionary&lt;string, double&gt;" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Metrics" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-108">Ruft ein Wörterbuch von benutzerdefinierten definierten Metriken ab.</span><span class="sxs-lookup"><span data-stu-id="23673-108">Gets a dictionary of custom defined metrics.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.ApplicationInsights.Channel.ITelemetry.Sanitize">
+      <MemberSignature Language="C#" Value="void ITelemetry.Sanitize ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Microsoft.ApplicationInsights.Channel.ITelemetry.Sanitize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Microsoft#ApplicationInsights#Channel#ITelemetry#Sanitize" />
+      <MemberSignature Language="VB.NET" Value="Sub Sanitize () Implements ITelemetry.Sanitize" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.ApplicationInsights.Channel.ITelemetry.Sanitize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-109">Bereinigt die Eigenschaften, die auf Einschränkungen basieren.</span><span class="sxs-lookup"><span data-stu-id="23673-109">Sanitizes the properties based on constraints.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.ApplicationInsights.DataContracts.ISupportSampling.SamplingPercentage">
+      <MemberSignature Language="C#" Value="Nullable&lt;double&gt; Microsoft.ApplicationInsights.DataContracts.ISupportSampling.SamplingPercentage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Microsoft.ApplicationInsights.DataContracts.ISupportSampling.SamplingPercentage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Microsoft#ApplicationInsights#DataContracts#ISupportSampling#SamplingPercentage" />
+      <MemberSignature Language="VB.NET" Value=" Property SamplingPercentage As Nullable(Of Double) Implements ISupportSampling.SamplingPercentage" />
+      <MemberSignature Language="F#" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Microsoft.ApplicationInsights.DataContracts.ISupportSampling.SamplingPercentage" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ApplicationInsights.DataContracts.ISupportSampling.SamplingPercentage</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-110">Ruft ab, oder legt ihn fest Datenstichproben Prozentwert (zwischen 0 und 100).</span><span class="sxs-lookup"><span data-stu-id="23673-110">Gets or sets data sampling percentage (between 0 and 100).</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-111">Ruft ab oder legt den Namen der Metrik.</span><span class="sxs-lookup"><span data-stu-id="23673-111">Gets or sets the name of the metric.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Properties" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ApplicationInsights.DataContracts.ISupportProperties.Properties</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-112">Ruft ein Wörterbuch von anwendungsdefinierten Eigenschaftennamen und Werte, die zusätzliche Informationen zu dieser Seitenansicht ab.</span><span class="sxs-lookup"><span data-stu-id="23673-112">Gets a dictionary of application-defined property names and values providing additional information about this page view.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sequence">
+      <MemberSignature Language="C#" Value="public string Sequence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Sequence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Sequence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sequence As String" />
+      <MemberSignature Language="F#" Value="member this.Sequence : string with get, set" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Sequence" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ApplicationInsights.Channel.ITelemetry.Sequence</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-113">Ruft ab oder legt den Wert an, der absolute Reihenfolge der Telemetrie-Elements definiert.</span><span class="sxs-lookup"><span data-stu-id="23673-113">Gets or sets the value that defines absolute order of the telemetry item.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timestamp">
+      <MemberSignature Language="C#" Value="public DateTimeOffset Timestamp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset Timestamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Timestamp" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timestamp As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.Timestamp : DateTimeOffset with get, set" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Timestamp" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.ApplicationInsights.Channel.ITelemetry.Timestamp</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-114">Ruft ab oder legt Datum und Uhrzeit, wann das Ereignis aufgezeichnet wurde.</span><span class="sxs-lookup"><span data-stu-id="23673-114">Gets or sets date and time when event was recorded.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Url">
+      <MemberSignature Language="C#" Value="public Uri Url { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Url" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Url" />
+      <MemberSignature Language="VB.NET" Value="Public Property Url As Uri" />
+      <MemberSignature Language="F#" Value="member this.Url : Uri with get, set" Usage="Microsoft.ApplicationInsights.DataContracts.PageViewTelemetry.Url" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="23673-115">Ruft ab oder legt die Seitenansicht Uri.</span><span class="sxs-lookup"><span data-stu-id="23673-115">Gets or sets the page view Uri.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,43 @@
+<Type Name="RsaEncryption" FullName="Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaEncryption">
+  <TypeSignature Language="C#" Value="public abstract class RsaEncryption : Microsoft.Azure.KeyVault.Cryptography.AsymmetricEncryptionAlgorithm" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit RsaEncryption extends Microsoft.Azure.KeyVault.Cryptography.AsymmetricEncryptionAlgorithm" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaEncryption" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class RsaEncryption&#xA;Inherits AsymmetricEncryptionAlgorithm" />
+  <TypeSignature Language="F#" Value="type RsaEncryption = class&#xA;    inherit AsymmetricEncryptionAlgorithm" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.KeyVault.Cryptography.AsymmetricEncryptionAlgorithm</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="b5837-101">Abstrakte RSA-Verschlüsselungsalgorithmus.</span><span class="sxs-lookup"><span data-stu-id="b5837-101">Abstract RSA encryption algorithm.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected RsaEncryption (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaEncryption.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (name As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaEncryption : string -&gt; Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaEncryption" Usage="new Microsoft.Azure.KeyVault.Cryptography.Algorithms.RsaEncryption name" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

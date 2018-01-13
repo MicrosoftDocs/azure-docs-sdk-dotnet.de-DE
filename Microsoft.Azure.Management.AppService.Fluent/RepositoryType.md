@@ -1,0 +1,60 @@
+<Type Name="RepositoryType" FullName="Microsoft.Azure.Management.AppService.Fluent.RepositoryType">
+  <TypeSignature Language="C#" Value="public enum RepositoryType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RepositoryType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.RepositoryType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RepositoryType" />
+  <TypeSignature Language="F#" Value="type RepositoryType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            <span data-ttu-id="ced1b-101">Der Typ eines Repositorys.</span><span class="sxs-lookup"><span data-stu-id="ced1b-101">The type of a repository.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Git">
+      <MemberSignature Language="C#" Value="Git" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.AppService.Fluent.RepositoryType Git = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.RepositoryType.Git" />
+      <MemberSignature Language="VB.NET" Value="Git" />
+      <MemberSignature Language="F#" Value="Git = 0" Usage="Microsoft.Azure.Management.AppService.Fluent.RepositoryType.Git" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.AppService.Fluent.RepositoryType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Mercurial">
+      <MemberSignature Language="C#" Value="Mercurial" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.AppService.Fluent.RepositoryType Mercurial = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.AppService.Fluent.RepositoryType.Mercurial" />
+      <MemberSignature Language="VB.NET" Value="Mercurial" />
+      <MemberSignature Language="F#" Value="Mercurial = 1" Usage="Microsoft.Azure.Management.AppService.Fluent.RepositoryType.Mercurial" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.AppService.Fluent.RepositoryType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,94 @@
+<Type Name="TxtRecord" FullName="Microsoft.Azure.Management.Dns.Models.TxtRecord">
+  <TypeSignature Language="C#" Value="public class TxtRecord" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TxtRecord extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Dns.Models.TxtRecord" />
+  <TypeSignature Language="VB.NET" Value="Public Class TxtRecord" />
+  <TypeSignature Language="F#" Value="type TxtRecord = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="7c967-101">Einen TXT-Eintrag.</span><span class="sxs-lookup"><span data-stu-id="7c967-101">A TXT record.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TxtRecord ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Dns.Models.TxtRecord.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="7c967-102">Initialisiert eine neue Instanz der TxtRecord-Klasse.</span><span class="sxs-lookup"><span data-stu-id="7c967-102">Initializes a new instance of the TxtRecord class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TxtRecord (System.Collections.Generic.IList&lt;string&gt; value = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;string&gt; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Dns.Models.TxtRecord.#ctor(System.Collections.Generic.IList{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional value As IList(Of String) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.Dns.Models.TxtRecord : System.Collections.Generic.IList&lt;string&gt; -&gt; Microsoft.Azure.Management.Dns.Models.TxtRecord" Usage="new Microsoft.Azure.Management.Dns.Models.TxtRecord value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="value"><span data-ttu-id="7c967-103">Der Textwert, der diese TXT-Eintrag.</span><span class="sxs-lookup"><span data-stu-id="7c967-103">The text value of this TXT record.</span></span></param>
+        <summary>
+            <span data-ttu-id="7c967-104">Initialisiert eine neue Instanz der TxtRecord-Klasse.</span><span class="sxs-lookup"><span data-stu-id="7c967-104">Initializes a new instance of the TxtRecord class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Dns.Models.TxtRecord.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Value : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.Dns.Models.TxtRecord.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Dns</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="value")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="7c967-105">Ruft ab oder legt den Textwert dieser TXT-Eintrag.</span><span class="sxs-lookup"><span data-stu-id="7c967-105">Gets or sets the text value of this TXT record.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

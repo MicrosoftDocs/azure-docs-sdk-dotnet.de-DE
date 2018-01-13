@@ -1,0 +1,63 @@
+<Type Name="WebhookGenerateUriResponse" FullName="Microsoft.Azure.Management.Automation.Models.WebhookGenerateUriResponse">
+  <TypeSignature Language="C#" Value="public class WebhookGenerateUriResponse : Microsoft.Azure.AzureOperationResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebhookGenerateUriResponse extends Microsoft.Azure.AzureOperationResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Models.WebhookGenerateUriResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class WebhookGenerateUriResponse&#xA;Inherits AzureOperationResponse" />
+  <TypeSignature Language="F#" Value="type WebhookGenerateUriResponse = class&#xA;    inherit AzureOperationResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.AzureOperationResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="477a9-101">Das Antwort-Modell für die Webhook-Get-Uri-Antwort.</span><span class="sxs-lookup"><span data-stu-id="477a9-101">The response model for the webhook get uri response.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebhookGenerateUriResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.Models.WebhookGenerateUriResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="477a9-102">Initialisiert eine neue Instanz der WebhookGenerateUriResponse-Klasse.</span><span class="sxs-lookup"><span data-stu-id="477a9-102">Initializes a new instance of the WebhookGenerateUriResponse class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public string Uri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.WebhookGenerateUriResponse.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public Property Uri As String" />
+      <MemberSignature Language="F#" Value="member this.Uri : string with get, set" Usage="Microsoft.Azure.Management.Automation.Models.WebhookGenerateUriResponse.Uri" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="477a9-103">Optional.</span><span class="sxs-lookup"><span data-stu-id="477a9-103">Optional.</span></span> <span data-ttu-id="477a9-104">Ruft ab, oder legt die Webhook-Uri.</span><span class="sxs-lookup"><span data-stu-id="477a9-104">Gets or sets the webhook uri.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,46 @@
+<Type Name="WnsHeaderCollection" FullName="Microsoft.Azure.NotificationHubs.WnsHeaderCollection">
+  <TypeSignature Language="C#" Value="public sealed class WnsHeaderCollection : System.Collections.Generic.SortedDictionary&lt;string,string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit WnsHeaderCollection extends System.Collections.Generic.SortedDictionary`2&lt;string, string&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.WnsHeaderCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WnsHeaderCollection&#xA;Inherits SortedDictionary(Of String, String)" />
+  <TypeSignature Language="F#" Value="type WnsHeaderCollection = class&#xA;    inherit SortedDictionary&lt;string, string&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+    <AssemblyVersion>2.16.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Collections.Generic.SortedDictionary&lt;System.String,System.String&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">System.String</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="!1">System.String</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.Serialization.CollectionDataContract(ItemName="WnsHeader", KeyName="Header", Name="WnsHeaders", Namespace="http://schemas.microsoft.com/netservices/2010/10/servicebus/connect", ValueName="Value")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary><span data-ttu-id="40732-101">Stellt die Auflistung von Headern Windows Push Notification Services (WNS).</span><span class="sxs-lookup"><span data-stu-id="40732-101">Represents the collection of Windows Push Notification Services (WNS) headers.</span></span></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WnsHeaderCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.WnsHeaderCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.16.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary><span data-ttu-id="40732-102">Initialisiert eine neue Instanz der <see cref="T:Microsoft.Azure.NotificationHubs.WnsHeaderCollection" />-Klasse.</span><span class="sxs-lookup"><span data-stu-id="40732-102">Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.WnsHeaderCollection" /> class.</span></span></summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
