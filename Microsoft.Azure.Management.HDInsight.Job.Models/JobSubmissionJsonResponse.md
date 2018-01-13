@@ -1,0 +1,63 @@
+<Type Name="JobSubmissionJsonResponse" FullName="Microsoft.Azure.Management.HDInsight.Job.Models.JobSubmissionJsonResponse">
+  <TypeSignature Language="C#" Value="public class JobSubmissionJsonResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobSubmissionJsonResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.HDInsight.Job.Models.JobSubmissionJsonResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobSubmissionJsonResponse" />
+  <TypeSignature Language="F#" Value="type JobSubmissionJsonResponse = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.HDInsight.Job</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Der Auftrag Übermitteln von Json-Antwort.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobSubmissionJsonResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.HDInsight.Job.Models.JobSubmissionJsonResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.HDInsight.Job</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der JobSubmissionJsonResponse-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.HDInsight.Job.Models.JobSubmissionJsonResponse.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string with get, set" Usage="Microsoft.Azure.Management.HDInsight.Job.Models.JobSubmissionJsonResponse.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.HDInsight.Job</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Ruft ab oder legt die Id des erstellten Auftrags fest.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

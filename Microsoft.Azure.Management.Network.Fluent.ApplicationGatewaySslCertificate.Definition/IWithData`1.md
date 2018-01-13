@@ -1,0 +1,85 @@
+<Type Name="IWithData&lt;ParentT&gt;" FullName="Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithData&lt;ParentT&gt;">
+  <TypeSignature Language="C#" Value="public interface IWithData&lt;ParentT&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWithData`1&lt;ParentT&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithData`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWithData(Of ParentT)" />
+  <TypeSignature Language="F#" Value="type IWithData&lt;'ParentT&gt; = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="ParentT" />
+  </TypeParameters>
+  <Interfaces />
+  <Docs>
+    <typeparam name="ParentT">Die Phase des übergeordneten Anwendungsgateways wieder nach dem Anfügen.</typeparam>
+    <summary>
+            Die Phase der Definition einer SSL-Zertifikat, das an den Inhalt des SSL-Zertifikats ermöglicht.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="WithPfxFromBytes">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword&lt;ParentT&gt; WithPfxFromBytes (params byte[] pfxData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword`1&lt;!ParentT&gt; WithPfxFromBytes(unsigned int8[] pfxData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithData`1.WithPfxFromBytes(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithPfxFromBytes (ParamArray pfxData As Byte()) As IWithPassword(Of ParentT)" />
+      <MemberSignature Language="F#" Value="abstract member WithPfxFromBytes : byte[] -&gt; Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword&lt;'ParentT&gt;" Usage="iWithData.WithPfxFromBytes pfxData" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword&lt;ParentT&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pfxData" Type="System.Byte[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="pfxData">Der Inhalt des privaten Schlüssels in das PFX-Format.</param>
+        <summary>
+            Gibt den Inhalt des privaten Schlüssels im nicht base64-codierten Format PFX (PKCS #12).
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return>die nächste Phase der Definition.</return>
+      </Docs>
+    </Member>
+    <Member MemberName="WithPfxFromFile">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword&lt;ParentT&gt; WithPfxFromFile (System.IO.FileInfo pfxFile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword`1&lt;!ParentT&gt; WithPfxFromFile(class System.IO.FileInfo pfxFile) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithData`1.WithPfxFromFile(System.IO.FileInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithPfxFromFile (pfxFile As FileInfo) As IWithPassword(Of ParentT)" />
+      <MemberSignature Language="F#" Value="abstract member WithPfxFromFile : System.IO.FileInfo -&gt; Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword&lt;'ParentT&gt;" Usage="iWithData.WithPfxFromFile pfxFile" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Network.Fluent.ApplicationGatewaySslCertificate.Definition.IWithPassword&lt;ParentT&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pfxFile" Type="System.IO.FileInfo" />
+      </Parameters>
+      <Docs>
+        <param name="pfxFile">Eine Datei im PFX-Format.</param>
+        <summary>
+            Gibt die Datei PFX (PKCS #12), um den privaten Schlüssel Inhalt abgerufen.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return>die nächste Phase der Definition.</return>
+        <throws>Java.io.IOException bei Problemen mit der angegebenen Datei.</throws>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,256 @@
+<Type Name="IDscConfigurationOperations" FullName="Microsoft.Azure.Management.Automation.IDscConfigurationOperations">
+  <TypeSignature Language="C#" Value="public interface IDscConfigurationOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDscConfigurationOperations" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.IDscConfigurationOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDscConfigurationOperations" />
+  <TypeSignature Language="F#" Value="type IDscConfigurationOperations = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Der Dienstvorgang für Konfigurationen.  (siehe http://aka.ms/azureautomationsdk/configurationoperations für Weitere Informationen)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateResponse&gt; CreateOrUpdateAsync (string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateResponse&gt; CreateOrUpdateAsync(string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.CreateOrUpdateAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member CreateOrUpdateAsync : string * string * Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateResponse&gt;" Usage="iDscConfigurationOperations.CreateOrUpdateAsync (resourceGroupName, automationAccount, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.DscConfigurationCreateOrUpdateParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="parameters">
+            Die CREATE- oder Update-Parameter für die Konfiguration.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Erstellen Sie die Konfiguration, die durch den Namen identifiziert.  (siehe http://aka.ms/azureautomationsdk/configurationoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für die Konfiguration der Antwort erstellen.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; DeleteAsync (string resourceGroupName, string automationAccount, string configurationName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; DeleteAsync(string resourceGroupName, string automationAccount, string configurationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.DeleteAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;" Usage="iDscConfigurationOperations.DeleteAsync (resourceGroupName, automationAccount, configurationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="configurationName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="configurationName">
+            Der Konfigurationsname.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Löschen der dsc-Konfigurations durch den Namen identifiziert.
+            (siehe http://aka.ms/azureautomationsdk/configurationoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort einschließlich ein HTTP-Statuscodes und einer Anforderungs-ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetResponse&gt; GetAsync (string resourceGroupName, string automationAccount, string configurationName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.DscConfigurationGetResponse&gt; GetAsync(string resourceGroupName, string automationAccount, string configurationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetResponse&gt;" Usage="iDscConfigurationOperations.GetAsync (resourceGroupName, automationAccount, configurationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="configurationName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="configurationName">
+            Der Konfigurationsname.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Abrufen der Konfigurations durch den Namen identifiziert.  (siehe http://aka.ms/azureautomationsdk/configurationoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Abrufvorgang für die Konfiguration.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetContentResponse&gt; GetContentAsync (string resourceGroupName, string automationAccount, string configurationName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.DscConfigurationGetContentResponse&gt; GetContentAsync(string resourceGroupName, string automationAccount, string configurationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.GetContentAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetContentAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetContentResponse&gt;" Usage="iDscConfigurationOperations.GetContentAsync (resourceGroupName, automationAccount, configurationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationGetContentResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="configurationName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="configurationName">
+            Der Konfigurationsname.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Rufen Sie das Konfigurationsskript durch den Namen identifiziert.
+            (siehe http://aka.ms/azureautomationsdk/configurationoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Abrufvorgang für die Konfiguration.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt; ListAsync (string resourceGroupName, string automationAccount, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt; ListAsync(string resourceGroupName, string automationAccount, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.ListAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member ListAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt;" Usage="iDscConfigurationOperations.ListAsync (resourceGroupName, automationAccount, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Rufen Sie eine Liste der Konfigurationen.  (siehe http://aka.ms/azureautomationsdk/configurationoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Konfigurationsvorgang Liste.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt; ListNextAsync (string nextLink, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt; ListNextAsync(string nextLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IDscConfigurationOperations.ListNextAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member ListNextAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt;" Usage="iDscConfigurationOperations.ListNextAsync (nextLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.DscConfigurationListResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nextLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="nextLink">
+            Der Link zum Abrufen des nächsten Satzes von Elementen.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Rufen Sie weitere Liste der Konfigurationen.  (siehe http://aka.ms/azureautomationsdk/configurationoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Konfigurationsvorgang Liste.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

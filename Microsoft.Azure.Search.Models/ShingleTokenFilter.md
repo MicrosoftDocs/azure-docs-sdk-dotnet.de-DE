@@ -1,0 +1,281 @@
+<Type Name="ShingleTokenFilter" FullName="Microsoft.Azure.Search.Models.ShingleTokenFilter">
+  <TypeSignature Language="C#" Value="public class ShingleTokenFilter : Microsoft.Azure.Search.Models.TokenFilter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShingleTokenFilter extends Microsoft.Azure.Search.Models.TokenFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.ShingleTokenFilter" />
+  <TypeSignature Language="VB.NET" Value="Public Class ShingleTokenFilter&#xA;Inherits TokenFilter" />
+  <TypeSignature Language="F#" Value="type ShingleTokenFilter = class&#xA;    inherit TokenFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.Search.Models.TokenFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonObject("#Microsoft.Azure.Search.ShingleTokenFilter")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Kombinationen von Token erstellt als ein einzelnes Token. Dieser Filter token wird mithilfe von Apache Lucene implementiert.
+            <see href="http://lucene.apache.org/core/4_10_3/analyzers-common/org/apache/lucene/analysis/shingle/ShingleFilter.html" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ShingleTokenFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.ShingleTokenFilter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der ShingleTokenFilter-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ShingleTokenFilter (string name, Nullable&lt;int&gt; maxShingleSize = null, Nullable&lt;int&gt; minShingleSize = null, Nullable&lt;bool&gt; outputUnigrams = null, Nullable&lt;bool&gt; outputUnigramsIfNoShingles = null, string tokenSeparator = null, string filterToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype System.Nullable`1&lt;int32&gt; maxShingleSize, valuetype System.Nullable`1&lt;int32&gt; minShingleSize, valuetype System.Nullable`1&lt;bool&gt; outputUnigrams, valuetype System.Nullable`1&lt;bool&gt; outputUnigramsIfNoShingles, string tokenSeparator, string filterToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.ShingleTokenFilter.#ctor(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, Optional maxShingleSize As Nullable(Of Integer) = null, Optional minShingleSize As Nullable(Of Integer) = null, Optional outputUnigrams As Nullable(Of Boolean) = null, Optional outputUnigramsIfNoShingles As Nullable(Of Boolean) = null, Optional tokenSeparator As String = null, Optional filterToken As String = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Search.Models.ShingleTokenFilter : string * Nullable&lt;int&gt; * Nullable&lt;int&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string -&gt; Microsoft.Azure.Search.Models.ShingleTokenFilter" Usage="new Microsoft.Azure.Search.Models.ShingleTokenFilter (name, maxShingleSize, minShingleSize, outputUnigrams, outputUnigramsIfNoShingles, tokenSeparator, filterToken)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="maxShingleSize" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="minShingleSize" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="outputUnigrams" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="outputUnigramsIfNoShingles" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="tokenSeparator" Type="System.String" />
+        <Parameter Name="filterToken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">Der Name des Filters token. Es darf nur Buchstaben, Ziffern, Leerzeichen, Bindestriche oder Unterstriche enthalten, beginnen und enden mit alphanumerischen Zeichen enthalten und ist auf 128 Zeichen beschränkt.</param>
+        <param name="maxShingleSize">Die maximale Shingle Größe. Standard- und minimale Wert ist 2.</param>
+        <param name="minShingleSize">Die minimale Shingle Größe. Standard- und minimale Wert ist 2. Kleiner als der Wert des MaxShingleSize muss sein.</param>
+        <param name="outputUnigrams">Ein Wert, der angibt, ob der Ausgabedatenstrom der Eingabetoken (monogramme) enthält sowie Schindeln. Der Standardwert ist true.</param>
+        <param name="outputUnigramsIfNoShingles">Ein Wert, der angibt, ob monogramme für die Fälle ausgegeben, wenn keine Schindeln verfügbar sind.
+            Diese Eigenschaft hat Vorrang vor, wenn OutputUnigrams auf "false" festgelegt ist.
+            Die Standardeinstellung ist "false".</param>
+        <param name="tokenSeparator">Die Zeichenfolge, mit der Beitritt zu benachbarte Token ein Shingle bilden. Standardmäßig wird ein einzelnes Leerzeichen ("").</param>
+        <param name="filterToken">Die Zeichenfolge, die für die einzelnen Positionen einzufügen, zu dem kein Token vorhanden ist. Standard ist ein Unterstrich ("_").</param>
+        <summary>
+            Initialisiert eine neue Instanz der ShingleTokenFilter-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilterToken">
+      <MemberSignature Language="C#" Value="public string FilterToken { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FilterToken" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.ShingleTokenFilter.FilterToken" />
+      <MemberSignature Language="VB.NET" Value="Public Property FilterToken As String" />
+      <MemberSignature Language="F#" Value="member this.FilterToken : string with get, set" Usage="Microsoft.Azure.Search.Models.ShingleTokenFilter.FilterToken" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="filterToken")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Zeichenfolge einzufügende für die einzelnen Positionen, an dem keine Token vorhanden ist. Standard ist ein Unterstrich ("_").
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxShingleSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxShingleSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxShingleSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.ShingleTokenFilter.MaxShingleSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxShingleSize As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.MaxShingleSize : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Search.Models.ShingleTokenFilter.MaxShingleSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="maxShingleSize")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die maximale Shingle Größe fest. Standard- und minimale Wert ist
+            2.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinShingleSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MinShingleSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MinShingleSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.ShingleTokenFilter.MinShingleSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinShingleSize As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.MinShingleSize : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Search.Models.ShingleTokenFilter.MinShingleSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="minShingleSize")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die minimale Shingle Größe fest. Standard- und minimale Wert ist
+            2. Kleiner als der Wert des MaxShingleSize muss sein.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutputUnigrams">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; OutputUnigrams { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; OutputUnigrams" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.ShingleTokenFilter.OutputUnigrams" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutputUnigrams As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.OutputUnigrams : Nullable&lt;bool&gt; with get, set" Usage="Microsoft.Azure.Search.Models.ShingleTokenFilter.OutputUnigrams" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="outputUnigrams")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt einen Wert, der angibt, ob der Ausgabedatenstrom der Eingabetoken (monogramme) enthält, sowie Schindeln. Der Standardwert ist true.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutputUnigramsIfNoShingles">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; OutputUnigramsIfNoShingles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; OutputUnigramsIfNoShingles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.ShingleTokenFilter.OutputUnigramsIfNoShingles" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutputUnigramsIfNoShingles As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.OutputUnigramsIfNoShingles : Nullable&lt;bool&gt; with get, set" Usage="Microsoft.Azure.Search.Models.ShingleTokenFilter.OutputUnigramsIfNoShingles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="outputUnigramsIfNoShingles")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt einen Wert, der angibt, ob monogramme für die Fälle ausgegeben, wenn keine Schindeln verfügbar sind. Diese Eigenschaft hat Vorrang vor, wenn OutputUnigrams auf "false" festgelegt ist. Die Standardeinstellung ist "false".
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenSeparator">
+      <MemberSignature Language="C#" Value="public string TokenSeparator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TokenSeparator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.ShingleTokenFilter.TokenSeparator" />
+      <MemberSignature Language="VB.NET" Value="Public Property TokenSeparator As String" />
+      <MemberSignature Language="F#" Value="member this.TokenSeparator : string with get, set" Usage="Microsoft.Azure.Search.Models.ShingleTokenFilter.TokenSeparator" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tokenSeparator")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Zeichenfolge, mit der Beitritt zu benachbarte Token ein Shingle bilden. Standardmäßig wird ein einzelnes Leerzeichen ("").
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public override void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.ShingleTokenFilter.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub Validate ()" />
+      <MemberSignature Language="F#" Value="override this.Validate : unit -&gt; unit" Usage="shingleTokenFilter.Validate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Überprüfen Sie das Objekt.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Wird ausgelöst, wenn die Validierung fehlschlägt
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

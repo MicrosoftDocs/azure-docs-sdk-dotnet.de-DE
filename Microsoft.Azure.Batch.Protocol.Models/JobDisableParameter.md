@@ -1,0 +1,122 @@
+<Type Name="JobDisableParameter" FullName="Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter">
+  <TypeSignature Language="C#" Value="public class JobDisableParameter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobDisableParameter extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobDisableParameter" />
+  <TypeSignature Language="F#" Value="type JobDisableParameter = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Optionen, die bei der Deaktivierung eines Auftrags.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobDisableParameter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der JobDisableParameter-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JobDisableParameter (Microsoft.Azure.Batch.Protocol.Models.DisableJobOption disableTasks);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Azure.Batch.Protocol.Models.DisableJobOption disableTasks) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter.#ctor(Microsoft.Azure.Batch.Protocol.Models.DisableJobOption)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (disableTasks As DisableJobOption)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter : Microsoft.Azure.Batch.Protocol.Models.DisableJobOption -&gt; Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter" Usage="new Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter disableTasks" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="disableTasks" Type="Microsoft.Azure.Batch.Protocol.Models.DisableJobOption" />
+      </Parameters>
+      <Docs>
+        <param name="disableTasks">Vorgehensweise mit aktiven Aufgaben, die dem Auftrag zugeordnet.</param>
+        <summary>
+            Initialisiert eine neue Instanz der JobDisableParameter-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableTasks">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Batch.Protocol.Models.DisableJobOption DisableTasks { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Azure.Batch.Protocol.Models.DisableJobOption DisableTasks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter.DisableTasks" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisableTasks As DisableJobOption" />
+      <MemberSignature Language="F#" Value="member this.DisableTasks : Microsoft.Azure.Batch.Protocol.Models.DisableJobOption with get, set" Usage="Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter.DisableTasks" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="disableTasks")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Protocol.Models.DisableJobOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Vorgehensweise mit aktiven Aufgaben, die dem Auftrag zugeordnet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            Folgende Werte sind möglich: "wieder in Warteschlange", "Beenden", "Warten"
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.JobDisableParameter.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
+      <MemberSignature Language="F#" Value="abstract member Validate : unit -&gt; unit&#xA;override this.Validate : unit -&gt; unit" Usage="jobDisableParameter.Validate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Überprüfen Sie das Objekt.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Wird ausgelöst, wenn die Validierung fehlschlägt
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,390 @@
+<Type Name="IRunbookDraftOperations" FullName="Microsoft.Azure.Management.Automation.IRunbookDraftOperations">
+  <TypeSignature Language="C#" Value="public interface IRunbookDraftOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRunbookDraftOperations" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.IRunbookDraftOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRunbookDraftOperations" />
+  <TypeSignature Language="F#" Value="type IRunbookDraftOperations = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Der Dienstvorgang für Automation-runbookentwurfs.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginPublishAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginPublishAsync (string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginPublishAsync(string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.BeginPublishAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member BeginPublishAsync : string * string * Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;" Usage="iRunbookDraftOperations.BeginPublishAsync (resourceGroupName, automationAccount, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="parameters">
+            Parameter, die den Veröffentlichungsvorgang für das Runbook übergeben.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Abgerufen Sie das Runbook namentlich identifizierte Runbook werden.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort für lang ausgeführte Vorgänge.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateAsync (string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateAsync(string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.BeginUpdateAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member BeginUpdateAsync : string * string * Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;" Usage="iRunbookDraftOperations.BeginUpdateAsync (resourceGroupName, automationAccount, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="parameters">
+            Die Runbook-Entwurf-Update-Parameter.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Aktualisiert die Runbook-Entwurf mit RunbookStream als Inhalt.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort für lang ausgeführte Vorgänge.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdateGraphAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateGraphAsync (string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; BeginUpdateGraphAsync(string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.BeginUpdateGraphAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member BeginUpdateGraphAsync : string * string * Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;" Usage="iRunbookDraftOperations.BeginUpdateGraphAsync (resourceGroupName, automationAccount, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="parameters">
+            Die Runbook-Entwurf-Update-Parameter.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Aktualisiert die Runbook-Entwurf mit RunbookStream als Inhalt.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort für lang ausgeführte Vorgänge.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookContentResponse&gt; ContentAsync (string resourceGroupName, string automationAccount, string runbookName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.RunbookContentResponse&gt; ContentAsync(string resourceGroupName, string automationAccount, string runbookName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.ContentAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member ContentAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookContentResponse&gt;" Usage="iRunbookDraftOperations.ContentAsync (resourceGroupName, automationAccount, runbookName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookContentResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="runbookName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="runbookName">
+            Der Runbook-Name.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Abrufen des Inhalts des Runbook-Entwurf Runbook namentlich identifiziert.
+            (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Inhalt runbookvorgang.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse&gt; GetAsync (string resourceGroupName, string automationAccount, string runbookName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse&gt; GetAsync(string resourceGroupName, string automationAccount, string runbookName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse&gt;" Usage="iRunbookDraftOperations.GetAsync (resourceGroupName, automationAccount, runbookName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="runbookName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="runbookName">
+            Der Runbook-Name.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Abrufen des Runbook-Entwurfs Runbook namentlich identifiziert.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Runbook-Entwurf Abrufvorgang.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; PublishAsync (string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; PublishAsync(string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.PublishAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member PublishAsync : string * string * Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;" Usage="iRunbookDraftOperations.PublishAsync (resourceGroupName, automationAccount, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.RunbookDraftPublishParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="parameters">
+            Parameter, die den Veröffentlichungsvorgang für das Runbook übergeben.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Abgerufen Sie das Runbook namentlich identifizierte Runbook werden.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort für lang ausgeführte Vorgänge.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UndoEditAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse&gt; UndoEditAsync (string resourceGroupName, string automationAccount, string runbookName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse&gt; UndoEditAsync(string resourceGroupName, string automationAccount, string runbookName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.UndoEditAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member UndoEditAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse&gt;" Usage="iRunbookDraftOperations.UndoEditAsync (resourceGroupName, automationAccount, runbookName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.RunbookDraftUndoEditResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="runbookName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="runbookName">
+            Der Runbook-Name.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Abgerufen Sie das Runbook namentlich identifizierte Runbook werden.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Undoedit runbookvorgang.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateAsync (string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateAsync(string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.UpdateAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : string * string * Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;" Usage="iRunbookDraftOperations.UpdateAsync (resourceGroupName, automationAccount, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="parameters">
+            Die Runbook-Entwurf-Update-Parameter.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Aktualisiert die Runbook-Entwurf mit RunbookStream als Inhalt.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort für lang ausgeführte Vorgänge.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateGraphAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateGraphAsync (string resourceGroupName, string automationAccount, Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt; UpdateGraphAsync(string resourceGroupName, string automationAccount, class Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IRunbookDraftOperations.UpdateGraphAsync(System.String,System.String,Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member UpdateGraphAsync : string * string * Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;" Usage="iRunbookDraftOperations.UpdateGraphAsync (resourceGroupName, automationAccount, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.LongRunningOperationResultResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.RunbookDraftUpdateParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="parameters">
+            Die Runbook-Entwurf-Update-Parameter.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Aktualisiert die Runbook-Entwurf mit RunbookStream als Inhalt.  (siehe http://aka.ms/azureautomationsdk/runbookdraftoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort für lang ausgeführte Vorgänge.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,41 @@
+<Type Name="RecoveryPoint" FullName="Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryPoint">
+  <TypeSignature Language="C#" Value="public class RecoveryPoint" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecoveryPoint extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryPoint" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecoveryPoint" />
+  <TypeSignature Language="F#" Value="type RecoveryPoint = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die Basisklasse für Sicherungskopien. Spezifische Sicherungskopien werden von dieser Klasse abgeleitet.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecoveryPoint ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryPoint.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse RecoveryPoint an.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,291 @@
+<Type Name="JobOperationsExtensions" FullName="Microsoft.Azure.Management.BackupServices.JobOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class JobOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit JobOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.BackupServices.JobOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module JobOperationsExtensions" />
+  <TypeSignature Language="F#" Value="type JobOperationsExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails Get (this Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails Get(class Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, class Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.Get(Microsoft.Azure.Management.BackupServices.IJobOperations,System.String,System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders)" />
+      <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.BackupServices.IJobOperations * string * string * string * Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders -&gt; Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails" Usage="Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.Get (operations, resourceGroupName, resourceName, name, customRequestHeaders)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.BackupServices.IJobOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customRequestHeaders" Type="Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Verweis auf die Microsoft.Azure.Management.BackupServices.IJobOperations.
+            </param>
+        <param name="resourceGroupName">
+            Erforderlich.
+            </param>
+        <param name="resourceName">
+            Erforderlich.
+            </param>
+        <param name="name">
+            Optional. Der Name des Auftrags, deren Details abgerufen werden soll.
+            </param>
+        <param name="customRequestHeaders">
+            Optional. Header Anforderungsparameter.
+            </param>
+        <summary>
+            Details eines bestimmten Auftrags abrufen.
+            </summary>
+        <returns>
+            Antwort-Modell für den Auftragsvorgang-details
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails&gt; GetAsync (this Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails&gt; GetAsync(class Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, class Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.GetAsync(Microsoft.Azure.Management.BackupServices.IJobOperations,System.String,System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders)" />
+      <MemberSignature Language="F#" Value="static member GetAsync : Microsoft.Azure.Management.BackupServices.IJobOperations * string * string * string * Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails&gt;" Usage="Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.GetAsync (operations, resourceGroupName, resourceName, name, customRequestHeaders)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.Models.CSMJobDetails&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.BackupServices.IJobOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customRequestHeaders" Type="Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Verweis auf die Microsoft.Azure.Management.BackupServices.IJobOperations.
+            </param>
+        <param name="resourceGroupName">
+            Erforderlich.
+            </param>
+        <param name="resourceName">
+            Erforderlich.
+            </param>
+        <param name="name">
+            Optional. Der Name des Auftrags, deren Details abgerufen werden soll.
+            </param>
+        <param name="customRequestHeaders">
+            Optional. Header Anforderungsparameter.
+            </param>
+        <summary>
+            Details eines bestimmten Auftrags abrufen.
+            </summary>
+        <returns>
+            Antwort-Modell für den Auftragsvorgang-details
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.BackupServices.Models.CSMJobList List (this Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject parameters, Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.BackupServices.Models.CSMJobList List(class Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, class Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject parameters, class Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.List(Microsoft.Azure.Management.BackupServices.IJobOperations,System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject,Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders)" />
+      <MemberSignature Language="F#" Value="static member List : Microsoft.Azure.Management.BackupServices.IJobOperations * string * string * Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject * Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders -&gt; Microsoft.Azure.Management.BackupServices.Models.CSMJobList" Usage="Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.List (operations, resourceGroupName, resourceName, parameters, customRequestHeaders)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.BackupServices.Models.CSMJobList</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.BackupServices.IJobOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject" />
+        <Parameter Name="customRequestHeaders" Type="Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Verweis auf die Microsoft.Azure.Management.BackupServices.IJobOperations.
+            </param>
+        <param name="resourceGroupName">
+            Erforderlich.
+            </param>
+        <param name="resourceName">
+            Erforderlich.
+            </param>
+        <param name="parameters">
+            Optional. Auftrag Abfrageparameter.
+            </param>
+        <param name="customRequestHeaders">
+            Optional. Header Anforderungsparameter.
+            </param>
+        <summary>
+            Ruft die Liste aller Aufträge, die vom angegebenen Filter abgefragt.
+            </summary>
+        <returns>
+            PowerShell-Response-Objekt
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.Models.CSMJobList&gt; ListAsync (this Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject parameters, Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.BackupServices.Models.CSMJobList&gt; ListAsync(class Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, class Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject parameters, class Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.ListAsync(Microsoft.Azure.Management.BackupServices.IJobOperations,System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject,Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders)" />
+      <MemberSignature Language="F#" Value="static member ListAsync : Microsoft.Azure.Management.BackupServices.IJobOperations * string * string * Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject * Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.Models.CSMJobList&gt;" Usage="Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.ListAsync (operations, resourceGroupName, resourceName, parameters, customRequestHeaders)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.Models.CSMJobList&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.BackupServices.IJobOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.BackupServices.Models.CSMJobQueryObject" />
+        <Parameter Name="customRequestHeaders" Type="Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Verweis auf die Microsoft.Azure.Management.BackupServices.IJobOperations.
+            </param>
+        <param name="resourceGroupName">
+            Erforderlich.
+            </param>
+        <param name="resourceName">
+            Erforderlich.
+            </param>
+        <param name="parameters">
+            Optional. Auftrag Abfrageparameter.
+            </param>
+        <param name="customRequestHeaders">
+            Optional. Header Anforderungsparameter.
+            </param>
+        <summary>
+            Ruft die Liste aller Aufträge, die vom angegebenen Filter abgefragt.
+            </summary>
+        <returns>
+            PowerShell-Response-Objekt
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stop">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.BackupServices.OperationResponse Stop (this Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.BackupServices.OperationResponse Stop(class Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, class Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.Stop(Microsoft.Azure.Management.BackupServices.IJobOperations,System.String,System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders)" />
+      <MemberSignature Language="F#" Value="static member Stop : Microsoft.Azure.Management.BackupServices.IJobOperations * string * string * string * Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders -&gt; Microsoft.Azure.Management.BackupServices.OperationResponse" Usage="Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.Stop (operations, resourceGroupName, resourceName, name, customRequestHeaders)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.BackupServices.OperationResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.BackupServices.IJobOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customRequestHeaders" Type="Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Verweis auf die Microsoft.Azure.Management.BackupServices.IJobOperations.
+            </param>
+        <param name="resourceGroupName">
+            Erforderlich.
+            </param>
+        <param name="resourceName">
+            Erforderlich.
+            </param>
+        <param name="name">
+            Optional. Der Name des Auftrags, der beendet werden soll.
+            </param>
+        <param name="customRequestHeaders">
+            Optional. Benutzerdefinierte Anforderungsheader für den Aufruf.
+            </param>
+        <summary>
+            Abbruch eines Auftrags auslösen.
+            </summary>
+        <returns>
+            Die Definition einer Operation-Antwort.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.OperationResponse&gt; StopAsync (this Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.BackupServices.OperationResponse&gt; StopAsync(class Microsoft.Azure.Management.BackupServices.IJobOperations operations, string resourceGroupName, string resourceName, string name, class Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders customRequestHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.StopAsync(Microsoft.Azure.Management.BackupServices.IJobOperations,System.String,System.String,System.String,Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders)" />
+      <MemberSignature Language="F#" Value="static member StopAsync : Microsoft.Azure.Management.BackupServices.IJobOperations * string * string * string * Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.OperationResponse&gt;" Usage="Microsoft.Azure.Management.BackupServices.JobOperationsExtensions.StopAsync (operations, resourceGroupName, resourceName, name, customRequestHeaders)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.BackupServicesManagement</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.BackupServices.OperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.BackupServices.IJobOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="customRequestHeaders" Type="Microsoft.Azure.Management.BackupServices.Models.CustomRequestHeaders" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Verweis auf die Microsoft.Azure.Management.BackupServices.IJobOperations.
+            </param>
+        <param name="resourceGroupName">
+            Erforderlich.
+            </param>
+        <param name="resourceName">
+            Erforderlich.
+            </param>
+        <param name="name">
+            Optional. Der Name des Auftrags, der beendet werden soll.
+            </param>
+        <param name="customRequestHeaders">
+            Optional. Benutzerdefinierte Anforderungsheader für den Aufruf.
+            </param>
+        <summary>
+            Abbruch eines Auftrags auslösen.
+            </summary>
+        <returns>
+            Die Definition einer Operation-Antwort.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

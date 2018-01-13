@@ -1,0 +1,106 @@
+<Type Name="NetworkManagementClientExtensions" FullName="Microsoft.Azure.Management.Network.NetworkManagementClientExtensions">
+  <TypeSignature Language="C#" Value="public static class NetworkManagementClientExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit NetworkManagementClientExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.NetworkManagementClientExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module NetworkManagementClientExtensions" />
+  <TypeSignature Language="F#" Value="type NetworkManagementClientExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+    <AssemblyVersion>14.0.0.0</AssemblyVersion>
+    <AssemblyVersion>16.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Erweiterungsmethoden für NetworkManagementClient.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CheckDnsNameAvailability">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult CheckDnsNameAvailability (this Microsoft.Azure.Management.Network.INetworkManagementClient operations, string location, string domainNameLabel);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult CheckDnsNameAvailability(class Microsoft.Azure.Management.Network.INetworkManagementClient operations, string location, string domainNameLabel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkManagementClientExtensions.CheckDnsNameAvailability(Microsoft.Azure.Management.Network.INetworkManagementClient,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CheckDnsNameAvailability (operations As INetworkManagementClient, location As String, domainNameLabel As String) As DnsNameAvailabilityResult" />
+      <MemberSignature Language="F#" Value="static member CheckDnsNameAvailability : Microsoft.Azure.Management.Network.INetworkManagementClient * string * string -&gt; Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult" Usage="Microsoft.Azure.Management.Network.NetworkManagementClientExtensions.CheckDnsNameAvailability (operations, location, domainNameLabel)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.INetworkManagementClient" RefType="this" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="domainNameLabel" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="location">
+            Der Speicherort des Domänennamens.
+            </param>
+        <param name="domainNameLabel">
+            Der Domänenname überprüft werden. Er muss dem folgenden regulären Ausdruck entsprechen: ^ [a-z][a-z0-9-]{1,61}[a-z0-9]$.
+            </param>
+        <summary>
+            Überprüft, ob ein Domänenname in der Zone cloudapp.azure.com für die Verwendung verfügbar ist.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckDnsNameAvailabilityAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult&gt; CheckDnsNameAvailabilityAsync (this Microsoft.Azure.Management.Network.INetworkManagementClient operations, string location, string domainNameLabel, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult&gt; CheckDnsNameAvailabilityAsync(class Microsoft.Azure.Management.Network.INetworkManagementClient operations, string location, string domainNameLabel, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.NetworkManagementClientExtensions.CheckDnsNameAvailabilityAsync(Microsoft.Azure.Management.Network.INetworkManagementClient,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member CheckDnsNameAvailabilityAsync : Microsoft.Azure.Management.Network.INetworkManagementClient * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult&gt;" Usage="Microsoft.Azure.Management.Network.NetworkManagementClientExtensions.CheckDnsNameAvailabilityAsync (operations, location, domainNameLabel, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.NetworkManagementClientExtensions/&lt;CheckDnsNameAvailabilityAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.DnsNameAvailabilityResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.INetworkManagementClient" RefType="this" />
+        <Parameter Name="location" Type="System.String" />
+        <Parameter Name="domainNameLabel" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="location">
+            Der Speicherort des Domänennamens.
+            </param>
+        <param name="domainNameLabel">
+            Der Domänenname überprüft werden. Er muss dem folgenden regulären Ausdruck entsprechen: ^ [a-z][a-z0-9-]{1,61}[a-z0-9]$.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Überprüft, ob ein Domänenname in der Zone cloudapp.azure.com für die Verwendung verfügbar ist.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

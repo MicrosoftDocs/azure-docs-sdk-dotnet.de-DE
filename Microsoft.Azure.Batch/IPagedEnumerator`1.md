@@ -1,0 +1,111 @@
+<Type Name="IPagedEnumerator&lt;T&gt;" FullName="Microsoft.Azure.Batch.IPagedEnumerator&lt;T&gt;">
+  <TypeSignature Language="C#" Value="public interface IPagedEnumerator&lt;T&gt; : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPagedEnumerator`1&lt;T&gt; implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.IPagedEnumerator`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPagedEnumerator(Of T)&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IPagedEnumerator&lt;'T&gt; = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="T">Der Typ des Enumerators.</typeparam>
+    <summary>
+            Ein Enumerator, der einen asynchronen Mechanismus für die Iteration verfügbar macht.
+            
+            Enumerator-Instanzen sind nicht hinsichtlich.
+            
+            Each-Enumerator Ruft die Auflistung vom Server ab. Daher sehen each-Enumerator unterschiedliche Daten (Kollektionsgröße, Inhalt usw.).
+            
+            Um mehrere Abruf der Daten vom Server über die häufige Verwendung Foreach/ForeachAsync und andere Vorgänge zu vermeiden, sollte vorsichtig vorgenommen werden.
+            
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Current">
+      <MemberSignature Language="C#" Value="public T Current { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !T Current" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.IPagedEnumerator`1.Current" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Current As T" />
+      <MemberSignature Language="F#" Value="member this.Current : 'T" Usage="Microsoft.Azure.Batch.IPagedEnumerator&lt;'T&gt;.Current" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft das Element in der Auflistung an der aktuellen Position des Enumerators ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveNextAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; MoveNextAsync (System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; MoveNextAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.IPagedEnumerator`1.MoveNextAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member MoveNextAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iPagedEnumerator.MoveNextAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">Ein <see cref="T:System.Threading.CancellationToken" /> für die Steuerung der Lebensdauer eines asynchronen Vorgangs.</param>
+        <summary>
+            Startet einen asynchronen Aufruf an den Enumerator auf das nächste Element der Auflistung.
+            </summary>
+        <returns>Ein <see cref="T:System.Threading.Tasks.Task" />-Objekt, das den asynchronen Vorgang darstellt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task ResetAsync (System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task ResetAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.IPagedEnumerator`1.ResetAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member ResetAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="iPagedEnumerator.ResetAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">Ein <see cref="T:System.Threading.CancellationToken" /> für die Steuerung der Lebensdauer eines asynchronen Vorgangs.</param>
+        <summary>
+            Startet einen asynchronen Aufruf an den Enumerator auf seine anfängliche Position festgelegt, das vor dem ersten Element in der Auflistung ist.
+            </summary>
+        <returns>Ein <see cref="T:System.Threading.Tasks.Task" />-Objekt, das den asynchronen Vorgang darstellt.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

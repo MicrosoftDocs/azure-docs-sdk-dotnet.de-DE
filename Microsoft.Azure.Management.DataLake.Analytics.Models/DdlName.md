@@ -1,0 +1,177 @@
+<Type Name="DdlName" FullName="Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName">
+  <TypeSignature Language="C#" Value="public class DdlName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DdlName extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName" />
+  <TypeSignature Language="VB.NET" Value="Public Class DdlName" />
+  <TypeSignature Language="F#" Value="type DdlName = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Ein Data Lake Analytics-DDL-Name-Element.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DdlName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der DdlName-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DdlName (string firstPart = null, string secondPart = null, string thirdPart = null, string server = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string firstPart, string secondPart, string thirdPart, string server) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.#ctor(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional firstPart As String = null, Optional secondPart As String = null, Optional thirdPart As String = null, Optional server As String = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName : string * string * string * string -&gt; Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName" Usage="new Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName (firstPart, secondPart, thirdPart, server)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="firstPart" Type="System.String" />
+        <Parameter Name="secondPart" Type="System.String" />
+        <Parameter Name="thirdPart" Type="System.String" />
+        <Parameter Name="server" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="firstPart">der Name der Tabelle, die dieser Datenbank und Schema zugeordnet werden soll.</param>
+        <param name="secondPart">der Name der Tabelle, die dieser Datenbank und Schema zugeordnet werden soll.</param>
+        <param name="thirdPart">der Name der Tabelle, die dieser Datenbank und Schema zugeordnet werden soll.</param>
+        <param name="server">der Name der Tabelle, die dieser Datenbank und Schema zugeordnet werden soll.</param>
+        <summary>
+            Initialisiert eine neue Instanz der DdlName-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstPart">
+      <MemberSignature Language="C#" Value="public string FirstPart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirstPart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.FirstPart" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstPart As String" />
+      <MemberSignature Language="F#" Value="member this.FirstPart : string with get, set" Usage="Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.FirstPart" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="firstPart")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Namen der Tabelle, die dieser Datenbank und Schema zugeordnet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecondPart">
+      <MemberSignature Language="C#" Value="public string SecondPart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SecondPart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.SecondPart" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecondPart As String" />
+      <MemberSignature Language="F#" Value="member this.SecondPart : string with get, set" Usage="Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.SecondPart" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="secondPart")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Namen der Tabelle, die dieser Datenbank und Schema zugeordnet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Server">
+      <MemberSignature Language="C#" Value="public string Server { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Server" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.Server" />
+      <MemberSignature Language="VB.NET" Value="Public Property Server As String" />
+      <MemberSignature Language="F#" Value="member this.Server : string with get, set" Usage="Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.Server" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="server")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Namen der Tabelle, die dieser Datenbank und Schema zugeordnet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThirdPart">
+      <MemberSignature Language="C#" Value="public string ThirdPart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ThirdPart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.ThirdPart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThirdPart As String" />
+      <MemberSignature Language="F#" Value="member this.ThirdPart : string with get, set" Usage="Microsoft.Azure.Management.DataLake.Analytics.Models.DdlName.ThirdPart" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataLake.Analytics</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="thirdPart")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Namen der Tabelle, die dieser Datenbank und Schema zugeordnet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

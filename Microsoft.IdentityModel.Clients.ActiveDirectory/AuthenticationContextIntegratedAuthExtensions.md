@@ -1,0 +1,67 @@
+<Type Name="AuthenticationContextIntegratedAuthExtensions" FullName="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContextIntegratedAuthExtensions">
+  <TypeSignature Language="C#" Value="public static class AuthenticationContextIntegratedAuthExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AuthenticationContextIntegratedAuthExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContextIntegratedAuthExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AuthenticationContextIntegratedAuthExtensions" />
+  <TypeSignature Language="F#" Value="type AuthenticationContextIntegratedAuthExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</AssemblyName>
+    <AssemblyVersion>3.16.0.14</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+    <AssemblyVersion>3.17.3.35304</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Der Erweiterungsklasse an Benutzername/Kennwort-Datenfluss zu unterstützen.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AcquireTokenAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (this Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext ctx, string resource, string clientId, Microsoft.IdentityModel.Clients.ActiveDirectory.UserCredential userCredential);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext ctx, string resource, string clientId, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserCredential userCredential) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContextIntegratedAuthExtensions.AcquireTokenAsync(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext,System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserCredential)" />
+      <MemberSignature Language="F#" Value="static member AcquireTokenAsync : Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext * string * string * Microsoft.IdentityModel.Clients.ActiveDirectory.UserCredential -&gt; System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;" Usage="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContextIntegratedAuthExtensions.AcquireTokenAsync (ctx, resource, clientId, userCredential)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</AssemblyName>
+        <AssemblyVersion>3.16.0.14</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>3.17.3.35304</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContextIntegratedAuthExtensions/&lt;AcquireTokenAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ctx" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" RefType="this" />
+        <Parameter Name="resource" Type="System.String" />
+        <Parameter Name="clientId" Type="System.String" />
+        <Parameter Name="userCredential" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.UserCredential" />
+      </Parameters>
+      <Docs>
+        <param name="ctx">Kontextinstanz Authentifizierung</param>
+        <param name="resource">Der Bezeichner der Zielressource, die den Empfänger des angeforderten Tokens ist.</param>
+        <param name="clientId">Der Bezeichner des Clients, die das Token anfordert.</param>
+        <param name="userCredential">Die Anmeldeinformationen des Benutzers, der für den tokenabruf verwendet.</param>
+        <summary>
+            Ruft das Sicherheitstoken von der Zertifizierungsstelle ab.
+            </summary>
+        <returns>Es enthält Zugriffstoken, die für den Ablauf, Benutzerinformationen.</returns>
+        <remarks>Diese Funktion ist nur für Azure Active Directory und Active Directory Federation Services (ADFS) unter Windows 10 unterstützt.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

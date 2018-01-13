@@ -1,0 +1,237 @@
+<Type Name="HostName" FullName="Microsoft.Azure.Management.WebSites.Models.HostName">
+  <TypeSignature Language="C#" Value="public class HostName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HostName extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.HostName" />
+  <TypeSignature Language="VB.NET" Value="Public Class HostName" />
+  <TypeSignature Language="F#" Value="type HostName = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Details der einen Hostnamen aus einer Domäne abgeleitet.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HostName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.HostName.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse Hostnamen an.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public HostName (string name = null, System.Collections.Generic.IList&lt;string&gt; siteNames = null, string azureResourceName = null, Nullable&lt;Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt; azureResourceType = null, Nullable&lt;Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt; customHostNameDnsRecordType = null, Nullable&lt;Microsoft.Azure.Management.WebSites.Models.HostNameType&gt; hostNameType = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class System.Collections.Generic.IList`1&lt;string&gt; siteNames, string azureResourceName, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt; azureResourceType, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt; customHostNameDnsRecordType, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.HostNameType&gt; hostNameType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.HostName.#ctor(System.String,System.Collections.Generic.IList{System.String},System.String,System.Nullable{Microsoft.Azure.Management.WebSites.Models.AzureResourceType},System.Nullable{Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType},System.Nullable{Microsoft.Azure.Management.WebSites.Models.HostNameType})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional name As String = null, Optional siteNames As IList(Of String) = null, Optional azureResourceName As String = null, Optional azureResourceType As Nullable(Of AzureResourceType) = null, Optional customHostNameDnsRecordType As Nullable(Of CustomHostNameDnsRecordType) = null, Optional hostNameType As Nullable(Of HostNameType) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.WebSites.Models.HostName : string * System.Collections.Generic.IList&lt;string&gt; * string * Nullable&lt;Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt; * Nullable&lt;Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt; * Nullable&lt;Microsoft.Azure.Management.WebSites.Models.HostNameType&gt; -&gt; Microsoft.Azure.Management.WebSites.Models.HostName" Usage="new Microsoft.Azure.Management.WebSites.Models.HostName (name, siteNames, azureResourceName, azureResourceType, customHostNameDnsRecordType, hostNameType)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="siteNames" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="azureResourceName" Type="System.String" />
+        <Parameter Name="azureResourceType" Type="System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt;" />
+        <Parameter Name="customHostNameDnsRecordType" Type="System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt;" />
+        <Parameter Name="hostNameType" Type="System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.HostNameType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name">Der Name des Hostnamens.</param>
+        <param name="siteNames">Liste von apps, denen der Hostname zugewiesen wird.
+            Diese Liste wird mehr als eine app haben, nur, wenn der Hostname zu einer Traffic Manager verweist.</param>
+        <param name="azureResourceName">Name des Azure-Ressource dem Hostnamen zugewiesen ist. Wenn sie ein Traffic Manager zugewiesen ist, wird er mit den Namen des Traffic Manager kann wird andernfalls es der app-Name sein.</param>
+        <param name="azureResourceType">Typ des Azure-Ressource dem Hostnamen zugewiesen ist. Folgende Werte sind möglich: "Website", "TrafficManager"</param>
+        <param name="customHostNameDnsRecordType">Geben Sie den DNS-Eintrag.
+            Folgende Werte sind möglich: "CName", "A"</param>
+        <param name="hostNameType">Der Typ des Hostnamens. Folgende Werte sind möglich: "Überprüft", "Verwaltet"</param>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse Hostnamen an.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AzureResourceName">
+      <MemberSignature Language="C#" Value="public string AzureResourceName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AzureResourceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.HostName.AzureResourceName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureResourceName As String" />
+      <MemberSignature Language="F#" Value="member this.AzureResourceName : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.HostName.AzureResourceName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="azureResourceName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Name des Azure-Ressource, der der Hostnamen zugewiesen ist. Wenn sie ein Traffic Manager zugewiesen ist, wird er mit den Namen des Traffic Manager kann wird andernfalls es der app-Name sein.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AzureResourceType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt; AzureResourceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt; AzureResourceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.HostName.AzureResourceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureResourceType As Nullable(Of AzureResourceType)" />
+      <MemberSignature Language="F#" Value="member this.AzureResourceType : Nullable&lt;Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.HostName.AzureResourceType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="azureResourceType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.AzureResourceType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt ihn fest der Azure-Ressource, der der Hostnamen zugewiesen ist. Folgende Werte sind möglich: "Website", "TrafficManager"
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomHostNameDnsRecordType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt; CustomHostNameDnsRecordType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt; CustomHostNameDnsRecordType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.HostName.CustomHostNameDnsRecordType" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomHostNameDnsRecordType As Nullable(Of CustomHostNameDnsRecordType)" />
+      <MemberSignature Language="F#" Value="member this.CustomHostNameDnsRecordType : Nullable&lt;Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.HostName.CustomHostNameDnsRecordType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="customHostNameDnsRecordType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.CustomHostNameDnsRecordType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt ihn fest den DNS-Eintrag. Folgende Werte sind möglich: "CName", "A"
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HostNameType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.HostNameType&gt; HostNameType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.HostNameType&gt; HostNameType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.HostName.HostNameType" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostNameType As Nullable(Of HostNameType)" />
+      <MemberSignature Language="F#" Value="member this.HostNameType : Nullable&lt;Microsoft.Azure.Management.WebSites.Models.HostNameType&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.HostName.HostNameType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="hostNameType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.HostNameType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt ihn fest des Hostnamens. Folgende Werte sind möglich: "Überprüft", "Verwaltet"
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.HostName.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.HostName.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="name")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Namen des Hostnamens fest.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SiteNames">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; SiteNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; SiteNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.HostName.SiteNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property SiteNames As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.SiteNames : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.HostName.SiteNames" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="siteNames")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Liste von apps, denen der Hostname zugewiesen wird. Diese Liste wird mehr als eine app haben, nur, wenn der Hostname zu einer Traffic Manager verweist.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

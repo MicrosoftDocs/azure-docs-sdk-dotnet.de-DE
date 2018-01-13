@@ -1,0 +1,411 @@
+<Type Name="LoadBalancersOperationsExtensions" FullName="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class LoadBalancersOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit LoadBalancersOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module LoadBalancersOperationsExtensions" />
+  <TypeSignature Language="F#" Value="type LoadBalancersOperationsExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Erweiterungsmethoden für LoadBalancersOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt; BeginCreateOrUpdateAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt; BeginCreateOrUpdateAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginCreateOrUpdateAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * string * Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.BeginCreateOrUpdateAsync (operations, resourceGroupName, loadBalancerName, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__6))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="loadBalancerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="loadBalancerName">
+            Der Name des Lastenausgleichs.
+            </param>
+        <param name="parameters">
+            Die Parameter des erstellen oder aktualisieren Load Balancer-Vorgangs angegeben.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Erstellt oder aktualisiert einen Lastenausgleich.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginDeleteAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginDeleteAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginDeleteAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.BeginDeleteAsync (operations, resourceGroupName, loadBalancerName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;BeginDeleteAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="loadBalancerName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="loadBalancerName">
+            Der Name des Lastenausgleichs.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Löscht das angegebene Lastenausgleichsmodul.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.String,Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member CreateOrUpdateAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * string * Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.CreateOrUpdateAsync (operations, resourceGroupName, loadBalancerName, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__2))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="loadBalancerName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="loadBalancerName">
+            Der Name des Lastenausgleichs.
+            </param>
+        <param name="parameters">
+            Die Parameter des erstellen oder aktualisieren Load Balancer-Vorgangs angegeben.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Erstellt oder aktualisiert einen Lastenausgleich.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member DeleteAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.DeleteAsync (operations, resourceGroupName, loadBalancerName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;DeleteAsync&gt;d__0))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="loadBalancerName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="loadBalancerName">
+            Der Name des Lastenausgleichs.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Löscht das angegebene Lastenausgleichsmodul.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt; GetAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, string expand = null, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt; GetAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, string loadBalancerName, string expand, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.GetAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.GetAsync (operations, resourceGroupName, loadBalancerName, expand, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;GetAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="loadBalancerName" Type="System.String" />
+        <Parameter Name="expand" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="loadBalancerName">
+            Der Name des Lastenausgleichs.
+            </param>
+        <param name="expand">
+            Wird erweitert, referenzierte Ressourcen.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft das angegebene Lastenausgleichsmodul ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAllAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListAllAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListAllAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListAllAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListAllAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListAllAsync (operations, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;ListAllAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle Lastenausgleichsmodule in einem Abonnement ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAllNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListAllNextAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListAllNextAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListAllNextAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListAllNextAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListAllNextAsync (operations, nextPageLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;ListAllNextAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle Lastenausgleichsmodule in einem Abonnement ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string resourceGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListAsync (operations, resourceGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;ListAsync&gt;d__4))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle Lastenausgleichsmodule in einer Ressourcengruppe.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListNextAsync : Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;" Usage="Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions.ListNextAsync (operations, nextPageLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.Fluent.LoadBalancersOperationsExtensions/&lt;ListNextAsync&gt;d__8))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Fluent.Models.LoadBalancerInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.Fluent.ILoadBalancersOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle Lastenausgleichsmodule in einer Ressourcengruppe.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

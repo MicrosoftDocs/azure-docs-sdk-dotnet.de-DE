@@ -1,0 +1,47 @@
+<Type Name="IWithDatabaseDtuMax" FullName="Microsoft.Azure.Management.Sql.Fluent.SqlElasticPool.Update.IWithDatabaseDtuMax">
+  <TypeSignature Language="C#" Value="public interface IWithDatabaseDtuMax" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWithDatabaseDtuMax" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Sql.Fluent.SqlElasticPool.Update.IWithDatabaseDtuMax" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWithDatabaseDtuMax" />
+  <TypeSignature Language="F#" Value="type IWithDatabaseDtuMax = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die maximale DTU für eine einzelne Datenbank festzulegende elastischen Pool für SQL-Definition.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="WithDatabaseDtuMax">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Sql.Fluent.SqlElasticPool.Update.IUpdate WithDatabaseDtuMax (int databaseDtuMax);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.Sql.Fluent.SqlElasticPool.Update.IUpdate WithDatabaseDtuMax(int32 databaseDtuMax) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.SqlElasticPool.Update.IWithDatabaseDtuMax.WithDatabaseDtuMax(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithDatabaseDtuMax (databaseDtuMax As Integer) As IUpdate" />
+      <MemberSignature Language="F#" Value="abstract member WithDatabaseDtuMax : int -&gt; Microsoft.Azure.Management.Sql.Fluent.SqlElasticPool.Update.IUpdate" Usage="iWithDatabaseDtuMax.WithDatabaseDtuMax databaseDtuMax" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Sql.Fluent.SqlElasticPool.Update.IUpdate</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="databaseDtuMax" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="databaseDtuMax">Maximale DTU, die alle eine SQL Azure-Datenbank nutzen kann.</param>
+        <summary>
+            Legt der maximale DTU einer SQL Azure-Datenbank verbraucht werden darf.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return>Die nächste Phase der Definition.</return>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

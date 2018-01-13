@@ -1,0 +1,90 @@
+<Type Name="SyncFlag" FullName="Microsoft.Azure.DataLake.Store.SyncFlag">
+  <TypeSignature Language="C#" Value="public enum SyncFlag" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyncFlag extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.DataLake.Store.SyncFlag" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SyncFlag" />
+  <TypeSignature Language="F#" Value="type SyncFlag = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.DataLake.Store</AssemblyName>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Flags, die als Parameter als Teil der HTTP-Anforderung übergeben werden, für die Vorgänge schreiben und das Anfügen
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CLOSE">
+      <MemberSignature Language="C#" Value="CLOSE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.DataLake.Store.SyncFlag CLOSE = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.DataLake.Store.SyncFlag.CLOSE" />
+      <MemberSignature Language="VB.NET" Value="CLOSE" />
+      <MemberSignature Language="F#" Value="CLOSE = 2" Usage="Microsoft.Azure.DataLake.Store.SyncFlag.CLOSE" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DataLake.Store</AssemblyName>
+        <AssemblyVersion>0.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.DataLake.Store.SyncFlag</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Metadaten aktualisiert werden.
+            Schließen den Handler für Dateien oder Streams gibt die Lease frei.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DATA">
+      <MemberSignature Language="C#" Value="DATA" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.DataLake.Store.SyncFlag DATA = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.DataLake.Store.SyncFlag.DATA" />
+      <MemberSignature Language="VB.NET" Value="DATA" />
+      <MemberSignature Language="F#" Value="DATA = 0" Usage="Microsoft.Azure.DataLake.Store.SyncFlag.DATA" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DataLake.Store</AssemblyName>
+        <AssemblyVersion>0.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.DataLake.Store.SyncFlag</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Enthält die Lease an.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="METADATA">
+      <MemberSignature Language="C#" Value="METADATA" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.DataLake.Store.SyncFlag METADATA = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.DataLake.Store.SyncFlag.METADATA" />
+      <MemberSignature Language="VB.NET" Value="METADATA" />
+      <MemberSignature Language="F#" Value="METADATA = 1" Usage="Microsoft.Azure.DataLake.Store.SyncFlag.METADATA" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DataLake.Store</AssemblyName>
+        <AssemblyVersion>0.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.DataLake.Store.SyncFlag</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Metadaten muss aktualisiert werden, nachdem Daten angefügt wurde
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

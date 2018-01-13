@@ -1,0 +1,64 @@
+<Type Name="AdalSilentTokenAcquisitionException" FullName="Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException">
+  <TypeSignature Language="C#" Value="public class AdalSilentTokenAcquisitionException : Microsoft.IdentityModel.Clients.ActiveDirectory.AdalException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AdalSilentTokenAcquisitionException extends Microsoft.IdentityModel.Clients.ActiveDirectory.AdalException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException" />
+  <TypeSignature Language="VB.NET" Value="Public Class AdalSilentTokenAcquisitionException&#xA;Inherits AdalException" />
+  <TypeSignature Language="F#" Value="type AdalSilentTokenAcquisitionException = class&#xA;    inherit AdalException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+    <AssemblyVersion>3.16.0.14</AssemblyVersion>
+    <AssemblyVersion>3.17.3.35304</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.IdentityModel.Clients.ActiveDirectory.AdalException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Der Ausnahmetyp ausgelöst, wenn ein Token kann nicht automatisch abgerufen werden.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AdalSilentTokenAcquisitionException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>3.16.0.14</AssemblyVersion>
+        <AssemblyVersion>3.17.3.35304</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+             Initialisiert eine neue Instanz der Exception-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AdalSilentTokenAcquisitionException (Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException.#ctor(System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (innerException As Exception)" />
+      <MemberSignature Language="F#" Value="new Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException : Exception -&gt; Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException" Usage="new Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException innerException" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>3.16.0.14</AssemblyVersion>
+        <AssemblyVersion>3.17.3.35304</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="innerException"></param>
+        <summary />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

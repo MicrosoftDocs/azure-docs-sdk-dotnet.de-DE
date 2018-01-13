@@ -1,0 +1,423 @@
+<Type Name="Index" FullName="Microsoft.Azure.Search.Models.Index">
+  <TypeSignature Language="C#" Value="public class Index : Microsoft.Azure.Search.Models.IResourceWithETag" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Index extends System.Object implements class Microsoft.Azure.Search.Models.IResourceWithETag" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.Index" />
+  <TypeSignature Language="VB.NET" Value="Public Class Index&#xA;Implements IResourceWithETag" />
+  <TypeSignature Language="F#" Value="type Index = class&#xA;    interface IResourceWithETag" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Search.Models.IResourceWithETag</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Stellt eine Indexdefinition in Azure Search dar, die Felder und Search-Verhaltensweisen eines Indexes beschreibt.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Index ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.Index.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse Index an.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Index (string name, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt; fields, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt; scoringProfiles = null, string defaultScoringProfile = null, Microsoft.Azure.Search.Models.CorsOptions corsOptions = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt; suggesters = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Analyzer&gt; analyzers = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Tokenizer&gt; tokenizers = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.TokenFilter&gt; tokenFilters = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.CharFilter&gt; charFilters = null, string eTag = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Field&gt; fields, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.ScoringProfile&gt; scoringProfiles, string defaultScoringProfile, class Microsoft.Azure.Search.Models.CorsOptions corsOptions, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Suggester&gt; suggesters, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Analyzer&gt; analyzers, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Tokenizer&gt; tokenizers, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.TokenFilter&gt; tokenFilters, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.CharFilter&gt; charFilters, string eTag) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.Index.#ctor(System.String,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Field},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.ScoringProfile},System.String,Microsoft.Azure.Search.Models.CorsOptions,System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Suggester},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Analyzer},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Tokenizer},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.TokenFilter},System.Collections.Generic.IList{Microsoft.Azure.Search.Models.CharFilter},System.String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Search.Models.Index : string * System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt; * string * Microsoft.Azure.Search.Models.CorsOptions * System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Analyzer&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Tokenizer&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.TokenFilter&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.CharFilter&gt; * string -&gt; Microsoft.Azure.Search.Models.Index" Usage="new Microsoft.Azure.Search.Models.Index (name, fields, scoringProfiles, defaultScoringProfile, corsOptions, suggesters, analyzers, tokenizers, tokenFilters, charFilters, eTag)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="fields" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt;" />
+        <Parameter Name="scoringProfiles" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt;" />
+        <Parameter Name="defaultScoringProfile" Type="System.String" />
+        <Parameter Name="corsOptions" Type="Microsoft.Azure.Search.Models.CorsOptions" />
+        <Parameter Name="suggesters" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt;" />
+        <Parameter Name="analyzers" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Analyzer&gt;" />
+        <Parameter Name="tokenizers" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Tokenizer&gt;" />
+        <Parameter Name="tokenFilters" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.TokenFilter&gt;" />
+        <Parameter Name="charFilters" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.CharFilter&gt;" />
+        <Parameter Name="eTag" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">Der Name des Indexes.</param>
+        <param name="fields">Die Felder des Indexes.</param>
+        <param name="scoringProfiles">Die Bewertungsprofile für den Index.</param>
+        <param name="defaultScoringProfile">Der Name des Bewertungsprofils verwenden, wenn in der Abfrage angegeben ist. Wenn diese Eigenschaft nicht festgelegt ist, und kein Bewertungsprofil in der Abfrage angegeben ist, wird standardbewertung (Tf-Idf) verwendet werden.</param>
+        <param name="corsOptions">Optionen zum Steuerelement Cross-Origin Resource Sharing (CORS) für den Index.</param>
+        <param name="suggesters">Die suggester für den Index.</param>
+        <param name="analyzers">Analysen für den Index.</param>
+        <param name="tokenizers">Der Tokenizer für den Index.</param>
+        <param name="tokenFilters">Die token Filter für den Index.</param>
+        <param name="charFilters">Die Zeichen Filter für den Index.</param>
+        <param name="eTag">Das ETag des Indexes.</param>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse Index an.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Analyzers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Analyzer&gt; Analyzers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Analyzer&gt; Analyzers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Analyzers" />
+      <MemberSignature Language="VB.NET" Value="Public Property Analyzers As IList(Of Analyzer)" />
+      <MemberSignature Language="F#" Value="member this.Analyzers : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Analyzer&gt; with get, set" Usage="Microsoft.Azure.Search.Models.Index.Analyzers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="analyzers")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Analyzer&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt die Analysen für den Index fest.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CharFilters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.CharFilter&gt; CharFilters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.CharFilter&gt; CharFilters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.CharFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Property CharFilters As IList(Of CharFilter)" />
+      <MemberSignature Language="F#" Value="member this.CharFilters : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.CharFilter&gt; with get, set" Usage="Microsoft.Azure.Search.Models.Index.CharFilters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="charFilters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.CharFilter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ermittelt oder definiert die Filter Zeichen für den Index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CorsOptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Search.Models.CorsOptions CorsOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Search.Models.CorsOptions CorsOptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.CorsOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property CorsOptions As CorsOptions" />
+      <MemberSignature Language="F#" Value="member this.CorsOptions : Microsoft.Azure.Search.Models.CorsOptions with get, set" Usage="Microsoft.Azure.Search.Models.Index.CorsOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="corsOptions")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Search.Models.CorsOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt Optionen fest, um zu steuern Cross-Origin Resource Sharing (CORS) für den Index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultScoringProfile">
+      <MemberSignature Language="C#" Value="public string DefaultScoringProfile { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DefaultScoringProfile" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.DefaultScoringProfile" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultScoringProfile As String" />
+      <MemberSignature Language="F#" Value="member this.DefaultScoringProfile : string with get, set" Usage="Microsoft.Azure.Search.Models.Index.DefaultScoringProfile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="defaultScoringProfile")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Namen des Bewertungsprofils verwenden, wenn in der Abfrage angegeben ist. Wenn diese Eigenschaft nicht festgelegt ist, und kein Bewertungsprofil in der Abfrage angegeben ist, wird standardbewertung (Tf-Idf) verwendet werden.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ETag">
+      <MemberSignature Language="C#" Value="public string ETag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ETag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.ETag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ETag As String" />
+      <MemberSignature Language="F#" Value="member this.ETag : string with get, set" Usage="Microsoft.Azure.Search.Models.Index.ETag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="@odata.etag")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt das ETag des Indexes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fields">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt; Fields { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Field&gt; Fields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Fields" />
+      <MemberSignature Language="VB.NET" Value="Public Property Fields As IList(Of Field)" />
+      <MemberSignature Language="F#" Value="member this.Fields : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt; with get, set" Usage="Microsoft.Azure.Search.Models.Index.Fields" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="fields")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Field&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Felder des Indexes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Azure.Search.Models.Index.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="name")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Namen des Indexes.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScoringProfiles">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt; ScoringProfiles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.ScoringProfile&gt; ScoringProfiles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.ScoringProfiles" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScoringProfiles As IList(Of ScoringProfile)" />
+      <MemberSignature Language="F#" Value="member this.ScoringProfiles : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt; with get, set" Usage="Microsoft.Azure.Search.Models.Index.ScoringProfiles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="scoringProfiles")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.ScoringProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Bewertungsprofile für den Index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Suggesters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt; Suggesters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Suggester&gt; Suggesters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Suggesters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Suggesters As IList(Of Suggester)" />
+      <MemberSignature Language="F#" Value="member this.Suggesters : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt; with get, set" Usage="Microsoft.Azure.Search.Models.Index.Suggesters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="suggesters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Suggester&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die suggester für den Index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenFilters">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.TokenFilter&gt; TokenFilters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.TokenFilter&gt; TokenFilters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.TokenFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Property TokenFilters As IList(Of TokenFilter)" />
+      <MemberSignature Language="F#" Value="member this.TokenFilters : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.TokenFilter&gt; with get, set" Usage="Microsoft.Azure.Search.Models.Index.TokenFilters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tokenFilters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.TokenFilter&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die token Filter für den Index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tokenizers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Tokenizer&gt; Tokenizers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Tokenizer&gt; Tokenizers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.Index.Tokenizers" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tokenizers As IList(Of Tokenizer)" />
+      <MemberSignature Language="F#" Value="member this.Tokenizers : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Tokenizer&gt; with get, set" Usage="Microsoft.Azure.Search.Models.Index.Tokenizers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tokenizers")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Tokenizer&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Tokenizer für den Index.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.Index.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
+      <MemberSignature Language="F#" Value="abstract member Validate : unit -&gt; unit&#xA;override this.Validate : unit -&gt; unit" Usage="index.Validate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Überprüfen Sie das Objekt.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Wird ausgelöst, wenn die Validierung fehlschlägt
+            </exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

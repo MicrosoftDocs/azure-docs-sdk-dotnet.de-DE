@@ -1,0 +1,179 @@
+<Type Name="BlobContainerProperties" FullName="Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties">
+  <TypeSignature Language="C#" Value="public sealed class BlobContainerProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BlobContainerProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BlobContainerProperties" />
+  <TypeSignature Language="F#" Value="type BlobContainerProperties = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+    <AssemblyVersion>8.4.0.0</AssemblyVersion>
+    <AssemblyVersion>8.7.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Stellt die Systemeigenschaften für einen Container dar.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public BlobContainerProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>8.7.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ETag">
+      <MemberSignature Language="C#" Value="public string ETag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ETag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.ETag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ETag As String" />
+      <MemberSignature Language="F#" Value="member this.ETag : string" Usage="Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.ETag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>8.7.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft den ETag-Wert für den Container ab.
+            </summary>
+        <value>Eine Zeichenfolge, die mit dem Container in Anführungszeichen ETag-Wert.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModified">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTimeOffset&gt; LastModified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; LastModified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LastModified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModified As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.LastModified : Nullable&lt;DateTimeOffset&gt;" Usage="Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LastModified" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>8.7.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Uhrzeit der letzten Änderung des Containers ab.
+            </summary>
+        <value>Ein <see cref="T:System.DateTimeOffset" /> , das den Container Last-modified-Zeit im UTC-Format enthält.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeaseDuration">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.LeaseDuration LeaseDuration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Storage.Blob.LeaseDuration LeaseDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseDuration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LeaseDuration As LeaseDuration" />
+      <MemberSignature Language="F#" Value="member this.LeaseDuration : Microsoft.WindowsAzure.Storage.Blob.LeaseDuration" Usage="Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseDuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>8.7.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.LeaseDuration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Leasedauer des Containers ab.
+            </summary>
+        <value>Ein <see cref="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseDuration" /> Objekt, das Leasedauer des Containers angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeaseState">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.LeaseState LeaseState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Storage.Blob.LeaseState LeaseState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LeaseState As LeaseState" />
+      <MemberSignature Language="F#" Value="member this.LeaseState : Microsoft.WindowsAzure.Storage.Blob.LeaseState" Usage="Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>8.7.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.LeaseState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft Leasezustand des Containers ab.
+            </summary>
+        <value>Ein <see cref="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseState" /> Objekt, das Leasezustand des Containers angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeaseStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.WindowsAzure.Storage.Blob.LeaseStatus LeaseStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.WindowsAzure.Storage.Blob.LeaseStatus LeaseStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LeaseStatus As LeaseStatus" />
+      <MemberSignature Language="F#" Value="member this.LeaseStatus : Microsoft.WindowsAzure.Storage.Blob.LeaseStatus" Usage="Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseStatus" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>8.7.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.WindowsAzure.Storage.Blob.LeaseStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft Leasestatus des Containers ab.
+            </summary>
+        <value>Ein <see cref="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.LeaseStatus" /> -Objekt, das Leasestatus des Containers angibt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicAccess">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.WindowsAzure.Storage.Blob.BlobContainerPublicAccessType&gt; PublicAccess { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.WindowsAzure.Storage.Blob.BlobContainerPublicAccessType&gt; PublicAccess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.PublicAccess" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublicAccess As Nullable(Of BlobContainerPublicAccessType)" />
+      <MemberSignature Language="F#" Value="member this.PublicAccess : Nullable&lt;Microsoft.WindowsAzure.Storage.Blob.BlobContainerPublicAccessType&gt;" Usage="Microsoft.WindowsAzure.Storage.Blob.BlobContainerProperties.PublicAccess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
+        <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>8.7.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.WindowsAzure.Storage.Blob.BlobContainerPublicAccessType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Ruft den öffentlichen Zugriff für den Container ab.
+            </summary>
+        <value>Ein <see cref="T:Microsoft.WindowsAzure.Storage.Blob.BlobContainerPublicAccessType" /> , die angibt, dass die Stufe des öffentlichen Zugriffs, der für den Container zulässig ist.</value>
+        <remarks>Dieses Feld sollte nur festgelegt werden mithilfe des Containers Create()--Methode oder SetPermissions()-Methode</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

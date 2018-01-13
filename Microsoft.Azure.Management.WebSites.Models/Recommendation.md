@@ -1,0 +1,672 @@
+<Type Name="Recommendation" FullName="Microsoft.Azure.Management.WebSites.Models.Recommendation">
+  <TypeSignature Language="C#" Value="public class Recommendation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Recommendation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.Recommendation" />
+  <TypeSignature Language="VB.NET" Value="Public Class Recommendation" />
+  <TypeSignature Language="F#" Value="type Recommendation = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Stellt eine von der empfehlungsmodul generierten Empfehlung Ergebnis dar.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Recommendation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.Recommendation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse Empfehlung.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Recommendation (Nullable&lt;DateTime&gt; creationTime = null, Nullable&lt;Guid&gt; recommendationId = null, string resourceId = null, string resourceScope = null, string ruleName = null, string displayName = null, string message = null, Nullable&lt;Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt; level = null, Nullable&lt;Microsoft.Azure.Management.WebSites.Models.Channels&gt; channels = null, System.Collections.Generic.IList&lt;string&gt; tags = null, string actionName = null, Nullable&lt;DateTime&gt; startTime = null, Nullable&lt;DateTime&gt; endTime = null, Nullable&lt;DateTime&gt; nextNotificationTime = null, Nullable&lt;DateTime&gt; notificationExpirationTime = null, Nullable&lt;DateTime&gt; notifiedTime = null, Nullable&lt;double&gt; score = null, Nullable&lt;bool&gt; isDynamic = null, string extensionName = null, string bladeName = null, string forwardLink = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; creationTime, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; recommendationId, string resourceId, string resourceScope, string ruleName, string displayName, string message, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt; level, valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.Channels&gt; channels, class System.Collections.Generic.IList`1&lt;string&gt; tags, string actionName, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; startTime, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; endTime, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; nextNotificationTime, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; notificationExpirationTime, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; notifiedTime, valuetype System.Nullable`1&lt;float64&gt; score, valuetype System.Nullable`1&lt;bool&gt; isDynamic, string extensionName, string bladeName, string forwardLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.Recommendation.#ctor(System.Nullable{System.DateTime},System.Nullable{System.Guid},System.String,System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.WebSites.Models.NotificationLevel},System.Nullable{Microsoft.Azure.Management.WebSites.Models.Channels},System.Collections.Generic.IList{System.String},System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.Double},System.Nullable{System.Boolean},System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional creationTime As Nullable(Of DateTime) = null, Optional recommendationId As Nullable(Of Guid) = null, Optional resourceId As String = null, Optional resourceScope As String = null, Optional ruleName As String = null, Optional displayName As String = null, Optional message As String = null, Optional level As Nullable(Of NotificationLevel) = null, Optional channels As Nullable(Of Channels) = null, Optional tags As IList(Of String) = null, Optional actionName As String = null, Optional startTime As Nullable(Of DateTime) = null, Optional endTime As Nullable(Of DateTime) = null, Optional nextNotificationTime As Nullable(Of DateTime) = null, Optional notificationExpirationTime As Nullable(Of DateTime) = null, Optional notifiedTime As Nullable(Of DateTime) = null, Optional score As Nullable(Of Double) = null, Optional isDynamic As Nullable(Of Boolean) = null, Optional extensionName As String = null, Optional bladeName As String = null, Optional forwardLink As String = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.WebSites.Models.Recommendation : Nullable&lt;DateTime&gt; * Nullable&lt;Guid&gt; * string * string * string * string * string * Nullable&lt;Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt; * Nullable&lt;Microsoft.Azure.Management.WebSites.Models.Channels&gt; * System.Collections.Generic.IList&lt;string&gt; * string * Nullable&lt;DateTime&gt; * Nullable&lt;DateTime&gt; * Nullable&lt;DateTime&gt; * Nullable&lt;DateTime&gt; * Nullable&lt;DateTime&gt; * Nullable&lt;double&gt; * Nullable&lt;bool&gt; * string * string * string -&gt; Microsoft.Azure.Management.WebSites.Models.Recommendation" Usage="new Microsoft.Azure.Management.WebSites.Models.Recommendation (creationTime, recommendationId, resourceId, resourceScope, ruleName, displayName, message, level, channels, tags, actionName, startTime, endTime, nextNotificationTime, notificationExpirationTime, notifiedTime, score, isDynamic, extensionName, bladeName, forwardLink)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="creationTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="recommendationId" Type="System.Nullable&lt;System.Guid&gt;" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="resourceScope" Type="System.String" />
+        <Parameter Name="ruleName" Type="System.String" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="level" Type="System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt;" />
+        <Parameter Name="channels" Type="System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.Channels&gt;" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="actionName" Type="System.String" />
+        <Parameter Name="startTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="endTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="nextNotificationTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="notificationExpirationTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="notifiedTime" Type="System.Nullable&lt;System.DateTime&gt;" />
+        <Parameter Name="score" Type="System.Nullable&lt;System.Double&gt;" />
+        <Parameter Name="isDynamic" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="extensionName" Type="System.String" />
+        <Parameter Name="bladeName" Type="System.String" />
+        <Parameter Name="forwardLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="creationTime">Zeitstempel für diese Instanz erstellt wurde.</param>
+        <param name="recommendationId">Ein GUID-Wert, dem jede Empfehlung-Objekt zugeordnet ist.</param>
+        <param name="resourceId">Vollständige ARM Resource ID-Zeichenfolge, die diese Empfehlung-Objekt zugeordnet ist.</param>
+        <param name="resourceScope">Der Name eines Ressourcentyps diese Empfehlung gilt, z. B. "Serverfarm", Abonnement-Website.
+            Folgende Werte sind möglich: "", Serverfarm ","Subscription","WebSite"</param>
+        <param name="ruleName">Eindeutiger Name der Regel.</param>
+        <param name="displayName">Benutzeroberfläche angezeigte Name der Regel (möglicherweise nicht eindeutig sein).</param>
+        <param name="message">Empfehlung Text.</param>
+        <param name="level">Die Ebene, der angibt, wie kritisch diese Empfehlung auswirken kann. Folgende Werte sind möglich: "Kritisch", "Warnung", "Information", "NonUrgentSuggestion"</param>
+        <param name="channels">Liste von Kanälen, die diese Empfehlung anwenden kann. Folgende Werte sind möglich: "Benachrichtigung", "Api", "Email", "Webhook", "All"</param>
+        <param name="tags">Die Liste der Category-Tags, denen diese Empfehlung gehört.</param>
+        <param name="actionName">Name der Aktion, die von diesem Objekt empfohlen.</param>
+        <param name="startTime">Die Anfangszeit (UTC), der einem Bereich, dem die Empfehlung bezieht.</param>
+        <param name="endTime">Die Endzeit in UTC, der einem Bereich, dem die Empfehlung bezieht.</param>
+        <param name="nextNotificationTime">Wann diese Empfehlung weiter in UTC zu benachrichtigen. NULL bedeutet, dass dies nicht mehr benachrichtigt werden soll.</param>
+        <param name="notificationExpirationTime">Datum und Uhrzeit in UTC, wann diese Benachrichtigung läuft ab.</param>
+        <param name="notifiedTime">Letzte Zeitstempel in UTC, die dieser Instanz tatsächlich benachrichtigt wurde. NULL bedeutet, dass diese Empfehlung noch benachrichtigt wurde noch nicht.</param>
+        <param name="score">Metrikwert für ein von der Regel gemessen.</param>
+        <param name="isDynamic">"True", wenn dies eine dynamisch hinzugefügte Regel zugeordnet ist</param>
+        <param name="extensionName">Name der Erweiterung zurück, wenn das Portal vorhanden ist.</param>
+        <param name="bladeName">Deep-Link ein Blatt im Portal.</param>
+        <param name="forwardLink">Link zu einem externen Dokument in der Regel zugeordneten weitergeleitet werden.</param>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse Empfehlung.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionName">
+      <MemberSignature Language="C#" Value="public string ActionName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ActionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.ActionName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionName As String" />
+      <MemberSignature Language="F#" Value="member this.ActionName : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.ActionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="actionName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Name der Aktion, die von diesem Objekt empfohlen.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BladeName">
+      <MemberSignature Language="C#" Value="public string BladeName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BladeName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.BladeName" />
+      <MemberSignature Language="VB.NET" Value="Public Property BladeName As String" />
+      <MemberSignature Language="F#" Value="member this.BladeName : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.BladeName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="bladeName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt ihn fest deep-Link im Portal ein Blatt.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Channels">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.Channels&gt; Channels { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.Channels&gt; Channels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.Channels" />
+      <MemberSignature Language="VB.NET" Value="Public Property Channels As Nullable(Of Channels)" />
+      <MemberSignature Language="F#" Value="member this.Channels : Nullable&lt;Microsoft.Azure.Management.WebSites.Models.Channels&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.Channels" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="channels")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.Channels&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Liste von Kanälen, die diese Empfehlung anwenden kann.
+            Folgende Werte sind möglich: "Benachrichtigung", "Api", "Email", "Webhook", "All"
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CreationTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CreationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreationTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.CreationTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.CreationTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="creationTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ermittelt oder definiert Zeitstempel, wenn diese Instanz erstellt wurde.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.DisplayName : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="displayName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt Benutzeroberfläche angezeigten Namen der Regel (möglicherweise nicht eindeutig sein).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.EndTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.EndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="endTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Endzeit in UTC, der einem Bereich, dem die Empfehlung bezieht.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtensionName">
+      <MemberSignature Language="C#" Value="public string ExtensionName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExtensionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.ExtensionName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtensionName As String" />
+      <MemberSignature Language="F#" Value="member this.ExtensionName : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.ExtensionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="extensionName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt ihn fest Erweiterung zurück, wenn das Portal Name vorhanden ist.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardLink">
+      <MemberSignature Language="C#" Value="public string ForwardLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ForwardLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.ForwardLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForwardLink As String" />
+      <MemberSignature Language="F#" Value="member this.ForwardLink : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.ForwardLink" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="forwardLink")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt ihn fest vorwärts Link zu einem externen Dokument in der Regel zugeordneten.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDynamic">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsDynamic { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsDynamic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.IsDynamic" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDynamic As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsDynamic : Nullable&lt;bool&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.IsDynamic" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="isDynamic")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt ihn fest "true", wenn dies eine dynamisch hinzugefügte Regel zugeordnet ist
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Level">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt; Level { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt; Level" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.Level" />
+      <MemberSignature Language="VB.NET" Value="Public Property Level As Nullable(Of NotificationLevel)" />
+      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.Level" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="level")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.NotificationLevel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt sie fest, der angibt, wie kritisch diese Empfehlung auswirken kann. Folgende Werte sind möglich: "Kritisch", "Warnung", "Information", "NonUrgentSuggestion"
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
+      <MemberSignature Language="F#" Value="member this.Message : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="message")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Text abruft oder festlegt Empfehlung.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextNotificationTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; NextNotificationTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; NextNotificationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.NextNotificationTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property NextNotificationTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.NextNotificationTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.NextNotificationTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="nextNotificationTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt fest, wann diese Empfehlung weiter in UTC zu benachrichtigen. NULL bedeutet, dass dies nicht mehr benachrichtigt werden soll.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotificationExpirationTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; NotificationExpirationTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; NotificationExpirationTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.NotificationExpirationTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotificationExpirationTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.NotificationExpirationTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.NotificationExpirationTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="notificationExpirationTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt Datum und Uhrzeit in UTC, Ablauf dieser Benachrichtigung.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifiedTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; NotifiedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; NotifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.NotifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotifiedTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.NotifiedTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.NotifiedTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="notifiedTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt fest Zeitstempel der letzten (UTC), die dieser Instanz tatsächlich benachrichtigt wurde. NULL bedeutet, dass diese Empfehlung noch benachrichtigt wurde noch nicht.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecommendationId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; RecommendationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; RecommendationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.RecommendationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecommendationId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.RecommendationId : Nullable&lt;Guid&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.RecommendationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="recommendationId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt einen GUID-Wert, dem jede Empfehlung-Objekt zugeordnet ist.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceId">
+      <MemberSignature Language="C#" Value="public string ResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.ResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceId As String" />
+      <MemberSignature Language="F#" Value="member this.ResourceId : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.ResourceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="resourceId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest vollständige ARM Resource ID-Zeichenfolge, die diese Empfehlung-Objekt zugeordnet ist.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceScope">
+      <MemberSignature Language="C#" Value="public string ResourceScope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ResourceScope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.ResourceScope" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResourceScope As String" />
+      <MemberSignature Language="F#" Value="member this.ResourceScope : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.ResourceScope" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="resourceScope")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Name eines Ressourcentyps diese Empfehlung gilt, z. B. "Serverfarm", Abonnement-Website. Folgende Werte sind möglich: "", Serverfarm ","Subscription","WebSite"
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleName">
+      <MemberSignature Language="C#" Value="public string RuleName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RuleName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.RuleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property RuleName As String" />
+      <MemberSignature Language="F#" Value="member this.RuleName : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.RuleName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="ruleName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die eindeutigen Namen der Regel.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Score">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Score { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Score" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.Score" />
+      <MemberSignature Language="VB.NET" Value="Public Property Score As Nullable(Of Double)" />
+      <MemberSignature Language="F#" Value="member this.Score : Nullable&lt;double&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.Score" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="score")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Metrikwert für einen von der Regel gemessen.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.StartTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="startTime")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Anfangszeit (UTC), der einem Bereich, dem die Empfehlung bezieht.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tags">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Tags { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Tags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.Recommendation.Tags" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tags As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Tags : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.Recommendation.Tags" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tags")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Liste der Category-Tags, denen diese Empfehlung gehört.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

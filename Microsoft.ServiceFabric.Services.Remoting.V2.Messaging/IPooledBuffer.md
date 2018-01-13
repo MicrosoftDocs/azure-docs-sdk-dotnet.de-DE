@@ -1,0 +1,87 @@
+<Type Name="IPooledBuffer" FullName="Microsoft.ServiceFabric.Services.Remoting.V2.Messaging.IPooledBuffer">
+  <TypeSignature Language="C#" Value="public interface IPooledBuffer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPooledBuffer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ServiceFabric.Services.Remoting.V2.Messaging.IPooledBuffer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPooledBuffer" />
+  <TypeSignature Language="F#" Value="type IPooledBuffer = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Definiert die Schnittstelle, die die IPooledBuffer Klasse darstellt.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContentLength">
+      <MemberSignature Language="C#" Value="public int ContentLength { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ContentLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Remoting.V2.Messaging.IPooledBuffer.ContentLength" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentLength As Integer" />
+      <MemberSignature Language="F#" Value="member this.ContentLength : int with get, set" Usage="Microsoft.ServiceFabric.Services.Remoting.V2.Messaging.IPooledBuffer.ContentLength" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Länge des Puffers verwendet.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Release">
+      <MemberSignature Language="C#" Value="public bool Release ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Release() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ServiceFabric.Services.Remoting.V2.Messaging.IPooledBuffer.Release" />
+      <MemberSignature Language="VB.NET" Value="Public Function Release () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member Release : unit -&gt; bool" Usage="iPooledBuffer.Release " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Version der Puffer, in den Pool.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public ArraySegment&lt;byte&gt; Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ArraySegment`1&lt;unsigned int8&gt; Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ServiceFabric.Services.Remoting.V2.Messaging.IPooledBuffer.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As ArraySegment(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.Value : ArraySegment&lt;byte&gt;" Usage="Microsoft.ServiceFabric.Services.Remoting.V2.Messaging.IPooledBuffer.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ServiceFabric.Services.Remoting</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ArraySegment&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft den Wert des Puffers ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

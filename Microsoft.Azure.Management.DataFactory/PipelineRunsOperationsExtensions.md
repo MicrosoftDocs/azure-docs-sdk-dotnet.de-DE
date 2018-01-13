@@ -1,0 +1,204 @@
+<Type Name="PipelineRunsOperationsExtensions" FullName="Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class PipelineRunsOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PipelineRunsOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module PipelineRunsOperationsExtensions" />
+  <TypeSignature Language="F#" Value="type PipelineRunsOperationsExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Erweiterungsmethoden für PipelineRunsOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DataFactory.Models.PipelineRun Get (this Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, string runId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DataFactory.Models.PipelineRun Get(class Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, string runId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.Get(Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IPipelineRunsOperations, resourceGroupName As String, factoryName As String, runId As String) As PipelineRun" />
+      <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations * string * string * string -&gt; Microsoft.Azure.Management.DataFactory.Models.PipelineRun" Usage="Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.Get (operations, resourceGroupName, factoryName, runId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DataFactory.Models.PipelineRun</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="factoryName" Type="System.String" />
+        <Parameter Name="runId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="factoryName">
+            Die Factory-Namen.
+            </param>
+        <param name="runId">
+            Die Pipeline Bezeichner ausführen.
+            </param>
+        <summary>
+            Abrufen einer Pipeline ausführen, indem die Testlauf-ID.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineRun&gt; GetAsync (this Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, string runId, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DataFactory.Models.PipelineRun&gt; GetAsync(class Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, string runId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.GetAsync(Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetAsync : Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineRun&gt;" Usage="Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.GetAsync (operations, resourceGroupName, factoryName, runId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions/&lt;GetAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineRun&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="factoryName" Type="System.String" />
+        <Parameter Name="runId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="factoryName">
+            Die Factory-Namen.
+            </param>
+        <param name="runId">
+            Die Pipeline Bezeichner ausführen.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Abrufen einer Pipeline ausführen, indem die Testlauf-ID.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryByFactory">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse QueryByFactory (this Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters filterParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse QueryByFactory(class Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, class Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters filterParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.QueryByFactory(Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations,System.String,System.String,Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function QueryByFactory (operations As IPipelineRunsOperations, resourceGroupName As String, factoryName As String, filterParameters As PipelineRunFilterParameters) As PipelineRunQueryResponse" />
+      <MemberSignature Language="F#" Value="static member QueryByFactory : Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations * string * string * Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters -&gt; Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse" Usage="Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.QueryByFactory (operations, resourceGroupName, factoryName, filterParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="factoryName" Type="System.String" />
+        <Parameter Name="filterParameters" Type="Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="factoryName">
+            Die Factory-Namen.
+            </param>
+        <param name="filterParameters">
+            Führen Sie die Parameter zum Filtern der Pipelines.
+            </param>
+        <summary>
+            Abfragepipeline wird in der Factory, die basierend auf den Eingabefilter Bedingungen ausgeführt.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryByFactoryAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse&gt; QueryByFactoryAsync (this Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters filterParameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse&gt; QueryByFactoryAsync(class Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations operations, string resourceGroupName, string factoryName, class Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters filterParameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.QueryByFactoryAsync(Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations,System.String,System.String,Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member QueryByFactoryAsync : Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations * string * string * Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse&gt;" Usage="Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions.QueryByFactoryAsync (operations, resourceGroupName, factoryName, filterParameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DataFactory.PipelineRunsOperationsExtensions/&lt;QueryByFactoryAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineRunQueryResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DataFactory.IPipelineRunsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="factoryName" Type="System.String" />
+        <Parameter Name="filterParameters" Type="Microsoft.Azure.Management.DataFactory.Models.PipelineRunFilterParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="factoryName">
+            Die Factory-Namen.
+            </param>
+        <param name="filterParameters">
+            Führen Sie die Parameter zum Filtern der Pipelines.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Abfragepipeline wird in der Factory, die basierend auf den Eingabefilter Bedingungen ausgeführt.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,94 @@
+<Type Name="IndexerListResult" FullName="Microsoft.Azure.Search.Models.IndexerListResult">
+  <TypeSignature Language="C#" Value="public class IndexerListResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IndexerListResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.IndexerListResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class IndexerListResult" />
+  <TypeSignature Language="F#" Value="type IndexerListResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die Antwort aus einer Liste Indexer-Anforderung. Bei erfolgreicher Ausführung umfasst sie die vollständigen Definitionen aller Indexer.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IndexerListResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.IndexerListResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der IndexerListResult-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IndexerListResult (System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Indexer&gt; indexers = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Indexer&gt; indexers) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.IndexerListResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Search.Models.Indexer})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional indexers As IList(Of Indexer) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Search.Models.IndexerListResult : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Indexer&gt; -&gt; Microsoft.Azure.Search.Models.IndexerListResult" Usage="new Microsoft.Azure.Search.Models.IndexerListResult indexers" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="indexers" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Indexer&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="indexers">Die Indexer im Suchdienst.</param>
+        <summary>
+            Initialisiert eine neue Instanz der IndexerListResult-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Indexers">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Indexer&gt; Indexers { get; protected set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Search.Models.Indexer&gt; Indexers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.IndexerListResult.Indexers" />
+      <MemberSignature Language="VB.NET" Value="Public Property Indexers As IList(Of Indexer)" />
+      <MemberSignature Language="F#" Value="member this.Indexers : System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Indexer&gt; with get, set" Usage="Microsoft.Azure.Search.Models.IndexerListResult.Indexers" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="value")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Search.Models.Indexer&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Indexer im Suchdienst ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

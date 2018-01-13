@@ -1,0 +1,217 @@
+<Type Name="IHybridRunbookWorkerGroupOperations" FullName="Microsoft.Azure.Management.Automation.IHybridRunbookWorkerGroupOperations">
+  <TypeSignature Language="C#" Value="public interface IHybridRunbookWorkerGroupOperations" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IHybridRunbookWorkerGroupOperations" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.IHybridRunbookWorkerGroupOperations" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IHybridRunbookWorkerGroupOperations" />
+  <TypeSignature Language="F#" Value="type IHybridRunbookWorkerGroupOperations = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Der Dienstvorgang für Automation Hybrid Runbook Worker-Gruppe.  (siehe http://aka.ms/azureautomationsdk/hybridrunbookworkergroupoperations für Weitere Informationen)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt; DeleteAsync (string resourceGroupName, string automationAccount, string hybridRunbookWorkerGroupName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.AzureOperationResponse&gt; DeleteAsync(string resourceGroupName, string automationAccount, string hybridRunbookWorkerGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IHybridRunbookWorkerGroupOperations.DeleteAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;" Usage="iHybridRunbookWorkerGroupOperations.DeleteAsync (resourceGroupName, automationAccount, hybridRunbookWorkerGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.AzureOperationResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="hybridRunbookWorkerGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Automation-Kontonamen.
+            </param>
+        <param name="hybridRunbookWorkerGroupName">
+            Der Gruppenname von Hybrid Runbook worker
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Löschen Sie eine Hybrid Runbook Worker-Gruppe.  (siehe http://aka.ms/azureautomationsdk/hybridrunbookworkergroupoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Eine standarddienstantwort einschließlich ein HTTP-Statuscodes und einer Anforderungs-ID.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupGetResponse&gt; GetAsync (string resourceGroupName, string automationAccount, string hybridRunbookWorkerGroupName, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupGetResponse&gt; GetAsync(string resourceGroupName, string automationAccount, string hybridRunbookWorkerGroupName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IHybridRunbookWorkerGroupOperations.GetAsync(System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetAsync : string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupGetResponse&gt;" Usage="iHybridRunbookWorkerGroupOperations.GetAsync (resourceGroupName, automationAccount, hybridRunbookWorkerGroupName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupGetResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="hybridRunbookWorkerGroupName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="hybridRunbookWorkerGroupName">
+            Der Gruppenname von Hybrid Runbook worker
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Abrufen einer Hybrid Runbook Worker-gruppendiagramms.  (siehe http://aka.ms/azureautomationsdk/hybridrunbookworkergroupoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Hybrid Runbook Worker-Gruppe Abrufvorgang.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt; ListAsync (string resourceGroupName, string automationAccount, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt; ListAsync(string resourceGroupName, string automationAccount, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IHybridRunbookWorkerGroupOperations.ListAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member ListAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt;" Usage="iHybridRunbookWorkerGroupOperations.ListAsync (resourceGroupName, automationAccount, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Rufen Sie eine Liste von Hybrid Runbook Worker-Gruppen.  (siehe http://aka.ms/azureautomationsdk/hybridrunbookworkergroupoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für die Liste Hybrid Runbook Worker-Gruppen.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt; ListNextAsync (string nextLink, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt; ListNextAsync(string nextLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IHybridRunbookWorkerGroupOperations.ListNextAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member ListNextAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt;" Usage="iHybridRunbookWorkerGroupOperations.ListNextAsync (nextLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupsListResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="nextLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="nextLink">
+            Der Link zum Abrufen des nächsten Satzes von Elementen.
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Rufen Sie weitere Liste der Hybrid Runbook Worker-Gruppen.  (siehe http://aka.ms/azureautomationsdk/hybridrunbookworkergroupoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für die Liste Hybrid Runbook Worker-Gruppen.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatchAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchResponse&gt; PatchAsync (string resourceGroupName, string automationAccount, string hybridRunbookWorkerGroupName, Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchParameters parameters, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchResponse&gt; PatchAsync(string resourceGroupName, string automationAccount, string hybridRunbookWorkerGroupName, class Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchParameters parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.IHybridRunbookWorkerGroupOperations.PatchAsync(System.String,System.String,System.String,Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member PatchAsync : string * string * string * Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchResponse&gt;" Usage="iHybridRunbookWorkerGroupOperations.PatchAsync (resourceGroupName, automationAccount, hybridRunbookWorkerGroupName, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="automationAccount" Type="System.String" />
+        <Parameter Name="hybridRunbookWorkerGroupName" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.Automation.Models.HybridRunbookWorkerGroupPatchParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="resourceGroupName">
+            der Name der Ressourcengruppe
+            </param>
+        <param name="automationAccount">
+            Der Name des Automation-Konto.
+            </param>
+        <param name="hybridRunbookWorkerGroupName">
+            Der Gruppenname von Hybrid Runbook worker
+            </param>
+        <param name="parameters">
+            Hybrid Runbook Worker-Gruppe
+            </param>
+        <param name="cancellationToken">
+            Abbruchtoken.
+            </param>
+        <summary>
+            Aktualisieren Sie eine Hybrid Runbook Worker-Gruppe.  (siehe http://aka.ms/azureautomationsdk/hybridrunbookworkergroupoperations für Weitere Informationen)
+            </summary>
+        <returns>
+            Das Antwort-Modell für den Patch Hybrid Runbook Worker-Gruppe-Vorgang.
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,43 @@
+<Type Name="DataChangeDetectionPolicy" FullName="Microsoft.Azure.Search.Models.DataChangeDetectionPolicy">
+  <TypeSignature Language="C#" Value="public class DataChangeDetectionPolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataChangeDetectionPolicy extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.DataChangeDetectionPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class DataChangeDetectionPolicy" />
+  <TypeSignature Language="F#" Value="type DataChangeDetectionPolicy = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Abstrakte Basisklasse für Erkennungsrichtlinien zur Datenänderung.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DataChangeDetectionPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.DataChangeDetectionPolicy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der "datachangedetectionpolicy"-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

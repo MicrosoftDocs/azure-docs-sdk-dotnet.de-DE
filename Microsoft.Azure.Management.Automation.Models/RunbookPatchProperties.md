@@ -1,0 +1,129 @@
+<Type Name="RunbookPatchProperties" FullName="Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties">
+  <TypeSignature Language="C#" Value="public class RunbookPatchProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RunbookPatchProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class RunbookPatchProperties" />
+  <TypeSignature Language="F#" Value="type RunbookPatchProperties = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die Parameter für den Patch-runbookeigenschaften bereitgestellt.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RunbookPatchProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der RunbookPatchProperties-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Ruft ab oder legt die Beschreibung des Runbooks.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogActivityTrace">
+      <MemberSignature Language="C#" Value="public int LogActivityTrace { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LogActivityTrace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.LogActivityTrace" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogActivityTrace As Integer" />
+      <MemberSignature Language="F#" Value="member this.LogActivityTrace : int with get, set" Usage="Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.LogActivityTrace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Abrufen oder Festlegen der Aktivitätsebene Ablaufverfolgungsoptionen des Runbooks.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogProgress">
+      <MemberSignature Language="C#" Value="public bool LogProgress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LogProgress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.LogProgress" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogProgress As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LogProgress : bool with get, set" Usage="Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.LogProgress" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Ruft ab, oder legt ihn fest Fortschritt Log-Option.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogVerbose">
+      <MemberSignature Language="C#" Value="public bool LogVerbose { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LogVerbose" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.LogVerbose" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogVerbose As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LogVerbose : bool with get, set" Usage="Microsoft.Azure.Management.Automation.Models.RunbookPatchProperties.LogVerbose" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Ruft ab, oder legt ihn fest ausführliches Protokoll-Option.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

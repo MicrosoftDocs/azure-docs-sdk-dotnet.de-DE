@@ -1,0 +1,152 @@
+<Type Name="AzureBlobStorageApplicationLogsConfig" FullName="Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig">
+  <TypeSignature Language="C#" Value="public class AzureBlobStorageApplicationLogsConfig" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureBlobStorageApplicationLogsConfig extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureBlobStorageApplicationLogsConfig" />
+  <TypeSignature Language="F#" Value="type AzureBlobStorageApplicationLogsConfig = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Anwendungsprotokolle Azure-Blob-Speicherkonfiguration.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AzureBlobStorageApplicationLogsConfig ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der AzureBlobStorageApplicationLogsConfig-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AzureBlobStorageApplicationLogsConfig (Nullable&lt;Microsoft.Azure.Management.WebSites.Models.LogLevel&gt; level = null, string sasUrl = null, Nullable&lt;int&gt; retentionInDays = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.LogLevel&gt; level, string sasUrl, valuetype System.Nullable`1&lt;int32&gt; retentionInDays) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.#ctor(System.Nullable{Microsoft.Azure.Management.WebSites.Models.LogLevel},System.String,System.Nullable{System.Int32})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional level As Nullable(Of LogLevel) = null, Optional sasUrl As String = null, Optional retentionInDays As Nullable(Of Integer) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig : Nullable&lt;Microsoft.Azure.Management.WebSites.Models.LogLevel&gt; * string * Nullable&lt;int&gt; -&gt; Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig" Usage="new Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig (level, sasUrl, retentionInDays)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="level" Type="System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.LogLevel&gt;" />
+        <Parameter Name="sasUrl" Type="System.String" />
+        <Parameter Name="retentionInDays" Type="System.Nullable&lt;System.Int32&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="level">Protokollebene. Folgende Werte sind möglich: "Off", "Verbose", "Information", "Warnung", "Fehler"</param>
+        <param name="sasUrl">SAS-Url zu einem Azure-Blob-Container mit Lese-/Schreibzugriff/Liste/Delete-Berechtigungen.</param>
+        <param name="retentionInDays">Die Beibehaltungsdauer in Tagen.
+            Entfernen Sie die Blobs, die älter als X Tage.
+            0 oder niedriger bedeutet keine Beibehaltung.</param>
+        <summary>
+            Initialisiert eine neue Instanz der AzureBlobStorageApplicationLogsConfig-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Level">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Azure.Management.WebSites.Models.LogLevel&gt; Level { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Azure.Management.WebSites.Models.LogLevel&gt; Level" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.Level" />
+      <MemberSignature Language="VB.NET" Value="Public Property Level As Nullable(Of LogLevel)" />
+      <MemberSignature Language="F#" Value="member this.Level : Nullable&lt;Microsoft.Azure.Management.WebSites.Models.LogLevel&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.Level" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="level")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Azure.Management.WebSites.Models.LogLevel&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Protokollebene. Folgende Werte sind möglich: "Off", "Verbose", "Information", "Warnung", "Fehler"
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionInDays">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; RetentionInDays { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; RetentionInDays" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.RetentionInDays" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionInDays As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.RetentionInDays : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.RetentionInDays" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="retentionInDays")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Beibehaltungsdauer in Tagen fest.
+            Entfernen Sie die Blobs, die älter als X Tage.
+            0 oder niedriger bedeutet keine Beibehaltung.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SasUrl">
+      <MemberSignature Language="C#" Value="public string SasUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SasUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.SasUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property SasUrl As String" />
+      <MemberSignature Language="F#" Value="member this.SasUrl : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.AzureBlobStorageApplicationLogsConfig.SasUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="sasUrl")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt SAS-Url zu einem Azure-Blob-Container mit Lese-/Schreibzugriff/Liste/Delete-Berechtigungen.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

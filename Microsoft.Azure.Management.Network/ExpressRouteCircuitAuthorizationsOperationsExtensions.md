@@ -1,0 +1,644 @@
+<Type Name="ExpressRouteCircuitAuthorizationsOperationsExtensions" FullName="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class ExpressRouteCircuitAuthorizationsOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ExpressRouteCircuitAuthorizationsOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module ExpressRouteCircuitAuthorizationsOperationsExtensions" />
+  <TypeSignature Language="F#" Value="type ExpressRouteCircuitAuthorizationsOperationsExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+    <AssemblyVersion>14.0.0.0</AssemblyVersion>
+    <AssemblyVersion>16.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Erweiterungsmethoden für ExpressRouteCircuitAuthorizationsOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginCreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization BeginCreateOrUpdate (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization BeginCreateOrUpdate(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IExpressRouteCircuitAuthorizationsOperations, resourceGroupName As String, circuitName As String, authorizationName As String, authorizationParameters As ExpressRouteCircuitAuthorization) As ExpressRouteCircuitAuthorization" />
+      <MemberSignature Language="F#" Value="static member BeginCreateOrUpdate : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string * Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization -&gt; Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginCreateOrUpdate (operations, resourceGroupName, circuitName, authorizationName, authorizationParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+        <Parameter Name="authorizationParameters" Type="Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <param name="authorizationParameters">
+            Parameter zum Erstellen oder aktualisieren express Route Circuit Autorisierung Vorgang angegeben.
+            </param>
+        <summary>
+            Erstellt oder aktualisiert eine Autorisierung in der angegebenen express-Route-Verbindung.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginCreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; BeginCreateOrUpdateAsync (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; BeginCreateOrUpdateAsync(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginCreateOrUpdateAsync(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginCreateOrUpdateAsync : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string * Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginCreateOrUpdateAsync (operations, resourceGroupName, circuitName, authorizationName, authorizationParameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__11))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+        <Parameter Name="authorizationParameters" Type="Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <param name="authorizationParameters">
+            Parameter zum Erstellen oder aktualisieren express Route Circuit Autorisierung Vorgang angegeben.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Erstellt oder aktualisiert eine Autorisierung in der angegebenen express-Route-Verbindung.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDelete">
+      <MemberSignature Language="C#" Value="public static void BeginDelete (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginDelete(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginDelete (operations As IExpressRouteCircuitAuthorizationsOperations, resourceGroupName As String, circuitName As String, authorizationName As String)" />
+      <MemberSignature Language="F#" Value="static member BeginDelete : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginDelete (operations, resourceGroupName, circuitName, authorizationName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <summary>
+            Löscht die angegebene Autorisierung mit der angegebenen express-Route-Verbindung an.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDeleteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task BeginDeleteAsync (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task BeginDeleteAsync(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginDeleteAsync(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginDeleteAsync : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.BeginDeleteAsync (operations, resourceGroupName, circuitName, authorizationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions/&lt;BeginDeleteAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Löscht die angegebene Autorisierung mit der angegebenen express-Route-Verbindung an.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization CreateOrUpdate (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization CreateOrUpdate(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IExpressRouteCircuitAuthorizationsOperations, resourceGroupName As String, circuitName As String, authorizationName As String, authorizationParameters As ExpressRouteCircuitAuthorization) As ExpressRouteCircuitAuthorization" />
+      <MemberSignature Language="F#" Value="static member CreateOrUpdate : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string * Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization -&gt; Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.CreateOrUpdate (operations, resourceGroupName, circuitName, authorizationName, authorizationParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+        <Parameter Name="authorizationParameters" Type="Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <param name="authorizationParameters">
+            Parameter zum Erstellen oder aktualisieren express Route Circuit Autorisierung Vorgang angegeben.
+            </param>
+        <summary>
+            Erstellt oder aktualisiert eine Autorisierung in der angegebenen express-Route-Verbindung.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateOrUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization authorizationParameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member CreateOrUpdateAsync : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string * Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.CreateOrUpdateAsync (operations, resourceGroupName, circuitName, authorizationName, authorizationParameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+        <Parameter Name="authorizationParameters" Type="Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <param name="authorizationParameters">
+            Parameter zum Erstellen oder aktualisieren express Route Circuit Autorisierung Vorgang angegeben.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Erstellt oder aktualisiert eine Autorisierung in der angegebenen express-Route-Verbindung.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public static void Delete (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Delete(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.Delete(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IExpressRouteCircuitAuthorizationsOperations, resourceGroupName As String, circuitName As String, authorizationName As String)" />
+      <MemberSignature Language="F#" Value="static member Delete : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.Delete (operations, resourceGroupName, circuitName, authorizationName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <summary>
+            Löscht die angegebene Autorisierung mit der angegebenen express-Route-Verbindung an.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task DeleteAsync (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task DeleteAsync(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member DeleteAsync : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.DeleteAsync (operations, resourceGroupName, circuitName, authorizationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions/&lt;DeleteAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Löscht die angegebene Autorisierung mit der angegebenen express-Route-Verbindung an.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization Get (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization Get(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.Get(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IExpressRouteCircuitAuthorizationsOperations, resourceGroupName As String, circuitName As String, authorizationName As String) As ExpressRouteCircuitAuthorization" />
+      <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string -&gt; Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.Get (operations, resourceGroupName, circuitName, authorizationName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <summary>
+            Ruft die angegebene Autorisierung aus der angegebenen express-Route-Verbindung ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; GetAsync (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; GetAsync(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, string authorizationName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.GetAsync(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetAsync : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.GetAsync (operations, resourceGroupName, circuitName, authorizationName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions/&lt;GetAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="authorizationName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der express-Route-Verbindung.
+            </param>
+        <param name="authorizationName">
+            Der Name der Autorisierung.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft die angegebene Autorisierung aus der angegebenen express-Route-Verbindung ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; List (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; List(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.List(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IExpressRouteCircuitAuthorizationsOperations, resourceGroupName As String, circuitName As String) As IPage(Of ExpressRouteCircuitAuthorization)" />
+      <MemberSignature Language="F#" Value="static member List : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.List (operations, resourceGroupName, circuitName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der Verbindung.
+            </param>
+        <summary>
+            Ruft alle autorisierungen in einer express-Route-Verbindung ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt; ListAsync (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt; ListAsync(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string resourceGroupName, string circuitName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.ListAsync(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListAsync : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt;" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.ListAsync (operations, resourceGroupName, circuitName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions/&lt;ListAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="circuitName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="resourceGroupName">
+            Der Name der Ressourcengruppe.
+            </param>
+        <param name="circuitName">
+            Der Name der Verbindung.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle autorisierungen in einer express-Route-Verbindung ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; ListNext (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt; ListNext(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.ListNext(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As IExpressRouteCircuitAuthorizationsOperations, nextPageLink As String) As IPage(Of ExpressRouteCircuitAuthorization)" />
+      <MemberSignature Language="F#" Value="static member ListNext : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.ListNext (operations, nextPageLink)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <summary>
+            Ruft alle autorisierungen in einer express-Route-Verbindung ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListNextAsync : Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt;" Usage="Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions.ListNextAsync (operations, nextPageLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ExpressRouteCircuitAuthorizationsOperationsExtensions/&lt;ListNextAsync&gt;d__13))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ExpressRouteCircuitAuthorization&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Network.IExpressRouteCircuitAuthorizationsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle autorisierungen in einer express-Route-Verbindung ab.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

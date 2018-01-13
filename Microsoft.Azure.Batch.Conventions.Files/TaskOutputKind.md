@@ -1,0 +1,298 @@
+<Type Name="TaskOutputKind" FullName="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind">
+  <TypeSignature Language="C#" Value="public sealed class TaskOutputKind : IEquatable&lt;Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TaskOutputKind extends System.Object implements class System.IEquatable`1&lt;class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TaskOutputKind&#xA;Implements IEquatable(Of TaskOutputKind)" />
+  <TypeSignature Language="F#" Value="type TaskOutputKind = class&#xA;    interface IEquatable&lt;TaskOutputKind&gt;&#xA;    interface IOutputKind" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Stellt eine Kategorie von auftragsausgaben, z. B. die Hauptaufgabe Ausgabe oder eine Vorschau des Tasks "Ausgabe" oder ein Protokoll der Aufgabe Verarbeitung dar.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind Custom (string text);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind Custom(string text) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.Custom(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Custom (text As String) As TaskOutputKind" />
+      <MemberSignature Language="F#" Value="static member Custom : string -&gt; Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" Usage="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.Custom text" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="text" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="text">Ein Textbezeichner für die benutzerdefinierte TaskOutputKind.</param>
+        <summary>
+            Ruft eine <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> , die eine benutzerdefinierte Kategorie der Aufgabenausgaben darstellt.
+            </summary>
+        <returns>Eine TaskOutputKind mit dem angegebenen Text.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="text" /> ist NULL.</exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="text" /> ist leer.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.Equals(Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As TaskOutputKind) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind -&gt; bool" Usage="taskOutputKind.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" />
+      </Parameters>
+      <Docs>
+        <param name="other">Die TaskOutputKind dieser Instanz verglichen werden soll.</param>
+        <summary>
+            Determinates, ob diese Instanz und ein anderes angegebenes <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> denselben Wert haben.
+            </summary>
+        <returns>True, wenn der Wert des der <paramref name="other" /> Parameter ist der Wert dieser Instanz entspricht, andernfalls "false".</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="taskOutputKind.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">Das Objekt, das mit dem aktuellen Objekt verglichen werden soll.</param>
+        <summary>
+            Bestimmt, ob das angegebene Objekt mit dem aktuellen Objekt identisch ist.
+            </summary>
+        <returns>True, wenn das angegebene Objekt mit dem aktuellen Objekt identisch ist. andernfalls "false".</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="taskOutputKind.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gibt den Hashcode für diesen <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> zurück.
+            </summary>
+        <returns>Ein 32-Bit-Hashcode als ganze Zahl mit Vorzeichen.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind x, Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind y);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind x, class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind y) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.op_Equality(Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind,Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (x As TaskOutputKind, y As TaskOutputKind) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind * Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind -&gt; bool" Usage="x = y" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" />
+        <Parameter Name="y" Type="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" />
+      </Parameters>
+      <Docs>
+        <param name="x">Die erste TaskOutputKind, verglichen werden soll.</param>
+        <param name="y">Die zweite TaskOutputKind, verglichen werden soll.</param>
+        <summary>
+            Bestimmt, ob zwei angegebene <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> Instanzen den gleichen Wert aufweisen.
+            </summary>
+        <returns>True, wenn der Wert der <paramref name="x" /> entspricht der Wert des <paramref name="y" />, andernfalls "false".</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind x, Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind y);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind x, class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind y) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.op_Inequality(Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind,Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (x As TaskOutputKind, y As TaskOutputKind) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind * Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind -&gt; bool" Usage="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.op_Inequality (x, y)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" />
+        <Parameter Name="y" Type="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" />
+      </Parameters>
+      <Docs>
+        <param name="x">Die erste TaskOutputKind, verglichen werden soll.</param>
+        <param name="y">Die zweite TaskOutputKind, verglichen werden soll.</param>
+        <summary>
+            Bestimmt, ob zwei angegebene <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> Instanzen über unterschiedliche Werte verfügen.
+            </summary>
+        <returns>True, wenn der Wert der <paramref name="x" /> unterscheidet sich vom Wert der <paramref name="y" />, andernfalls "false".</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskIntermediate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskIntermediate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskIntermediate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskIntermediate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TaskIntermediate As TaskOutputKind " />
+      <MemberSignature Language="F#" Value=" staticval mutable TaskIntermediate : Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" Usage="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskIntermediate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ein <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> , eine Datei im Zwischenformat, z. B. persistent gespeichert wird, für die Diagnose oder Prüfpunkte darstellt.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskLog">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskLog;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskLog" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskLog" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TaskLog As TaskOutputKind " />
+      <MemberSignature Language="F#" Value=" staticval mutable TaskLog : Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" Usage="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskLog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ein <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> , ein Protokoll der Verarbeitung der Aufgabe darstellt.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskOutput">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskOutput;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskOutput" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskOutput" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TaskOutput As TaskOutputKind " />
+      <MemberSignature Language="F#" Value=" staticval mutable TaskOutput : Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" Usage="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskOutput" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ein <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> Hauptausgabe einer Aufgabe darstellt.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskPreview">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskPreview;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind TaskPreview" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskPreview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TaskPreview As TaskOutputKind " />
+      <MemberSignature Language="F#" Value=" staticval mutable TaskPreview : Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" Usage="Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.TaskPreview" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ein <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" /> , die eine Vorschau der in der taskausgabe darstellt.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="taskOutputKind.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch.Conventions.Files</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gibt eine Zeichenfolge zurück, die das aktuelle Objekt darstellt.
+            </summary>
+        <returns>Eine Textdarstellung der <see cref="T:Microsoft.Azure.Batch.Conventions.Files.TaskOutputKind" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

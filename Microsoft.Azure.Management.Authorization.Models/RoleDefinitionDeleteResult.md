@@ -1,0 +1,63 @@
+<Type Name="RoleDefinitionDeleteResult" FullName="Microsoft.Azure.Management.Authorization.Models.RoleDefinitionDeleteResult">
+  <TypeSignature Language="C#" Value="public class RoleDefinitionDeleteResult : Microsoft.Azure.AzureOperationResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoleDefinitionDeleteResult extends Microsoft.Azure.AzureOperationResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionDeleteResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoleDefinitionDeleteResult&#xA;Inherits AzureOperationResponse" />
+  <TypeSignature Language="F#" Value="type RoleDefinitionDeleteResult = class&#xA;    inherit AzureOperationResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Azure.AzureOperationResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Ergebnis des Vorgangs zum Löschen der Rollendefinition.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RoleDefinitionDeleteResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionDeleteResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der RoleDefinitionDeleteResult-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoleDefinition">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Authorization.Models.RoleDefinition RoleDefinition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Authorization.Models.RoleDefinition RoleDefinition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Authorization.Models.RoleDefinitionDeleteResult.RoleDefinition" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoleDefinition As RoleDefinition" />
+      <MemberSignature Language="F#" Value="member this.RoleDefinition : Microsoft.Azure.Management.Authorization.Models.RoleDefinition with get, set" Usage="Microsoft.Azure.Management.Authorization.Models.RoleDefinitionDeleteResult.RoleDefinition" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Authorization</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Authorization.Models.RoleDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional. Ruft ab oder legt die Rollendefinition.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

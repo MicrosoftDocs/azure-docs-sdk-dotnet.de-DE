@@ -1,0 +1,90 @@
+<Type Name="CsmPublishingProfileOptions" FullName="Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions">
+  <TypeSignature Language="C#" Value="public class CsmPublishingProfileOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CsmPublishingProfileOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class CsmPublishingProfileOptions" />
+  <TypeSignature Language="F#" Value="type CsmPublishingProfileOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die Veröffentlichungsoptionen für angeforderte Profil.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CsmPublishingProfileOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der CsmPublishingProfileOptions-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CsmPublishingProfileOptions (string format = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string format) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional format As String = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions : string -&gt; Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions" Usage="new Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions format" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">Der Name des Formats. Gültige Werte sind: FileZilla3 WebDeploy – standardmäßig Ftp. Folgende Werte sind möglich: "FileZilla3', 'WebDeploy', 'Ftp'</param>
+        <summary>
+            Initialisiert eine neue Instanz der CsmPublishingProfileOptions-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public string Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As String" />
+      <MemberSignature Language="F#" Value="member this.Format : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.CsmPublishingProfileOptions.Format" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="format")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab, oder legt ihn fest Namen im Format. Gültige Werte sind: FileZilla3 WebDeploy – standardmäßig Ftp. Folgende Werte sind möglich: "FileZilla3', 'WebDeploy', 'Ftp'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

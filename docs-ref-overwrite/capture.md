@@ -1,11 +1,13 @@
 ---
-uid: Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.Capture(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters) Zusammenfassung: *Inhalt
+uid: 'Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.Capture(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters)'
+summary: *content
 ---
 
 Hier ist Inhalt aufgeführt, der durch die Methode zur Dateiüberschreibung eingefügt wird, sodass Autoren der erstellten API-Dokumentation Inhalt in beliebigem Umfang im Markdown-Format hinzufügen können.
 
 ---
-uid: Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.Capture(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters) Hinweise: *Inhalt
+uid: 'Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.Capture(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureParameters)'
+remarks: *content
 ---
 
 Der folgende Code veranschaulicht, wie die Capture-Methode mithilfe des Azure .NET SDK aufgerufen wird. 

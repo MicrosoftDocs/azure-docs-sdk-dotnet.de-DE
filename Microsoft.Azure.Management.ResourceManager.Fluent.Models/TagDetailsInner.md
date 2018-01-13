@@ -1,0 +1,177 @@
+<Type Name="TagDetailsInner" FullName="Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner">
+  <TypeSignature Language="C#" Value="public class TagDetailsInner" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TagDetailsInner extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner" />
+  <TypeSignature Language="VB.NET" Value="Public Class TagDetailsInner" />
+  <TypeSignature Language="F#" Value="type TagDetailsInner = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Details zu kennzeichnen.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TagDetailsInner ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der TagDetailsInner-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TagDetailsInner (string id = null, string tagName = null, Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount count = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt; values = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string tagName, class Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount count, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt; values) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.#ctor(System.String,System.String,Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount,System.Collections.Generic.IList{Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional id As String = null, Optional tagName As String = null, Optional count As TagCount = null, Optional values As IList(Of TagValueInner) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner : string * string * Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt; -&gt; Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner" Usage="new Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner (id, tagName, count, values)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="tagName" Type="System.String" />
+        <Parameter Name="count" Type="Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount" />
+        <Parameter Name="values" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="id">Die Transponder-ID.</param>
+        <param name="tagName">Der Tagname.</param>
+        <param name="count">Die Anzahl der Tags.</param>
+        <param name="values">Die Liste der Tag-Werte.</param>
+        <summary>
+            Initialisiert eine neue Instanz der TagDetailsInner-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount Count { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Property Count As TagCount" />
+      <MemberSignature Language="F#" Value="member this.Count : Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.Count" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="count")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagCount</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Anzahl der Tags.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="id")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Transponder-ID.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TagName">
+      <MemberSignature Language="C#" Value="public string TagName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TagName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.TagName" />
+      <MemberSignature Language="VB.NET" Value="Public Property TagName As String" />
+      <MemberSignature Language="F#" Value="member this.TagName : string with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.TagName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tagName")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Tagnamen.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt; Values { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt; Values" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.Values" />
+      <MemberSignature Language="VB.NET" Value="Public Property Values As IList(Of TagValueInner)" />
+      <MemberSignature Language="F#" Value="member this.Values : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt; with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagDetailsInner.Values" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="values")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.ResourceManager.Fluent.Models.TagValueInner&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Liste der Tagwerte fest.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

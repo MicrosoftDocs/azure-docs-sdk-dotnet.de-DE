@@ -1,0 +1,327 @@
+<Type Name="QueryMetrics" FullName="Microsoft.Azure.Documents.QueryMetrics">
+  <TypeSignature Language="C#" Value="public sealed class QueryMetrics" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit QueryMetrics extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Documents.QueryMetrics" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class QueryMetrics" />
+  <TypeSignature Language="F#" Value="type QueryMetrics = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <AssemblyVersion>1.7.0.0</AssemblyVersion>
+    <AssemblyVersion>1.7.1.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+    <AssemblyVersion>1.18.0.0</AssemblyVersion>
+    <AssemblyVersion>1.19.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Abfragen von Metriken, die im Azure-Cosmos-DB-Dienst.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IndexHitRatio">
+      <MemberSignature Language="C#" Value="public double IndexHitRatio { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 IndexHitRatio" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.IndexHitRatio" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IndexHitRatio As Double" />
+      <MemberSignature Language="F#" Value="member this.IndexHitRatio : double" Usage="Microsoft.Azure.Documents.QueryMetrics.IndexHitRatio" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Index-Trefferquote von Abfrage in der Azure-Cosmos-DB-Dienst ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Addition">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Documents.QueryMetrics operator + (Microsoft.Azure.Documents.QueryMetrics m1, Microsoft.Azure.Documents.QueryMetrics m2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Azure.Documents.QueryMetrics op_Addition(class Microsoft.Azure.Documents.QueryMetrics m1, class Microsoft.Azure.Documents.QueryMetrics m2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.QueryMetrics.op_Addition(Microsoft.Azure.Documents.QueryMetrics,Microsoft.Azure.Documents.QueryMetrics)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator + (m1 As QueryMetrics, m2 As QueryMetrics) As QueryMetrics" />
+      <MemberSignature Language="F#" Value="static member ( + ) : Microsoft.Azure.Documents.QueryMetrics * Microsoft.Azure.Documents.QueryMetrics -&gt; Microsoft.Azure.Documents.QueryMetrics" Usage="m1 + m2" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Documents.QueryMetrics</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="m1" Type="Microsoft.Azure.Documents.QueryMetrics" />
+        <Parameter Name="m2" Type="Microsoft.Azure.Documents.QueryMetrics" />
+      </Parameters>
+      <Docs>
+        <param name="m1">Die erste <see cref="T:Microsoft.Azure.Documents.QueryMetrics" /> Instanz</param>
+        <param name="m2">Die zweite <see cref="T:Microsoft.Azure.Documents.QueryMetrics" /> Instanz</param>
+        <summary>
+            Hinzufügen von zwei angegebenen <see cref="T:Microsoft.Azure.Documents.QueryMetrics" /> Instanzen
+            </summary>
+        <returns>Ein neues <see cref="T:Microsoft.Azure.Documents.QueryMetrics" /> -Instanz, die die Summe von zwei <see cref="T:Microsoft.Azure.Documents.QueryMetrics" /> Instanzen</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutputDocumentCount">
+      <MemberSignature Language="C#" Value="public long OutputDocumentCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 OutputDocumentCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.OutputDocumentCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputDocumentCount As Long" />
+      <MemberSignature Language="F#" Value="member this.OutputDocumentCount : int64" Usage="Microsoft.Azure.Documents.QueryMetrics.OutputDocumentCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Anzahl der Dokumente, die von der Abfrage in der Azure-Cosmos-DB-Dienst zurückgegeben werden.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryEngineTimes">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Documents.QueryEngineTimes QueryEngineTimes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Documents.QueryEngineTimes QueryEngineTimes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.QueryEngineTimes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryEngineTimes As QueryEngineTimes" />
+      <MemberSignature Language="F#" Value="member this.QueryEngineTimes : Microsoft.Azure.Documents.QueryEngineTimes" Usage="Microsoft.Azure.Documents.QueryMetrics.QueryEngineTimes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Documents.QueryEngineTimes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die <see cref="T:Microsoft.Azure.Documents.QueryEngineTimes" /> Instanz im Azure-Cosmos-DB-Dienst.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryPreparationTimes">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Documents.QueryPreparationTimes QueryPreparationTimes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Documents.QueryPreparationTimes QueryPreparationTimes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.QueryPreparationTimes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryPreparationTimes As QueryPreparationTimes" />
+      <MemberSignature Language="F#" Value="member this.QueryPreparationTimes : Microsoft.Azure.Documents.QueryPreparationTimes" Usage="Microsoft.Azure.Documents.QueryMetrics.QueryPreparationTimes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Documents.QueryPreparationTimes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die <see cref="T:Microsoft.Azure.Documents.QueryPreparationTimes" /> Instanz im Azure-Cosmos-DB-Dienst.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Retries">
+      <MemberSignature Language="C#" Value="public long Retries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Retries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.Retries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Retries As Long" />
+      <MemberSignature Language="F#" Value="member this.Retries : int64" Usage="Microsoft.Azure.Documents.QueryMetrics.Retries" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Anzahl der Reties im Azure-Cosmos-DB-Dienst ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetrievedDocumentCount">
+      <MemberSignature Language="C#" Value="public long RetrievedDocumentCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 RetrievedDocumentCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.RetrievedDocumentCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetrievedDocumentCount As Long" />
+      <MemberSignature Language="F#" Value="member this.RetrievedDocumentCount : int64" Usage="Microsoft.Azure.Documents.QueryMetrics.RetrievedDocumentCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Anzahl der Dokumente, die während der Abfrage in der Azure-Cosmos-DB-Dienst abgerufen.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetrievedDocumentSize">
+      <MemberSignature Language="C#" Value="public long RetrievedDocumentSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 RetrievedDocumentSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.RetrievedDocumentSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetrievedDocumentSize As Long" />
+      <MemberSignature Language="F#" Value="member this.RetrievedDocumentSize : int64" Usage="Microsoft.Azure.Documents.QueryMetrics.RetrievedDocumentSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die Größe von Dokumenten in Bytes abgerufen werden, während der Abfrage in der Azure-Cosmos-DB-Dienst ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Documents.QueryMetrics.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="queryMetrics.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Ruft die stringified <see cref="T:Microsoft.Azure.Documents.QueryMetrics" /> Instanz im Azure-Cosmos-DB-Dienst.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalTime">
+      <MemberSignature Language="C#" Value="public TimeSpan TotalTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan TotalTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Documents.QueryMetrics.TotalTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalTime As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.TotalTime : TimeSpan" Usage="Microsoft.Azure.Documents.QueryMetrics.TotalTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+        <AssemblyVersion>1.19.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft die gesamte Abfragezeit im Azure-Cosmos-DB-Dienst ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

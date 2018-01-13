@@ -1,0 +1,82 @@
+<Type Name="PoolLifetimeOption" FullName="Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption">
+  <TypeSignature Language="C#" Value="public enum PoolLifetimeOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PoolLifetimeOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PoolLifetimeOption" />
+  <TypeSignature Language="F#" Value="type PoolLifetimeOption = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Definiert Werte für dessen PoolLifetimeOption an.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Job">
+      <MemberSignature Language="C#" Value="Job" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption Job = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption.Job" />
+      <MemberSignature Language="VB.NET" Value="Job" />
+      <MemberSignature Language="F#" Value="Job = 1" Usage="Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption.Job" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="job")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Der Pool vorhanden ist, für die Lebensdauer des Auftrags, der es reserviert ist. Der Batch-Dienst erstellt den Pool, wenn den Auftrag erstellt. Wenn die "Job"-Option auf einen Auftragszeitplan angewendet wird, erstellt der Batch-Dienst einen neuen automatischen Pool für jeden Auftrag nach dem Zeitplan erstellt.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JobSchedule">
+      <MemberSignature Language="C#" Value="JobSchedule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption JobSchedule = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption.JobSchedule" />
+      <MemberSignature Language="VB.NET" Value="JobSchedule" />
+      <MemberSignature Language="F#" Value="JobSchedule = 0" Usage="Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption.JobSchedule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="jobschedule")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolLifetimeOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Der Pool für die Lebensdauer des Auftragszeitplans vorhanden ist. Der Batch-Dienst erstellt den Pool, wenn den erste Auftrag für den Zeitplan erstellt. Diese Option kann nur für Auftragszeitpläne und nicht auf Aufträge angewendet wird.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

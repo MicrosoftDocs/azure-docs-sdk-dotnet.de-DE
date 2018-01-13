@@ -1,0 +1,94 @@
+<Type Name="SdkInternalOperationsMonitor" FullName="Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor">
+  <TypeSignature Language="C#" Value="public static class SdkInternalOperationsMonitor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SdkInternalOperationsMonitor extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor" />
+  <TypeSignature Language="VB.NET" Value="Public Class SdkInternalOperationsMonitor" />
+  <TypeSignature Language="F#" Value="type SdkInternalOperationsMonitor = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+    <AssemblyVersion>2.3.0.0</AssemblyVersion>
+    <AssemblyVersion>2.5.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Wird definiert, ob der Thread internen SDK-Vorgang im Moment ausführt.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="public static void Enter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Enter() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor.Enter" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Enter ()" />
+      <MemberSignature Language="F#" Value="static member Enter : unit -&gt; unit" Usage="Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor.Enter " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Markiert den Thread als der interne Vorgang ausgeführt.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="public static void Exit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Exit() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor.Exit" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Exit ()" />
+      <MemberSignature Language="F#" Value="static member Exit : unit -&gt; unit" Usage="Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor.Exit " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Hebt die Markierung im Threads wie der interne Vorgang ausgeführt.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEntered">
+      <MemberSignature Language="C#" Value="public static bool IsEntered ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsEntered() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor.IsEntered" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsEntered () As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsEntered : unit -&gt; bool" Usage="Microsoft.ApplicationInsights.Extensibility.SdkInternalOperationsMonitor.IsEntered " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Bestimmt, ob der aktuelle Thread für die Ausführung des internen Vorgangs.
+            </summary>
+        <returns>True, wenn der aktuelle Thread für die Ausführung des internen Vorgangs; andernfalls "false".</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,90 @@
+<Type Name="SecretProperties" FullName="Microsoft.Azure.KeyVault.Models.SecretProperties">
+  <TypeSignature Language="C#" Value="public class SecretProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SecretProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.Models.SecretProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class SecretProperties" />
+  <TypeSignature Language="F#" Value="type SecretProperties = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Eigenschaften des Schlüssels ein Zertifikats zu sichern.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SecretProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.SecretProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der SecretProperties-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SecretProperties (string contentType = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string contentType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.Models.SecretProperties.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional contentType As String = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.KeyVault.Models.SecretProperties : string -&gt; Microsoft.Azure.KeyVault.Models.SecretProperties" Usage="new Microsoft.Azure.KeyVault.Models.SecretProperties contentType" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="contentType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contentType">Der Medientyp (MIME-Typ).</param>
+        <summary>
+            Initialisiert eine neue Instanz der SecretProperties-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentType">
+      <MemberSignature Language="C#" Value="public string ContentType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.Models.SecretProperties.ContentType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentType As String" />
+      <MemberSignature Language="F#" Value="member this.ContentType : string with get, set" Usage="Microsoft.Azure.KeyVault.Models.SecretProperties.ContentType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.KeyVault</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="contentType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt den Medientyp (MIME-Typ).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

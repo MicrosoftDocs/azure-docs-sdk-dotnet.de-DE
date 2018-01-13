@@ -1,0 +1,27 @@
+<Type Name="IWithFrontend&lt;ReturnT&gt;" FullName="Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IWithFrontend&lt;ReturnT&gt;">
+  <TypeSignature Language="C#" Value="public interface IWithFrontend&lt;ReturnT&gt; : Microsoft.Azure.Management.Network.Fluent.HasFrontend.Definition.IWithFrontend&lt;Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IWithFrontendPort&lt;ReturnT&gt;&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWithFrontend`1&lt;ReturnT&gt; implements class Microsoft.Azure.Management.Network.Fluent.HasFrontend.Definition.IWithFrontend`1&lt;class Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IWithFrontendPort`1&lt;!ReturnT&gt;&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IWithFrontend`1" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWithFrontend(Of ReturnT)&#xA;Implements IWithFrontend(Of IWithFrontendPort(Of ReturnT))" />
+  <TypeSignature Language="F#" Value="type IWithFrontend&lt;'ReturnT&gt; = interface&#xA;    interface IWithFrontend&lt;IWithFrontendPort&lt;'ReturnT&gt;&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="ParentT" />
+  </TypeParameters>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.Network.Fluent.HasFrontend.Definition.IWithFrontend&lt;Microsoft.Azure.Management.Network.Fluent.LoadBalancingRule.Definition.IWithFrontendPort&lt;ReturnT&gt;&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="ReturnT">Der übergeordnete Load Balancer-Typ.</typeparam>
+    <summary>
+            Die Phase einer für den Netzwerklastenausgleich Regeldefinition taktmonitoren Geben Sie das Front-End in der Regel zugeordnet werden soll.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

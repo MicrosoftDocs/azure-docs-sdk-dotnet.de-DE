@@ -1,0 +1,90 @@
+<Type Name="ClientDiscoveryForProperties" FullName="Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties">
+  <TypeSignature Language="C#" Value="public class ClientDiscoveryForProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClientDiscoveryForProperties extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClientDiscoveryForProperties" />
+  <TypeSignature Language="F#" Value="type ClientDiscoveryForProperties = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die Klasse Shoebox Eigenschaften in Json-Clientermittlung dar.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientDiscoveryForProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der ClientDiscoveryForProperties-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientDiscoveryForProperties (Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification serviceSpecification = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification serviceSpecification) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties.#ctor(Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional serviceSpecification As ClientDiscoveryForServiceSpecification = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties : Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification -&gt; Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties" Usage="new Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties serviceSpecification" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="serviceSpecification" Type="Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification" />
+      </Parameters>
+      <Docs>
+        <param name="serviceSpecification">Vorgangseigenschaften</param>
+        <summary>
+            Initialisiert eine neue Instanz der ClientDiscoveryForProperties-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceSpecification">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification ServiceSpecification { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification ServiceSpecification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties.ServiceSpecification" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServiceSpecification As ClientDiscoveryForServiceSpecification" />
+      <MemberSignature Language="F#" Value="member this.ServiceSpecification : Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification with get, set" Usage="Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForProperties.ServiceSpecification" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="serviceSpecification")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.RecoveryServices.Backup.Models.ClientDiscoveryForServiceSpecification</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Abrufen oder Festlegen von Eigenschaften.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

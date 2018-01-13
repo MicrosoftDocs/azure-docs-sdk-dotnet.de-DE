@@ -1,0 +1,49 @@
+<Type Name="ComponentContext" FullName="Microsoft.ApplicationInsights.Extensibility.Implementation.ComponentContext">
+  <TypeSignature Language="C#" Value="public sealed class ComponentContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ComponentContext extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.ApplicationInsights.Extensibility.Implementation.ComponentContext" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ComponentContext" />
+  <TypeSignature Language="F#" Value="type ComponentContext = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+    <AssemblyVersion>2.3.0.0</AssemblyVersion>
+    <AssemblyVersion>2.5.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Kapselt Informationen, die eine Komponente Application Insights beschreibt.
+            </summary>
+    <remarks>
+            Diese Klasse entspricht das Konzept der "Application"-Schema. Wir werden absichtlich "Component" aus Gründen der Konsistenz mit der Terminologie von unserer Portal und die Dienste und zur Förderung der Standardisierung der Terminologie in unserer Organisation verwendeten aufrufen. Sobald übereinstimmend erreicht wird, wird es Typ- und Eigenschaftennamens Namen entsprechend ändern.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.ApplicationInsights.Extensibility.Implementation.ComponentContext.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Property Version As String" />
+      <MemberSignature Language="F#" Value="member this.Version : string with get, set" Usage="Microsoft.ApplicationInsights.Extensibility.Implementation.ComponentContext.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.ApplicationInsights</AssemblyName>
+        <AssemblyVersion>2.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Version der Anwendung.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

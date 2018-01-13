@@ -1,0 +1,403 @@
+<Type Name="TopLevelDomainsOperationsExtensions" FullName="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions">
+  <TypeSignature Language="C#" Value="public static class TopLevelDomainsOperationsExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TopLevelDomainsOperationsExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module TopLevelDomainsOperationsExtensions" />
+  <TypeSignature Language="F#" Value="type TopLevelDomainsOperationsExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Erweiterungsmethoden für TopLevelDomainsOperations.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.WebSites.Models.TopLevelDomain Get (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.WebSites.Models.TopLevelDomain Get(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.Get(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As ITopLevelDomainsOperations, name As String) As TopLevelDomain" />
+      <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string -&gt; Microsoft.Azure.Management.WebSites.Models.TopLevelDomain" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.Get (operations, name)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.WebSites.Models.TopLevelDomain</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="name">
+            Name der Domäne der obersten Ebene.
+            </param>
+        <summary>
+            Ruft Details zu einer Domäne auf oberster Ebene an.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Ruft Details zu einer Domäne auf oberster Ebene an.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt; GetAsync (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt; GetAsync(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.GetAsync(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetAsync : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.GetAsync (operations, name, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions/&lt;GetAsync&gt;d__3))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="name">
+            Name der Domäne der obersten Ebene.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft Details zu einer Domäne auf oberster Ebene an.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Ruft Details zu einer Domäne auf oberster Ebene an.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="List">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt; List (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt; List(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.List(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As ITopLevelDomainsOperations) As IPage(Of TopLevelDomain)" />
+      <MemberSignature Language="F#" Value="static member List : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.List operations" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <summary>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAgreements">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt; ListAgreements (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name, Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption agreementOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt; ListAgreements(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name, class Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption agreementOption) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreements(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String,Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAgreements (operations As ITopLevelDomainsOperations, name As String, agreementOption As TopLevelDomainAgreementOption) As IPage(Of TldLegalAgreement)" />
+      <MemberSignature Language="F#" Value="static member ListAgreements : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string * Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreements (operations, name, agreementOption)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="agreementOption" Type="Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="name">
+            Name der Domäne der obersten Ebene.
+            </param>
+        <param name="agreementOption">
+            Vereinbarung Domänenoptionen zur Verfügung.
+            </param>
+        <summary>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAgreementsAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt; ListAgreementsAsync (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name, Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption agreementOption, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt; ListAgreementsAsync(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string name, class Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption agreementOption, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreementsAsync(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String,Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListAgreementsAsync : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string * Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreementsAsync (operations, name, agreementOption, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions/&lt;ListAgreementsAsync&gt;d__5))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="agreementOption" Type="Microsoft.Azure.Management.WebSites.Models.TopLevelDomainAgreementOption" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="name">
+            Name der Domäne der obersten Ebene.
+            </param>
+        <param name="agreementOption">
+            Vereinbarung Domänenoptionen zur Verfügung.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAgreementsNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt; ListAgreementsNext (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt; ListAgreementsNext(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreementsNext(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListAgreementsNext (operations As ITopLevelDomainsOperations, nextPageLink As String) As IPage(Of TldLegalAgreement)" />
+      <MemberSignature Language="F#" Value="static member ListAgreementsNext : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreementsNext (operations, nextPageLink)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <summary>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAgreementsNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt; ListAgreementsNextAsync (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt; ListAgreementsNextAsync(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreementsNextAsync(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListAgreementsNextAsync : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAgreementsNextAsync (operations, nextPageLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions/&lt;ListAgreementsNextAsync&gt;d__9))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TldLegalAgreement&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Ruft alle Verträge, die Benutzer muss vor dem Kauf von einer Domänenkontos akzeptieren.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt; ListAsync (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt; ListAsync(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAsync(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListAsync : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListAsync (operations, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions/&lt;ListAsync&gt;d__1))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNext">
+      <MemberSignature Language="C#" Value="public static Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt; ListNext (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt; ListNext(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListNext(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As ITopLevelDomainsOperations, nextPageLink As String) As IPage(Of TopLevelDomain)" />
+      <MemberSignature Language="F#" Value="static member ListNext : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListNext (operations, nextPageLink)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <summary>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt; ListNextAsync (this Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt; ListNextAsync(class Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ListNextAsync : Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt;" Usage="Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions.ListNextAsync (operations, nextPageLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.WebSites.TopLevelDomainsOperationsExtensions/&lt;ListNextAsync&gt;d__7))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.WebSites.Models.TopLevelDomain&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.WebSites.ITopLevelDomainsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            Die Operations-Gruppe für diese Erweiterungsmethode.
+            </param>
+        <param name="nextPageLink">
+            Die "NextLink" aus dem vorherigen erfolgreichen Aufruf List-Vorgangs.
+            </param>
+        <param name="cancellationToken">
+            Das Abbruchtoken.
+            </param>
+        <summary>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Rufen Sie alle Domänen auf oberster Ebene für die Registrierung unterstützt.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

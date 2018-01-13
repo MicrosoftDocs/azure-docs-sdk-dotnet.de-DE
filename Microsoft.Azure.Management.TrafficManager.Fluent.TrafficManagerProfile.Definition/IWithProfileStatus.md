@@ -1,0 +1,45 @@
+<Type Name="IWithProfileStatus" FullName="Microsoft.Azure.Management.TrafficManager.Fluent.TrafficManagerProfile.Definition.IWithProfileStatus">
+  <TypeSignature Language="C#" Value="public interface IWithProfileStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWithProfileStatus" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.TrafficManager.Fluent.TrafficManagerProfile.Definition.IWithProfileStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWithProfileStatus" />
+  <TypeSignature Language="F#" Value="type IWithProfileStatus = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die Phase der Traffic Manager Profildefinition festlegen, dass das Profil deaktivieren.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="WithProfileStatusDisabled">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.TrafficManager.Fluent.TrafficManagerProfile.Definition.IWithCreate WithProfileStatusDisabled ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.TrafficManager.Fluent.TrafficManagerProfile.Definition.IWithCreate WithProfileStatusDisabled() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.TrafficManager.Fluent.TrafficManagerProfile.Definition.IWithProfileStatus.WithProfileStatusDisabled" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithProfileStatusDisabled () As IWithCreate" />
+      <MemberSignature Language="F#" Value="abstract member WithProfileStatusDisabled : unit -&gt; Microsoft.Azure.Management.TrafficManager.Fluent.TrafficManagerProfile.Definition.IWithCreate" Usage="iWithProfileStatus.WithProfileStatusDisabled " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.TrafficManager.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.TrafficManager.Fluent.TrafficManagerProfile.Definition.IWithCreate</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Geben Sie an, dass das Profil deaktiviert werden muss.
+            Deaktivieren das Profil deaktiviert Datenverkehr an alle Endpunkte im Profil.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return>die nächste Phase der Definition.</return>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

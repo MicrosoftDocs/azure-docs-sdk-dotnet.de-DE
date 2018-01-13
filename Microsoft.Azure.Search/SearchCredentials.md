@@ -1,0 +1,100 @@
+<Type Name="SearchCredentials" FullName="Microsoft.Azure.Search.SearchCredentials">
+  <TypeSignature Language="C#" Value="public class SearchCredentials : Microsoft.Rest.ServiceClientCredentials" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchCredentials extends Microsoft.Rest.ServiceClientCredentials" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.SearchCredentials" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchCredentials&#xA;Inherits ServiceClientCredentials" />
+  <TypeSignature Language="F#" Value="type SearchCredentials = class&#xA;    inherit ServiceClientCredentials" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Rest.ServiceClientCredentials</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Die Anmeldeinformationen zur Authentifizierung beim Azure-Suchdienst.
+            <see href="https://docs.microsoft.com/rest/api/searchservice/" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchCredentials (string apiKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string apiKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.SearchCredentials.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (apiKey As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Search.SearchCredentials : string -&gt; Microsoft.Azure.Search.SearchCredentials" Usage="new Microsoft.Azure.Search.SearchCredentials apiKey" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="apiKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="apiKey">API-Schlüssel zur Authentifizierung beim Azure-Suchdienst.</param>
+        <summary>
+            Initialisiert eine neue Instanz der Klasse SearchCredentials mit einen Abfrageschlüssel oder ein Administratorschlüssel. Verwenden Sie einen Abfrageschlüssel aus, wenn Ihre Anwendung nicht über Schreibzugriff auf die Search-Dienst oder der Index erfordert.
+            </summary>
+        <remarks>
+            Wenn Ihre Anwendung nur Abfragevorgänge für einen Index ausgeführt werden, sollten Sie übergeben einen Abfrageschlüssel für den <paramref name="apiKey" /> Parameter. Dadurch wird sichergestellt, dass Sie nur-Lese-Zugriff auf den Index haben, der mit dem Prinzip der geringsten Rechte übereinstimmt.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiKey">
+      <MemberSignature Language="C#" Value="public string ApiKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.SearchCredentials.ApiKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApiKey As String" />
+      <MemberSignature Language="F#" Value="member this.ApiKey : string" Usage="Microsoft.Azure.Search.SearchCredentials.ApiKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            API-Schlüssel zur Authentifizierung beim Azure-Suchdienst. Kann entweder einen Abfrageschlüssel für nur Abfragen oder ein Administratorschlüssel, der Verwaltung Index- und Dokument ermöglicht.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProcessHttpRequestAsync">
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.Task ProcessHttpRequestAsync (System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Threading.Tasks.Task ProcessHttpRequestAsync(class System.Net.Http.HttpRequestMessage request, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.SearchCredentials.ProcessHttpRequestAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="override this.ProcessHttpRequestAsync : System.Net.Http.HttpRequestMessage * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="searchCredentials.ProcessHttpRequestAsync (request, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="request">HTTP-Anforderung</param>
+        <param name="cancellationToken">Abbruchtoken</param>
+        <summary>
+            Die angegebene HTTP-Anforderung werden die Anmeldeinformationen hinzugefügt.
+            </summary>
+        <returns>Eine Aufgabe, um den Fortschritt des asynchronen Vorgangs nachzuverfolgen.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

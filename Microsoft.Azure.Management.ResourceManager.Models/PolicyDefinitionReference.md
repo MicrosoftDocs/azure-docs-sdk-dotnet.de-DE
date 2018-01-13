@@ -1,0 +1,119 @@
+<Type Name="PolicyDefinitionReference" FullName="Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference">
+  <TypeSignature Language="C#" Value="public class PolicyDefinitionReference" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PolicyDefinitionReference extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference" />
+  <TypeSignature Language="VB.NET" Value="Public Class PolicyDefinitionReference" />
+  <TypeSignature Language="F#" Value="type PolicyDefinitionReference = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Vom Richtlinienverweis Definition.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PolicyDefinitionReference ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der PolicyDefinitionReference-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PolicyDefinitionReference (string policyDefinitionId = null, object parameters = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string policyDefinitionId, object parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference.#ctor(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional policyDefinitionId As String = null, Optional parameters As Object = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference : string * obj -&gt; Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference" Usage="new Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference (policyDefinitionId, parameters)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="policyDefinitionId" Type="System.String" />
+        <Parameter Name="parameters" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="policyDefinitionId">Die ID der Richtliniendefinition oder Richtlinie festgelegt Definition.</param>
+        <param name="parameters">Erforderlich, wenn ein Parameter in der Richtlinienregel verwendet wird.</param>
+        <summary>
+            Initialisiert eine neue Instanz der PolicyDefinitionReference-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parameters">
+      <MemberSignature Language="C#" Value="public object Parameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parameters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference.Parameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parameters As Object" />
+      <MemberSignature Language="F#" Value="member this.Parameters : obj with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference.Parameters" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="parameters")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt erforderlich, wenn ein Parameter in der Richtlinienregel verwendet wird.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyDefinitionId">
+      <MemberSignature Language="C#" Value="public string PolicyDefinitionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PolicyDefinitionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference.PolicyDefinitionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyDefinitionId As String" />
+      <MemberSignature Language="F#" Value="member this.PolicyDefinitionId : string with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Models.PolicyDefinitionReference.PolicyDefinitionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="policyDefinitionId")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die ID der Richtliniendefinition oder Satzdefinition Richtlinie fest.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

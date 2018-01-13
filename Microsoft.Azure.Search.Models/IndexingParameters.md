@@ -1,0 +1,215 @@
+<Type Name="IndexingParameters" FullName="Microsoft.Azure.Search.Models.IndexingParameters">
+  <TypeSignature Language="C#" Value="public class IndexingParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IndexingParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Search.Models.IndexingParameters" />
+  <TypeSignature Language="VB.NET" Value="Public Class IndexingParameters" />
+  <TypeSignature Language="F#" Value="type IndexingParameters = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Stellt Parameter für die indexerausführung dar.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IndexingParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.IndexingParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Initialisiert eine neue Instanz der "indexingparameters"-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IndexingParameters (Nullable&lt;int&gt; batchSize = null, Nullable&lt;int&gt; maxFailedItems = null, Nullable&lt;int&gt; maxFailedItemsPerBatch = null, System.Collections.Generic.IDictionary&lt;string,object&gt; configuration = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;int32&gt; batchSize, valuetype System.Nullable`1&lt;int32&gt; maxFailedItems, valuetype System.Nullable`1&lt;int32&gt; maxFailedItemsPerBatch, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Search.Models.IndexingParameters.#ctor(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Collections.Generic.IDictionary{System.String,System.Object})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional batchSize As Nullable(Of Integer) = null, Optional maxFailedItems As Nullable(Of Integer) = null, Optional maxFailedItemsPerBatch As Nullable(Of Integer) = null, Optional configuration As IDictionary(Of String, Object) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Search.Models.IndexingParameters : Nullable&lt;int&gt; * Nullable&lt;int&gt; * Nullable&lt;int&gt; * System.Collections.Generic.IDictionary&lt;string, obj&gt; -&gt; Microsoft.Azure.Search.Models.IndexingParameters" Usage="new Microsoft.Azure.Search.Models.IndexingParameters (batchSize, maxFailedItems, maxFailedItemsPerBatch, configuration)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="batchSize" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="maxFailedItems" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="maxFailedItemsPerBatch" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="configuration" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="batchSize">To be added.</param>
+        <param name="maxFailedItems">To be added.</param>
+        <param name="maxFailedItemsPerBatch">To be added.</param>
+        <param name="configuration">To be added.</param>
+        <summary>
+            Initialisiert eine neue Instanz der "indexingparameters"-Klasse.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Base64EncodeKeys">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Base64EncodeKeys { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Base64EncodeKeys" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.IndexingParameters.Base64EncodeKeys" />
+      <MemberSignature Language="VB.NET" Value="Public Property Base64EncodeKeys As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.Base64EncodeKeys : Nullable&lt;bool&gt; with get, set" Usage="Microsoft.Azure.Search.Models.IndexingParameters.Base64EncodeKeys" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="base64EncodeKeys")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Obsolete("This property is obsolete. Please create a field mapping using 'FieldMapping.Base64Encode' instead.")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt sie fest, ob der Indexer base64-codiert alle Werte, die in das Schlüsselfeld des zielindexes eingefügt werden. Dies ist erforderlich, wenn Schlüssel Zeichen enthalten können, die in Schlüsseln ungültig sind (z. B. einen Punkt "."). Die Standardeinstellung ist "false".
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BatchSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; BatchSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; BatchSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.IndexingParameters.BatchSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property BatchSize As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.BatchSize : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Search.Models.IndexingParameters.BatchSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="batchSize")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die Anzahl der Elemente, die aus der Datenquelle gelesen und indiziert werden als einzelner Batch, um die Leistung zu verbessern. Der Standardwert hängt vom Typ der Datenquelle ab.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Configuration">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Configuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Configuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.IndexingParameters.Configuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Configuration As IDictionary(Of String, Object)" />
+      <MemberSignature Language="F#" Value="member this.Configuration : System.Collections.Generic.IDictionary&lt;string, obj&gt; with get, set" Usage="Microsoft.Azure.Search.Models.IndexingParameters.Configuration" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="configuration")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ermittelt oder definiert ein Wörterbuch von Indexer-spezifische Konfigurationseigenschaften. Jeder Name ist der Name einer bestimmten Eigenschaft. Jeder Wert muss ein primitiver Typ sein.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxFailedItems">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxFailedItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxFailedItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.IndexingParameters.MaxFailedItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxFailedItems As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.MaxFailedItems : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Search.Models.IndexingParameters.MaxFailedItems" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="maxFailedItems")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die maximale Anzahl von Elementen, die für die indexerausführung weiterhin als erfolgreich betrachtet werden die Indizierung fehlschlagen kann. -1 bedeutet keine Beschränkung. Der Standardwert ist 0.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxFailedItemsPerBatch">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; MaxFailedItemsPerBatch { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; MaxFailedItemsPerBatch" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Search.Models.IndexingParameters.MaxFailedItemsPerBatch" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxFailedItemsPerBatch As Nullable(Of Integer)" />
+      <MemberSignature Language="F#" Value="member this.MaxFailedItemsPerBatch : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Search.Models.IndexingParameters.MaxFailedItemsPerBatch" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Search</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="maxFailedItemsPerBatch")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Ruft ab oder legt die maximale Anzahl von Elementen in einem einzigen Batch, der Indizierung fehlschlagen darf die Indizierung für den Batch weiterhin als erfolgreich betrachtet werden. -1 bedeutet keine Beschränkung. Der Standardwert ist 0.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
