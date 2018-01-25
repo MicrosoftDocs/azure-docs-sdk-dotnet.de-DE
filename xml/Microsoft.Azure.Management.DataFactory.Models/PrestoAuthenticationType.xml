@@ -1,0 +1,61 @@
+<Type Name="PrestoAuthenticationType" FullName="Microsoft.Azure.Management.DataFactory.Models.PrestoAuthenticationType">
+  <TypeSignature Language="C#" Value="public static class PrestoAuthenticationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PrestoAuthenticationType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.Models.PrestoAuthenticationType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PrestoAuthenticationType" />
+  <TypeSignature Language="F#" Value="type PrestoAuthenticationType = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="6c341-101">Definiert Werte für PrestoAuthenticationType an.</span><span class="sxs-lookup"><span data-stu-id="6c341-101">Defines values for PrestoAuthenticationType.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Anonymous">
+      <MemberSignature Language="C#" Value="public const string Anonymous;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Anonymous" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.PrestoAuthenticationType.Anonymous" />
+      <MemberSignature Language="VB.NET" Value="Public Const Anonymous As String " />
+      <MemberSignature Language="F#" Value="val mutable Anonymous : string" Usage="Microsoft.Azure.Management.DataFactory.Models.PrestoAuthenticationType.Anonymous" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LDAP">
+      <MemberSignature Language="C#" Value="public const string LDAP;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LDAP" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.DataFactory.Models.PrestoAuthenticationType.LDAP" />
+      <MemberSignature Language="VB.NET" Value="Public Const LDAP As String " />
+      <MemberSignature Language="F#" Value="val mutable LDAP : string" Usage="Microsoft.Azure.Management.DataFactory.Models.PrestoAuthenticationType.LDAP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

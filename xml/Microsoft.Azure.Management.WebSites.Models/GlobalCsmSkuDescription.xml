@@ -1,0 +1,264 @@
+<Type Name="GlobalCsmSkuDescription" FullName="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription">
+  <TypeSignature Language="C#" Value="public class GlobalCsmSkuDescription" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GlobalCsmSkuDescription extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription" />
+  <TypeSignature Language="VB.NET" Value="Public Class GlobalCsmSkuDescription" />
+  <TypeSignature Language="F#" Value="type GlobalCsmSkuDescription = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="44ce8-101">Eine globale SKU-Beschreibung.</span><span class="sxs-lookup"><span data-stu-id="44ce8-101">A Global SKU Description.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GlobalCsmSkuDescription ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-102">Initialisiert eine neue Instanz der GlobalCsmSkuDescription-Klasse.</span><span class="sxs-lookup"><span data-stu-id="44ce8-102">Initializes a new instance of the GlobalCsmSkuDescription class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GlobalCsmSkuDescription (string name = null, string tier = null, string size = null, string family = null, Microsoft.Azure.Management.WebSites.Models.SkuCapacity capacity = null, System.Collections.Generic.IList&lt;string&gt; locations = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt; capabilities = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string tier, string size, string family, class Microsoft.Azure.Management.WebSites.Models.SkuCapacity capacity, class System.Collections.Generic.IList`1&lt;string&gt; locations, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.Capability&gt; capabilities) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.#ctor(System.String,System.String,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.SkuCapacity,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.Capability})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional name As String = null, Optional tier As String = null, Optional size As String = null, Optional family As String = null, Optional capacity As SkuCapacity = null, Optional locations As IList(Of String) = null, Optional capabilities As IList(Of Capability) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription : string * string * string * string * Microsoft.Azure.Management.WebSites.Models.SkuCapacity * System.Collections.Generic.IList&lt;string&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt; -&gt; Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription" Usage="new Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription (name, tier, size, family, capacity, locations, capabilities)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="tier" Type="System.String" />
+        <Parameter Name="size" Type="System.String" />
+        <Parameter Name="family" Type="System.String" />
+        <Parameter Name="capacity" Type="Microsoft.Azure.Management.WebSites.Models.SkuCapacity" />
+        <Parameter Name="locations" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
+        <Parameter Name="capabilities" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name"><span data-ttu-id="44ce8-103">Der Name der Ressource SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-103">Name of the resource SKU.</span></span></param>
+        <param name="tier"><span data-ttu-id="44ce8-104">Die Dienstebene der Ressource SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-104">Service Tier of the resource SKU.</span></span></param>
+        <param name="size"><span data-ttu-id="44ce8-105">Größenbezeichner der Ressource SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-105">Size specifier of the resource SKU.</span></span></param>
+        <param name="family"><span data-ttu-id="44ce8-106">Familie Code für die SKU-Ressource.</span><span class="sxs-lookup"><span data-stu-id="44ce8-106">Family code of the resource SKU.</span></span></param>
+        <param name="capacity"><span data-ttu-id="44ce8-107">Min, Max und Skalierung Standardwerte der SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-107">Min, max, and default scale values of the SKU.</span></span></param>
+        <param name="locations"><span data-ttu-id="44ce8-108">Die Speicherorte der SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-108">Locations of the SKU.</span></span></param>
+        <param name="capabilities"><span data-ttu-id="44ce8-109">Funktionen von der SKU, z. B. Traffic Manager aktiviert ist?</span><span class="sxs-lookup"><span data-stu-id="44ce8-109">Capabilities of the SKU, e.g., is traffic manager enabled?</span></span></param>
+        <summary>
+            <span data-ttu-id="44ce8-110">Initialisiert eine neue Instanz der GlobalCsmSkuDescription-Klasse.</span><span class="sxs-lookup"><span data-stu-id="44ce8-110">Initializes a new instance of the GlobalCsmSkuDescription class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Capabilities">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt; Capabilities { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.WebSites.Models.Capability&gt; Capabilities" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Capabilities" />
+      <MemberSignature Language="VB.NET" Value="Public Property Capabilities As IList(Of Capability)" />
+      <MemberSignature Language="F#" Value="member this.Capabilities : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Capabilities" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="capabilities")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.WebSites.Models.Capability&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-111">Ruft ab oder legt Funktionen der SKU, z. B., ist Traffic Manager aktiviert?</span><span class="sxs-lookup"><span data-stu-id="44ce8-111">Gets or sets capabilities of the SKU, e.g., is traffic manager enabled?</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Capacity">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.WebSites.Models.SkuCapacity Capacity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.WebSites.Models.SkuCapacity Capacity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Capacity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Capacity As SkuCapacity" />
+      <MemberSignature Language="F#" Value="member this.Capacity : Microsoft.Azure.Management.WebSites.Models.SkuCapacity with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Capacity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="capacity")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.WebSites.Models.SkuCapacity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-112">Ruft ab, oder legt sie fest, min, Max und Skalierung Standardwerte der SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-112">Gets or sets min, max, and default scale values of the SKU.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Family">
+      <MemberSignature Language="C#" Value="public string Family { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Family" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Family" />
+      <MemberSignature Language="VB.NET" Value="Public Property Family As String" />
+      <MemberSignature Language="F#" Value="member this.Family : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Family" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="family")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-113">Ruft ab, oder legt ihn fest Familie Code für die SKU-Ressource.</span><span class="sxs-lookup"><span data-stu-id="44ce8-113">Gets or sets family code of the resource SKU.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locations">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Locations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Locations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Locations" />
+      <MemberSignature Language="VB.NET" Value="Public Property Locations As IList(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Locations : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Locations" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="locations")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-114">Ruft ab oder legt die Speicherorte der SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-114">Gets or sets locations of the SKU.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="name")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-115">Ruft ab oder legt den Namen der Ressource SKU fest.</span><span class="sxs-lookup"><span data-stu-id="44ce8-115">Gets or sets name of the resource SKU.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public string Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As String" />
+      <MemberSignature Language="F#" Value="member this.Size : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Size" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="size")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-116">Ruft ab, oder legt ihn fest Größenbezeichner der Ressource SKU.</span><span class="sxs-lookup"><span data-stu-id="44ce8-116">Gets or sets size specifier of the resource SKU.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tier">
+      <MemberSignature Language="C#" Value="public string Tier { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Tier" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tier As String" />
+      <MemberSignature Language="F#" Value="member this.Tier : string with get, set" Usage="Microsoft.Azure.Management.WebSites.Models.GlobalCsmSkuDescription.Tier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Websites</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="tier")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="44ce8-117">Ruft ab oder legt die Ebene der Ressource SKU-Dienst.</span><span class="sxs-lookup"><span data-stu-id="44ce8-117">Gets or sets service Tier of the resource SKU.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,263 @@
+<Type Name="ISqlServer" FullName="Microsoft.Azure.Management.Sql.Fluent.ISqlServer">
+  <TypeSignature Language="C#" Value="public interface ISqlServer : Microsoft.Azure.Management.ResourceManager.Fluent.Core.IGroupableResource&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlManager,Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlManager&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IRefreshable&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlServer&gt;, Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IUpdatable&lt;Microsoft.Azure.Management.Sql.Fluent.SqlServer.Update.IUpdate&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISqlServer implements class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IGroupableResource`2&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlManager, class Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasId, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner`1&lt;class Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager`1&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlManager&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasName, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasResourceGroup, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.IResource, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IIndexable, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IRefreshable`1&lt;class Microsoft.Azure.Management.Sql.Fluent.ISqlServer&gt;, class Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IUpdatable`1&lt;class Microsoft.Azure.Management.Sql.Fluent.SqlServer.Update.IUpdate&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Sql.Fluent.ISqlServer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISqlServer&#xA;Implements IGroupableResource(Of ISqlManager, ServerInner), IHasInner(Of ServerInner), IHasManager(Of ISqlManager), IRefreshable(Of ISqlServer), IUpdatable(Of IUpdate)" />
+  <TypeSignature Language="F#" Value="type ISqlServer = interface&#xA;    interface IGroupableResource&lt;ISqlManager, ServerInner&gt;&#xA;    interface IResource&#xA;    interface IIndexable&#xA;    interface IHasId&#xA;    interface IHasName&#xA;    interface IHasResourceGroup&#xA;    interface IHasManager&lt;ISqlManager&gt;&#xA;    interface IHasInner&lt;ServerInner&gt;&#xA;    interface IRefreshable&lt;ISqlServer&gt;&#xA;    interface IUpdatable&lt;IUpdate&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.IGroupableResource&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlManager,Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasInner&lt;Microsoft.Azure.Management.Sql.Fluent.Models.ServerInner&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.IHasManager&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlManager&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IRefreshable&lt;Microsoft.Azure.Management.Sql.Fluent.ISqlServer&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.ResourceManager.Fluent.Core.ResourceActions.IUpdatable&lt;Microsoft.Azure.Management.Sql.Fluent.SqlServer.Update.IUpdate&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            <span data-ttu-id="d13a3-101">Eine unveränderliche clientseitige Darstellung einer Azure SQL-Server.</span><span class="sxs-lookup"><span data-stu-id="d13a3-101">An immutable client-side representation of an Azure SQL Server.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdministratorLogin">
+      <MemberSignature Language="C#" Value="public string AdministratorLogin { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdministratorLogin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.AdministratorLogin" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdministratorLogin As String" />
+      <MemberSignature Language="F#" Value="member this.AdministratorLogin : string" Usage="Microsoft.Azure.Management.Sql.Fluent.ISqlServer.AdministratorLogin" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="d13a3-102">Ruft den Administrator Anmeldebenutzername für die SQL Server ab.</span><span class="sxs-lookup"><span data-stu-id="d13a3-102">Gets the administrator login user name for the SQL Server.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Databases">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Sql.Fluent.SqlServer.Databases.IDatabases Databases { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Sql.Fluent.SqlServer.Databases.IDatabases Databases" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.Databases" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Databases As IDatabases" />
+      <MemberSignature Language="F#" Value="member this.Databases : Microsoft.Azure.Management.Sql.Fluent.SqlServer.Databases.IDatabases" Usage="Microsoft.Azure.Management.Sql.Fluent.ISqlServer.Databases" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Sql.Fluent.SqlServer.Databases.IDatabases</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="d13a3-103">Ruft Einstiegspunkt zum Verwalten von Datenbanken in SQL Server ab.</span><span class="sxs-lookup"><span data-stu-id="d13a3-103">Gets entry point to manage Databases in SqlServer.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ElasticPools">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Sql.Fluent.SqlServer.ElasticPools.IElasticPools ElasticPools { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Sql.Fluent.SqlServer.ElasticPools.IElasticPools ElasticPools" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.ElasticPools" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElasticPools As IElasticPools" />
+      <MemberSignature Language="F#" Value="member this.ElasticPools : Microsoft.Azure.Management.Sql.Fluent.SqlServer.ElasticPools.IElasticPools" Usage="Microsoft.Azure.Management.Sql.Fluent.ISqlServer.ElasticPools" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Sql.Fluent.SqlServer.ElasticPools.IElasticPools</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="d13a3-104">Ruft gibt Einstiegspunkt ElasticPools in SQL Server zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="d13a3-104">Gets returns entry point to manage ElasticPools in SqlServer.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirewallRules">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Sql.Fluent.SqlServer.FirewallRules.IFirewallRules FirewallRules { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.Sql.Fluent.SqlServer.FirewallRules.IFirewallRules FirewallRules" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.FirewallRules" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirewallRules As IFirewallRules" />
+      <MemberSignature Language="F#" Value="member this.FirewallRules : Microsoft.Azure.Management.Sql.Fluent.SqlServer.FirewallRules.IFirewallRules" Usage="Microsoft.Azure.Management.Sql.Fluent.ISqlServer.FirewallRules" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Sql.Fluent.SqlServer.FirewallRules.IFirewallRules</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="d13a3-105">Ruft gibt Einstiegspunkt FirewallRules in SQL Server zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="d13a3-105">Gets returns entry point to manage FirewallRules in SqlServer.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullyQualifiedDomainName">
+      <MemberSignature Language="C#" Value="public string FullyQualifiedDomainName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullyQualifiedDomainName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.FullyQualifiedDomainName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FullyQualifiedDomainName As String" />
+      <MemberSignature Language="F#" Value="member this.FullyQualifiedDomainName : string" Usage="Microsoft.Azure.Management.Sql.Fluent.ISqlServer.FullyQualifiedDomainName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="d13a3-106">Ruft den vollqualifizierten Namen des SQL-Servers ab.</span><span class="sxs-lookup"><span data-stu-id="d13a3-106">Gets fully qualified name of the SQL Server.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetServiceObjective">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Sql.Fluent.IServiceObjective GetServiceObjective (string serviceObjectiveName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.Sql.Fluent.IServiceObjective GetServiceObjective(string serviceObjectiveName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.GetServiceObjective(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetServiceObjective (serviceObjectiveName As String) As IServiceObjective" />
+      <MemberSignature Language="F#" Value="abstract member GetServiceObjective : string -&gt; Microsoft.Azure.Management.Sql.Fluent.IServiceObjective" Usage="iSqlServer.GetServiceObjective serviceObjectiveName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Sql.Fluent.IServiceObjective</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serviceObjectiveName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="serviceObjectiveName"><span data-ttu-id="d13a3-107">Der Name des dienstziels abgerufen werden sollen.</span><span class="sxs-lookup"><span data-stu-id="d13a3-107">Name of the service objective to be fetched.</span></span></param>
+        <summary>
+            <span data-ttu-id="d13a3-108">Ruft die Informationen auf einen bestimmten Sql Server-Zielpunkt ab.</span><span class="sxs-lookup"><span data-stu-id="d13a3-108">Gets the information on a particular Sql Server Service Objective.</span></span>
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return><span data-ttu-id="d13a3-109">Informationen des dienstziels.</span><span class="sxs-lookup"><span data-stu-id="d13a3-109">Information of the service objective.</span></span></return>
+      </Docs>
+    </Member>
+    <Member MemberName="ListRecommendedElasticPools">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool&gt; ListRecommendedElasticPools ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool&gt; ListRecommendedElasticPools() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.ListRecommendedElasticPools" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListRecommendedElasticPools () As IReadOnlyDictionary(Of String, IRecommendedElasticPool)" />
+      <MemberSignature Language="F#" Value="abstract member ListRecommendedElasticPools : unit -&gt; System.Collections.Generic.IReadOnlyDictionary&lt;string, Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool&gt;" Usage="iSqlServer.ListRecommendedElasticPools " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Microsoft.Azure.Management.Sql.Fluent.IRecommendedElasticPool&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="d13a3-110">Gibt alle empfohlenen elastischen Pools für den Server zurück.</span><span class="sxs-lookup"><span data-stu-id="d13a3-110">Returns all the recommended elastic pools for the server.</span></span>
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return><span data-ttu-id="d13a3-111">Übersicht über empfohlene elastische Pools für den Server.</span><span class="sxs-lookup"><span data-stu-id="d13a3-111">List of recommended elastic pools for the server.</span></span></return>
+      </Docs>
+    </Member>
+    <Member MemberName="ListServiceObjectives">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IServiceObjective&gt; ListServiceObjectives ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.IServiceObjective&gt; ListServiceObjectives() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.ListServiceObjectives" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListServiceObjectives () As IReadOnlyList(Of IServiceObjective)" />
+      <MemberSignature Language="F#" Value="abstract member ListServiceObjectives : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IServiceObjective&gt;" Usage="iSqlServer.ListServiceObjectives " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IServiceObjective&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return><span data-ttu-id="d13a3-112">Die Liste der Informationen zu allen Service-Ziele.</span><span class="sxs-lookup"><span data-stu-id="d13a3-112">The list of information on all service objectives.</span></span></return>
+      </Docs>
+    </Member>
+    <Member MemberName="ListUsages">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IServerMetric&gt; ListUsages ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Azure.Management.Sql.Fluent.IServerMetric&gt; ListUsages() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.ListUsages" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListUsages () As IReadOnlyList(Of IServerMetric)" />
+      <MemberSignature Language="F#" Value="abstract member ListUsages : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IServerMetric&gt;" Usage="iSqlServer.ListUsages " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Management.Sql.Fluent.IServerMetric&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return><span data-ttu-id="d13a3-113">Gibt die Liste der Verwendungen (ServerMetric) von Azure SQL-Server zurück.</span><span class="sxs-lookup"><span data-stu-id="d13a3-113">Returns the list of usages (ServerMetric) of Azure SQL Server.</span></span></return>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.ISqlServer.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As String" />
+      <MemberSignature Language="F#" Value="member this.Version : string" Usage="Microsoft.Azure.Management.Sql.Fluent.ISqlServer.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="d13a3-114">Ruft die Version von SQL Server ab.</span><span class="sxs-lookup"><span data-stu-id="d13a3-114">Gets the version of the SQL Server.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

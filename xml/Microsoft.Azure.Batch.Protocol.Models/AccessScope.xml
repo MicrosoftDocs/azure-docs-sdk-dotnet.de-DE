@@ -1,0 +1,55 @@
+<Type Name="AccessScope" FullName="Microsoft.Azure.Batch.Protocol.Models.AccessScope">
+  <TypeSignature Language="C#" Value="public enum AccessScope" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AccessScope extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.AccessScope" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AccessScope" />
+  <TypeSignature Language="F#" Value="type AccessScope = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            <span data-ttu-id="40ecd-101">Definiert Werte für AccessScope an.</span><span class="sxs-lookup"><span data-stu-id="40ecd-101">Defines values for AccessScope.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Job">
+      <MemberSignature Language="C#" Value="Job" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Protocol.Models.AccessScope Job = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Protocol.Models.AccessScope.Job" />
+      <MemberSignature Language="VB.NET" Value="Job" />
+      <MemberSignature Language="F#" Value="Job = 0" Usage="Microsoft.Azure.Batch.Protocol.Models.AccessScope.Job" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.Serialization.EnumMember(Value="job")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Protocol.Models.AccessScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="40ecd-102">Gewährt Zugriff auf alle Vorgänge für den Auftrag mit der Aufgabe ausführen.</span><span class="sxs-lookup"><span data-stu-id="40ecd-102">Grants access to perform all operations on the job containing the task.</span></span>
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

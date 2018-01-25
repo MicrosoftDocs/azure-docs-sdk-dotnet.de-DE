@@ -1,0 +1,106 @@
+<Type Name="CodePackageEntryPointKind" FullName="System.Fabric.Description.CodePackageEntryPointKind">
+  <TypeSignature Language="C#" Value="public enum CodePackageEntryPointKind" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CodePackageEntryPointKind extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:System.Fabric.Description.CodePackageEntryPointKind" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CodePackageEntryPointKind" />
+  <TypeSignature Language="F#" Value="type CodePackageEntryPointKind = " />
+  <AssemblyInfo>
+    <AssemblyName>System.Fabric</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <para><span data-ttu-id="0197b-101">Listet die möglichen Typen von Einstiegspunkten.</span><span class="sxs-lookup"><span data-stu-id="0197b-101">Enumerates the possible types of entry points.</span></span></para>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DllHost">
+      <MemberSignature Language="C#" Value="DllHost" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Description.CodePackageEntryPointKind DllHost = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:System.Fabric.Description.CodePackageEntryPointKind.DllHost" />
+      <MemberSignature Language="VB.NET" Value="DllHost" />
+      <MemberSignature Language="F#" Value="DllHost = 3" Usage="System.Fabric.Description.CodePackageEntryPointKind.DllHost" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Fabric.Description.CodePackageEntryPointKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <para><span data-ttu-id="0197b-102">Gibt an, dass es sich bei den Hosttyp DLL ist.</span><span class="sxs-lookup"><span data-stu-id="0197b-102">Indicates that the HOST Type is DLL.</span></span> </para>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exe">
+      <MemberSignature Language="C#" Value="Exe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Description.CodePackageEntryPointKind Exe = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:System.Fabric.Description.CodePackageEntryPointKind.Exe" />
+      <MemberSignature Language="VB.NET" Value="Exe" />
+      <MemberSignature Language="F#" Value="Exe = 2" Usage="System.Fabric.Description.CodePackageEntryPointKind.Exe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Fabric.Description.CodePackageEntryPointKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <para><span data-ttu-id="0197b-103">Gibt an, dass der HOST-Typ exe-Datei ist.</span><span class="sxs-lookup"><span data-stu-id="0197b-103">Indicates that the HOST Type is EXE.</span></span> </para>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invalid">
+      <MemberSignature Language="C#" Value="Invalid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Description.CodePackageEntryPointKind Invalid = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:System.Fabric.Description.CodePackageEntryPointKind.Invalid" />
+      <MemberSignature Language="VB.NET" Value="Invalid" />
+      <MemberSignature Language="F#" Value="Invalid = 0" Usage="System.Fabric.Description.CodePackageEntryPointKind.Invalid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Fabric.Description.CodePackageEntryPointKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <para><span data-ttu-id="0197b-104">Gibt an, dass der HOST-Typ ungültig ist.</span><span class="sxs-lookup"><span data-stu-id="0197b-104">Indicates that the HOST Type is invalid.</span></span> <span data-ttu-id="0197b-105">Nicht verwenden.</span><span class="sxs-lookup"><span data-stu-id="0197b-105">Do not use.</span></span></para>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Fabric.Description.CodePackageEntryPointKind None = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:System.Fabric.Description.CodePackageEntryPointKind.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 1" Usage="System.Fabric.Description.CodePackageEntryPointKind.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Fabric</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Fabric.Description.CodePackageEntryPointKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <para><span data-ttu-id="0197b-106">Gibt an, dass es sich bei den Hosttyp None ist.</span><span class="sxs-lookup"><span data-stu-id="0197b-106">Indicates that the HOST Type is None.</span></span></para>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

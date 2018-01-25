@@ -1,0 +1,94 @@
+<Type Name="CloudTaskListSubtasksResult" FullName="Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult">
+  <TypeSignature Language="C#" Value="public class CloudTaskListSubtasksResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CloudTaskListSubtasksResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class CloudTaskListSubtasksResult" />
+  <TypeSignature Language="F#" Value="type CloudTaskListSubtasksResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="af5a1-101">Das Ergebnis für die Unteraufgaben an einer Aufgabe auflisten.</span><span class="sxs-lookup"><span data-stu-id="af5a1-101">The result of listing the subtasks of a task.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudTaskListSubtasksResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            <span data-ttu-id="af5a1-102">Initialisiert eine neue Instanz der CloudTaskListSubtasksResult-Klasse.</span><span class="sxs-lookup"><span data-stu-id="af5a1-102">Initializes a new instance of the CloudTaskListSubtasksResult class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CloudTaskListSubtasksResult (System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt; value = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional value As IList(Of SubtaskInformation) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult : System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt; -&gt; Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult" Usage="new Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="value"><span data-ttu-id="af5a1-103">Die Liste der Unteraufgaben an.</span><span class="sxs-lookup"><span data-stu-id="af5a1-103">The list of subtasks.</span></span></param>
+        <summary>
+            <span data-ttu-id="af5a1-104">Initialisiert eine neue Instanz der CloudTaskListSubtasksResult-Klasse.</span><span class="sxs-lookup"><span data-stu-id="af5a1-104">Initializes a new instance of the CloudTaskListSubtasksResult class.</span></span>
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt; Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt; Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As IList(Of SubtaskInformation)" />
+      <MemberSignature Language="F#" Value="member this.Value : System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt; with get, set" Usage="Microsoft.Azure.Batch.Protocol.Models.CloudTaskListSubtasksResult.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="value")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.Protocol.Models.SubtaskInformation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="af5a1-105">Ruft ab oder legt die Liste der Unteraufgaben an.</span><span class="sxs-lookup"><span data-stu-id="af5a1-105">Gets or sets the list of subtasks.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

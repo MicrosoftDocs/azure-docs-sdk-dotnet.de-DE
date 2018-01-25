@@ -1,0 +1,47 @@
+<Type Name="ComputeNodeEndpointConfiguration" FullName="Microsoft.Azure.Batch.ComputeNodeEndpointConfiguration">
+  <TypeSignature Language="C#" Value="public class ComputeNodeEndpointConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ComputeNodeEndpointConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.ComputeNodeEndpointConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class ComputeNodeEndpointConfiguration" />
+  <TypeSignature Language="F#" Value="type ComputeNodeEndpointConfiguration = class&#xA;    interface IPropertyMetadata&#xA;    interface IModifiable&#xA;    interface IReadOnly" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="d8437-101">Die Endpunktkonfiguration für den Computeknoten.</span><span class="sxs-lookup"><span data-stu-id="d8437-101">The endpoint configuration for the compute node.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InboundEndpoints">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Batch.InboundEndpoint&gt; InboundEndpoints { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Azure.Batch.InboundEndpoint&gt; InboundEndpoints" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.ComputeNodeEndpointConfiguration.InboundEndpoints" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InboundEndpoints As IReadOnlyList(Of InboundEndpoint)" />
+      <MemberSignature Language="F#" Value="member this.InboundEndpoints : System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Batch.InboundEndpoint&gt;" Usage="Microsoft.Azure.Batch.ComputeNodeEndpointConfiguration.InboundEndpoints" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Azure.Batch.InboundEndpoint&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="d8437-102">Ruft die Liste der eingehenden Endpunkte, die auf den Computeknoten zugegriffen werden kann.</span><span class="sxs-lookup"><span data-stu-id="d8437-102">Gets the list of inbound endpoints that are accessible on the compute node.</span></span>
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

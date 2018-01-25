@@ -1,0 +1,29 @@
+<Type Name="IWithDataSnapshotSource" FullName="Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotSource">
+  <TypeSignature Language="C#" Value="public interface IWithDataSnapshotSource : Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromDisk, Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromSnapshot, Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromVhd" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWithDataSnapshotSource implements class Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromDisk, class Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromSnapshot, class Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromVhd" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotSource" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWithDataSnapshotSource&#xA;Implements IWithDataSnapshotFromDisk, IWithDataSnapshotFromSnapshot, IWithDataSnapshotFromVhd" />
+  <TypeSignature Language="F#" Value="type IWithDataSnapshotSource = interface&#xA;    interface IWithDataSnapshotFromVhd&#xA;    interface IWithDataSnapshotFromDisk&#xA;    interface IWithDataSnapshotFromSnapshot" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Compute.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromDisk</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromSnapshot</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Azure.Management.Compute.Fluent.Snapshot.Definition.IWithDataSnapshotFromVhd</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            <span data-ttu-id="a2825-101">Die Phase der verwalteten Momentaufnahmendefinition taktmonitoren-Datenquelle auswählen.</span><span class="sxs-lookup"><span data-stu-id="a2825-101">The stage of the managed snapshot definition allowing to choose data source.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

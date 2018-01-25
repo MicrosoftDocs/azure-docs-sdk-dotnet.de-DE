@@ -1,0 +1,67 @@
+<Type Name="OSType" FullName="Microsoft.Azure.Batch.Common.OSType">
+  <TypeSignature Language="C#" Value="public enum OSType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OSType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Batch.Common.OSType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OSType" />
+  <TypeSignature Language="F#" Value="type OSType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+    <AssemblyVersion>7.1.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            <span data-ttu-id="2670c-101">Gibt den Typ des Betriebssystems.</span><span class="sxs-lookup"><span data-stu-id="2670c-101">Specifies the Operation System type.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Linux">
+      <MemberSignature Language="C#" Value="Linux" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Common.OSType Linux = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.OSType.Linux" />
+      <MemberSignature Language="VB.NET" Value="Linux" />
+      <MemberSignature Language="F#" Value="Linux = 0" Usage="Microsoft.Azure.Batch.Common.OSType.Linux" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Common.OSType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="2670c-102">Linux-Betriebssystemfamilie.</span><span class="sxs-lookup"><span data-stu-id="2670c-102">Linux OS Family.</span></span>
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Windows">
+      <MemberSignature Language="C#" Value="Windows" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Common.OSType Windows = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.OSType.Windows" />
+      <MemberSignature Language="VB.NET" Value="Windows" />
+      <MemberSignature Language="F#" Value="Windows = 1" Usage="Microsoft.Azure.Batch.Common.OSType.Windows" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>7.1.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Common.OSType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            <span data-ttu-id="2670c-103">Windows-Betriebssystemfamilie.</span><span class="sxs-lookup"><span data-stu-id="2670c-103">Windows OS Family.</span></span>
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

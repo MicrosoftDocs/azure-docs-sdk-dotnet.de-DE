@@ -1,0 +1,64 @@
+<Type Name="VpnType" FullName="Microsoft.Azure.Management.Network.Models.VpnType">
+  <TypeSignature Language="C#" Value="public static class VpnType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit VpnType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Models.VpnType" />
+  <TypeSignature Language="VB.NET" Value="Public Class VpnType" />
+  <TypeSignature Language="F#" Value="type VpnType = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+    <AssemblyVersion>14.0.0.0</AssemblyVersion>
+    <AssemblyVersion>16.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="b2e76-101">Definiert Werte für VpnType an.</span><span class="sxs-lookup"><span data-stu-id="b2e76-101">Defines values for VpnType.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PolicyBased">
+      <MemberSignature Language="C#" Value="public const string PolicyBased;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PolicyBased" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Network.Models.VpnType.PolicyBased" />
+      <MemberSignature Language="VB.NET" Value="Public Const PolicyBased As String " />
+      <MemberSignature Language="F#" Value="val mutable PolicyBased : string" Usage="Microsoft.Azure.Management.Network.Models.VpnType.PolicyBased" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RouteBased">
+      <MemberSignature Language="C#" Value="public const string RouteBased;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string RouteBased" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Network.Models.VpnType.RouteBased" />
+      <MemberSignature Language="VB.NET" Value="Public Const RouteBased As String " />
+      <MemberSignature Language="F#" Value="val mutable RouteBased : string" Usage="Microsoft.Azure.Management.Network.Models.VpnType.RouteBased" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>14.0.0.0</AssemblyVersion>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

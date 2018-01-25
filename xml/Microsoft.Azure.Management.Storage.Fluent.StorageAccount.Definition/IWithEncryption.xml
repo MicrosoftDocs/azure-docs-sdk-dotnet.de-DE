@@ -1,0 +1,41 @@
+<Type Name="IWithEncryption" FullName="Microsoft.Azure.Management.Storage.Fluent.StorageAccount.Definition.IWithEncryption">
+  <TypeSignature Language="C#" Value="public interface IWithEncryption" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IWithEncryption" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Storage.Fluent.StorageAccount.Definition.IWithEncryption" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IWithEncryption" />
+  <TypeSignature Language="F#" Value="type IWithEncryption = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Management.Storage.Fluent</AssemblyName>
+    <AssemblyVersion>1.0.0.60</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            <span data-ttu-id="9a44f-101">Eine speicherkontendefinition verschlüsselungseinstellung angeben.</span><span class="sxs-lookup"><span data-stu-id="9a44f-101">A storage account definition specifying encryption setting.</span></span>
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="WithEncryption">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.Storage.Fluent.StorageAccount.Definition.IWithCreate WithEncryption ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Azure.Management.Storage.Fluent.StorageAccount.Definition.IWithCreate WithEncryption() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Storage.Fluent.StorageAccount.Definition.IWithEncryption.WithEncryption" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithEncryption () As IWithCreate" />
+      <MemberSignature Language="F#" Value="abstract member WithEncryption : unit -&gt; Microsoft.Azure.Management.Storage.Fluent.StorageAccount.Definition.IWithCreate" Usage="iWithEncryption.WithEncryption " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Storage.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Storage.Fluent.StorageAccount.Definition.IWithCreate</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
