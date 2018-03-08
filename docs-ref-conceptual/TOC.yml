@@ -10,8 +10,8 @@
           href: 'https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio'
         - name: SQL-Datenbank
           href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
-        - name: CosmosDB
-          href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
+        - name: Cosmos DB
+          href: 'https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet'
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
         - name: Blob Storage
@@ -25,7 +25,7 @@
       items:
         - name: Erstellen einer ASP.NET-Web-App mit Azure SQL-Datenbank
           href: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
-        - name: 'ASP.NET MVC-Tutorial: Entwicklung von Webanwendungen mit Azure Cosmos DB'
+        - name: Erstellen einer ASP.NET-Web-App mit Cosmos DB
           href: /azure/documentdb/documentdb-dotnet-application
         - name: Erstellen und Bereitstellen einer Web-API
           href: /azure/app-service-api/app-service-api-dotnet-get-started
@@ -35,8 +35,8 @@
           href: /azure/sql-database/sql-database-connect-query-dotnet
         - name: 'Azure-Datenbank für PostgreSQL: Verwenden von .NET (C#) zum Herstellen von Verbindungen mit Daten und Durchführen von Abfragen'
           href: /azure/postgresql/connect-csharp
-        - name: 'Azure Cosmos DB: Erste Schritte mit der DocumentDB-API und .NET Core'
-          href: /azure/cosmos-db/documentdb-dotnetcore-get-started
+        - name: Erste Schritte mit der SQL-API von Cosmos DB
+          href: /azure/cosmos-db/sql-api-get-started
     - name: Anleitung
       items:
         - name: Migration
