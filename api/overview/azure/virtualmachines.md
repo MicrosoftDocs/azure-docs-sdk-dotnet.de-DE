@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: d3bad2e94ec8b08bad2a014fb25d400625a3590d
-ms.sourcegitcommit: 2d08f2815fa7fab55e09d294fc4d74897df7951d
+ms.openlocfilehash: cac6dde85a7b0db2c98d0888cb0ee5c60ee31836
+ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="azure-virtual-machine-libraries-for-net"></a>Azure Virtual Machines-Bibliotheken für .NET
 
@@ -24,7 +24,7 @@ ms.lasthandoff: 11/07/2017
 
 Bedarfsgesteuerte, skalierbare Computeressourcen unter Linux oder Windows
 
-Informationen zu den ersten Schritten mit virtuellen Azure-Computern finden Sie unter [Erstellen einer Linux-VM mit dem Azure-Portal](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal).
+Informationen zu den ersten Schritten mit virtuellen Azure-Computern finden Sie unter [Erstellen einer Linux-VM mit dem Azure-Portal](https://review.docs.microsoft.com/azure/virtual-machines/linux/quick-create-portal).
 
 ## <a name="management-apis"></a>Verwaltungs-APIs
 
@@ -69,14 +69,14 @@ IVirtualMachine windowsVM = azure.VirtualMachines.Define("MyVirtualMachine")
 ```
 
 > [!div class="nextstepaction"]
-> [Informationen zu den Verwaltungs-APIs](https://docs.microsoft.com/en-us/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
+> [Informationen zu den Verwaltungs-APIs](https://docs.microsoft.com/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
 
 ### <a name="samples"></a>Beispiele
 
 * [Erstellen und Verwalten von virtuellen Computern](/dotnet/azure/dotnet-sdk-azure-virtual-machine-samples)
-* [Deploy an SSH Enabled VM with a Template with .NET (Bereitstellen eines SSH-fähigen virtuellen Computers mit einer Vorlage mit .NET)](https://azure.microsoft.com/en-us/resources/samples/resource-manager-dotnet-template-deployment/)
+* [Deploy an SSH Enabled VM with a Template with .NET (Bereitstellen eines SSH-fähigen virtuellen Computers mit einer Vorlage mit .NET)](https://azure.microsoft.com/resources/samples/resource-manager-dotnet-template-deployment/)
 
-Zeigen Sie die [vollständige](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM) Liste von VM-Beispielen an.
+Zeigen Sie die [vollständige](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=VM) Liste von VM-Beispielen an.
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

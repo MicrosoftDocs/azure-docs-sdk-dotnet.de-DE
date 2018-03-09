@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: data-lake-analytics
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: aa99608ec5568450a90cc2b93c3f1c5d0e38bfb1
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 063513d8c523330276cdfc222d3ca00a9629f63a
+ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="azure-data-lake-analytics-libraries-for-net"></a>Azure Data Lake Analytics-Bibliotheken für .NET
 
@@ -30,7 +30,7 @@ Weitere Informationen finden Sie in der [Übersicht über Microsoft Azure Data L
 
 Verwenden Sie die Verwaltungsbibliothek zum Herstellen einer Verbindung mit dem Dienst und Verwalten von Analytics-Aufträgen.
 
-Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Analytics) direkt von der [Paket-Manager-Konsole][PackageManager] in Visual Studio aus oder mit der [.NET Core-CLI][DotNetCLI].
+Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Analytics) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio-Paket-Manager
 
@@ -67,7 +67,7 @@ AnalyticsClient adla = new AnalyticsClient(auth, adla_account);
 > [Informationen zu den Verwaltungs-APIs](/dotnet/api/overview/azure/datalakeanalytics/management)
 
 ## <a name="samples"></a>Beispiele
-* [Azure Data Lake-.NET-Client-Beispiel](https://azure.microsoft.com/en-us/resources/samples/data-lake-dotnet-client/)
+* [Azure Data Lake-.NET-Client-Beispiel](https://azure.microsoft.com/resources/samples/data-lake-dotnet-client/)
 
 Untersuchen Sie weiteren [.NET-Beispielcode](https://azure.microsoft.com/resources/samples/?platform=dotnet), den Sie in Ihren Apps verwenden können.
 

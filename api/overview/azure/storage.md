@@ -12,17 +12,17 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: storage
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: f9928736fa024258bcf19ba5ad91f0a328aa05a8
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 8f6e0414b54698d0a1dbe3d4c074456a6ad7b7be
+ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="azure-storage-apis-for-net"></a>Azure Storage-APIs für .NET
 
 ## <a name="overview"></a>Übersicht
 
-Lesen und schreiben Sie mit [Azure Storage](https://review.docs.microsoft.com/en-us/azure/storage/storage-introduction) Dateien, Blob- bzw. Objektdaten, Schlüssel-Wert-Paare und Nachrichten aus Ihren .NET-Anwendungen.
+Lesen und schreiben Sie mit [Azure Storage](https://review.docs.microsoft.com/azure/storage/storage-introduction) Dateien, Blob- bzw. Objektdaten, Schlüssel-Wert-Paare und Nachrichten aus Ihren .NET-Anwendungen.
 
 Informationen zu den ersten Schritten mit Azure Storage finden Sie unter [Erste Schritte mit Azure Blob Storage mithilfe von .NET](/azure/storage/storage-dotnet-how-to-use-blobs).
 
