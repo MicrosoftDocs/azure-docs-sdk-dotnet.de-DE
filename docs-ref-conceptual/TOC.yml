@@ -79,6 +79,8 @@
           href: dotnet-tutorials-services-monitoring.md
     - name: .NET-Codebeispiele
       items:
+        - name: 'Fotogalerie: Web-Apps und Storage'
+          href: 'https://azure.microsoft.com/resources/samples/storage-blobs-dotnet-webapp/'
         - name: Web-Apps
           href: dotnet-sdk-azure-web-apps-samples.md
         - name: Datenbanken
