@@ -1,6 +1,6 @@
 ---
-title: "Tutorials für Messaging und IoT mit .NET in Azure | Microsoft-Dokumentation"
-description: "Senden von Nachrichten zwischen Cloudanwendungen und zwischen Geräten und der Cloud mit .NET und Azure-Diensten."
+title: Tutorials für Messaging und IoT mit .NET in Azure | Microsoft-Dokumentation
+description: Senden von Nachrichten zwischen Cloudanwendungen und zwischen Geräten und der Cloud mit .NET und Azure-Diensten.
 author: camsoper
 ms.author: casoper
 manager: wpickett

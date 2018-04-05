@@ -1,6 +1,6 @@
 ---
-title: "Azure-Tools für Visual Studio 2015"
-description: "Informationen zum Abrufen der Tools für das Verwenden der Azure .NET-Bibliotheken in Visual Studio 2015."
+title: Azure-Tools für Visual Studio 2015
+description: Informationen zum Abrufen der Tools für das Verwenden der Azure .NET-Bibliotheken in Visual Studio 2015.
 keywords: Azure .NET, SDK, VS2015, Visual Studio 2015
 author: camsoper
 ms.author: casoper

@@ -1,6 +1,6 @@
 ---
-title: "Azure Cosmos DB-Bibliotheken für .NET"
-description: "Referenz für Azure Cosmos DB-Bibliotheken für .NET"
+title: Azure Cosmos DB-Bibliotheken für .NET
+description: Referenz für Azure Cosmos DB-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Cosmos DB
 author: camsoper
 ms.author: casoper

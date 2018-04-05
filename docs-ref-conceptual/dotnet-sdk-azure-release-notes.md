@@ -1,6 +1,6 @@
 ---
-title: "Versionshinweise zu Azure-Verwaltungsbibliotheken für .NET | Microsoft-Dokumentation"
-description: "Informieren Sie sich über Neuerungen und wichtige Änderungen in den Azure-Verwaltungsbibliotheken für .NET."
+title: Versionshinweise zu Azure-Verwaltungsbibliotheken für .NET | Microsoft-Dokumentation
+description: Informieren Sie sich über Neuerungen und wichtige Änderungen in den Azure-Verwaltungsbibliotheken für .NET.
 keywords: Azure, .NET, API, Referenz, Hinweise, Updates, veraltet
 author: camsoper
 ms.author: casoper

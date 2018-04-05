@@ -1,6 +1,6 @@
 ---
-title: "Tutorials für die Verwendung von Speicher in Ihren .NET-Apps in Azure"
-description: "Speichern von Objekten und Arbeit in Dateien in Ihren in Azure ausgeführten .NET-Anwendungen"
+title: Tutorials für die Verwendung von Speicher in Ihren .NET-Apps in Azure
+description: Speichern von Objekten und Arbeit in Dateien in Ihren in Azure ausgeführten .NET-Anwendungen
 author: camsoper
 ms.author: casoper
 manager: wpickett

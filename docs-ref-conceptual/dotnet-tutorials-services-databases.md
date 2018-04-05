@@ -1,5 +1,5 @@
 ---
-title: ".NET-Tutorials für die Verwendung von Azure-Datenbanken"
+title: .NET-Tutorials für die Verwendung von Azure-Datenbanken
 description: Tutorials zum Herstellen einer Verbindung mit und Verwenden von Azure-Datenbanken in Ihren .NET-Anwendungen.
 author: camsoper
 ms.author: casoper

@@ -1,6 +1,6 @@
 ---
 title: Azure .NET-Speicher-APIs
-description: "Referenz für Azure Storage-Bibliotheken für .NET"
+description: Referenz für Azure Storage-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Speicher, Blob
 author: camsoper
 ms.author: casoper

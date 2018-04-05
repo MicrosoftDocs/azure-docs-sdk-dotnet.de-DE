@@ -1,6 +1,6 @@
 ---
-title: "Azure-Computebibliotheken für .NET"
-description: "Referenz für Azure-Computebibliotheken für .NET"
+title: Azure-Computebibliotheken für .NET
+description: Referenz für Azure-Computebibliotheken für .NET
 keywords: Azure, .NET, SDK, API, VM, virtuelle Computer, compute
 author: camsoper
 ms.author: casoper

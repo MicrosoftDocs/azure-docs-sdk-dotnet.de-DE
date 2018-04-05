@@ -1,6 +1,6 @@
 ---
-title: "Tools für Azure .NET-Entwickler"
-description: "Informationen zum Abrufen der Tools für das Verwenden der Azure .NET-Bibliotheken in einer Windows-, Linux- oder Mac-Umgebung."
+title: Tools für Azure .NET-Entwickler
+description: Informationen zum Abrufen der Tools für das Verwenden der Azure .NET-Bibliotheken in einer Windows-, Linux- oder Mac-Umgebung.
 keywords: Azure .NET, SDK, Azure .NET-API-Referenz, Azure .NET-Klassenbibliothek
 author: camsoper
 ms.author: casoper

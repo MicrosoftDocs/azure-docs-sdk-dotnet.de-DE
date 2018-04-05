@@ -1,6 +1,6 @@
 ---
 title: .NET-Tutorials zum Sichern Ihrer Azure-Apps
-description: "Tutorials für Anwendungssicherheit und Identitätsverwaltung in Ihren in Azure ausgeführten .NET-Anwendungen."
+description: Tutorials für Anwendungssicherheit und Identitätsverwaltung in Ihren in Azure ausgeführten .NET-Anwendungen.
 author: camsoper
 ms.author: casoper
 manager: wpickett
