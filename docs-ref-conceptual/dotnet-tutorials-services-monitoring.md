@@ -1,6 +1,6 @@
 ---
-title: "Tutorials zum Verwalten und Überwachen von .NET-Apps in Azure"
-description: "Überwachen Sie die Integrität und Leistung Ihrer in Azure ausgeführten .NET-Anwendung und Instrumentierungstelemetriedaten zum Speichern von Informationen über die Art der Verwendung ihrer App durch Benutzer."
+title: Tutorials zum Verwalten und Überwachen von .NET-Apps in Azure
+description: Überwachen Sie die Integrität und Leistung Ihrer in Azure ausgeführten .NET-Anwendung und Instrumentierungstelemetriedaten zum Speichern von Informationen über die Art der Verwendung ihrer App durch Benutzer.
 author: camsoper
 ms.author: casoper
 manager: wpickett

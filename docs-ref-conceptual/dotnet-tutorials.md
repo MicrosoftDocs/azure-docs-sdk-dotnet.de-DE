@@ -1,6 +1,6 @@
 ---
-title: "Tutorials für .NET-Apps in Azure"
-description: "Tutorials zum Erstellen und Hinzufügen von Funktionen zu Ihren Web- und mobilen .NET-Apps, die Azure-Dienste nutzen."
+title: Tutorials für .NET-Apps in Azure
+description: Tutorials zum Erstellen und Hinzufügen von Funktionen zu Ihren Web- und mobilen .NET-Apps, die Azure-Dienste nutzen.
 author: camsoper
 ms.author: casoper
 manager: wpickett

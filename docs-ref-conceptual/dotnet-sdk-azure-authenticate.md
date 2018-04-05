@@ -1,6 +1,6 @@
 ---
-title: "Authentifizieren bei den Azure-Bibliotheken für .NET"
-description: "Authentifizieren bei den Azure-Bibliotheken für .NET"
+title: Authentifizieren bei den Azure-Bibliotheken für .NET
+description: Authentifizieren bei den Azure-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Authentifizierung, Active Directory, Dienstprinzipal
 author: camsoper
 ms.author: casoper

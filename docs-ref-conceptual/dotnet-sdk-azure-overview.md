@@ -1,6 +1,6 @@
 ---
 title: Azure .NET-APIs
-description: "Übersicht über die Azure-APIs für .NET"
+description: Übersicht über die Azure-APIs für .NET
 keywords: Azure, .NET, SDK, API, NuGet, Bibliotheken, Pakete
 author: camsoper
 ms.author: casoper

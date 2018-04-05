@@ -1,6 +1,6 @@
 ---
-title: "Azure-Verwaltungsbibliotheken für .NET-Beispielanweisungen"
-description: "Rufen Sie Beispielcode für das Erstellen und Aktualisieren von Ressourcen mithilfe der Azure-Verwaltungsbibliotheken für .NET ab."
+title: Azure-Verwaltungsbibliotheken für .NET-Beispielanweisungen
+description: Rufen Sie Beispielcode für das Erstellen und Aktualisieren von Ressourcen mithilfe der Azure-Verwaltungsbibliotheken für .NET ab.
 keywords: Azure, .NET, SDK, API, Beispiele, Beispiel
 author: camsoper
 ms.author: casoper

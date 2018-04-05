@@ -1,5 +1,5 @@
 ---
-title: ".NET-Tutorials für die Bereitstellung von Containern in Azure"
+title: .NET-Tutorials für die Bereitstellung von Containern in Azure
 description: Stellen Sie .NET-Anwendungen in Docker-Containern in Azure bereit, und skalieren Sie sie mit DC/OS, Mesos oder Kubernetes.
 author: camsoper
 ms.author: casoper

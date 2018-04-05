@@ -1,5 +1,5 @@
 ---
-title: "Bereitstellen in Azure über die Befehlszeile mit .NET Core"
+title: Bereitstellen in Azure über die Befehlszeile mit .NET Core
 description: In diesem Artikel wird beschrieben, wie Sie eine ASP.NET Core-Anwendung mithilfe von Befehlszeilentools in einer Azure App Service-Instanz bereitstellen.
 keywords: Azure .NET, SDK, Azure .NET-API-Referenz, Azure .NET-Klassenbibliothek
 author: camsoper

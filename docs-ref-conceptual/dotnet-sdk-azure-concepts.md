@@ -1,6 +1,6 @@
 ---
-title: "Azure-Verwaltungsbibliotheken für .NET – Konzepte und Muster für die Verwendung"
-description: 
+title: Azure-Verwaltungsbibliotheken für .NET – Konzepte und Muster für die Verwendung
+description: ''
 keywords: Azure, .NET, SDK, API, Muster, Konzepte, Fluent, Protokollierung
 author: camsoper
 ms.author: casoper

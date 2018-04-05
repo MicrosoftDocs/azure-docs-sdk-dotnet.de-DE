@@ -1,5 +1,5 @@
 ---
-title: ".NET-Tutorials für die Datenanalyse in Azure | Microsoft Dokumentation"
+title: .NET-Tutorials für die Datenanalyse in Azure | Microsoft Dokumentation
 description: Entwickeln Sie Datenanalyseanwendungen mit Microsoft Azure-Diensten.
 author: camsoper
 ms.author: casoper

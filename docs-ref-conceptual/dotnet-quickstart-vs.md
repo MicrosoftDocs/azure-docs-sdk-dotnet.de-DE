@@ -1,6 +1,6 @@
 ---
 title: Bereitstellen in Azure mithilfe von Visual Studio
-description: "Dieses Tutorial führt Sie durch das Erstellen und Bereitstellen einer Microsoft Azure-Anwendung mithilfe von Visual Studio und .NET."
+description: Dieses Tutorial führt Sie durch das Erstellen und Bereitstellen einer Microsoft Azure-Anwendung mithilfe von Visual Studio und .NET.
 keywords: Azure .NET, SDK, Azure .NET-API-Referenz, Azure .NET-Klassenbibliothek
 author: camsoper
 manager: douge

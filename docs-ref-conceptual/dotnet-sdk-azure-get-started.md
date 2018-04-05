@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Azure .NET-APIs
-description: "Machen Sie sich mit der grundlegenden Verwendung der Azure-Bibliotheken für .NET mit Ihrem eigenen Azure-Abonnement vertraut."
+description: Machen Sie sich mit der grundlegenden Verwendung der Azure-Bibliotheken für .NET mit Ihrem eigenen Azure-Abonnement vertraut.
 keywords: Azure, .NET, SDK, API, authentifizieren, erste Schritte
 author: camsoper
 ms.author: casoper

@@ -1,10 +1,10 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: "Azure für .NET-Entwickler"
+title: Azure für .NET-Entwickler
 metadata:
   document_id: be4f4c73-c672-4490-8fca-ae087fba8b3b
-  title: "Azure für .NET-Entwickler – Tutorials, API-Referenz"
-  description: "Steigen Sie mithilfe der unten aufgeführten Ressourcen in das Entwickeln von Apps mit Azure ein, um hervorragende Tutorials und Tools für .NET-Entwickler zu finden."
+  title: Azure für .NET-Entwickler – Tutorials, API-Referenz
+  description: Steigen Sie mithilfe der unten aufgeführten Ressourcen in das Entwickeln von Apps mit Azure ein, um hervorragende Tutorials und Tools für .NET-Entwickler zu finden.
   keywords: Azure, .NET, SDK, API, NuGet
   author: camsoper
   ms.author: casoper
@@ -24,7 +24,8 @@ metadata:
 sections:
 - items:
   - type: markdown
-    text: "Steigen Sie mithilfe der unten aufgeführten Ressourcen in das Entwickeln von Apps mit Azure ein, um hervorragende Tutorials und Tools für .NET-Entwickler zu finden.\n"
+    text: >
+      Steigen Sie mithilfe der unten aufgeführten Ressourcen in das Entwickeln von Apps mit Azure ein, um hervorragende Tutorials und Tools für .NET-Entwickler zu finden.
 - items:
   - type: list
     style: cards
@@ -47,11 +48,11 @@ sections:
         src: https://docs.microsoft.com/en-us/media/common/i_download-install.svg
       title: SDK &amp; Tools
     - href: https://docs.microsoft.com/dotnet/api/overview/azure/?view=azure-dotnet
-      html: "<p>NuGet-Pakete für .NET</p>"
+      html: <p>NuGet-Pakete für .NET</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_api-reference.svg
       title: API-Referenz
-- title: "Fünfminütige Schnellstarts"
+- title: Fünfminütige Schnellstarts
   items:
   - type: paragraph
     text: Erfahren Sie, wie Sie .NET-Apps mit Azure-Diensten erstellen.
@@ -82,7 +83,7 @@ sections:
       href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
     - image:
         src: https://docs.microsoft.com/media/logos/logo_vs-team-services.svg
-      title: "Erstellen einer CI/CD-Pipeline für .NET"
+      title: Erstellen einer CI/CD-Pipeline für .NET
       href: https://docs.microsoft.com/vsts/build-release/apps/cd/azure/azure-devops-project-aspnetcore
 - title: Erste Schritte mit .NET in Azure
   items:
@@ -105,11 +106,11 @@ sections:
     style: unordered
     items:
     - html: <a href="https://azure.microsoft.com/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/">Developing a .NET app using Azure Cosmos DB's MongoDB API</a> (Entwickeln einer .NET-App mit der MongoDB-API von Azure Cosmos DB)
-    - html: "<a href=\"https://azure.microsoft.com/resources/samples/storage-dotnet-client-side-encryption/\">Getting Started with Azure Client Side Encryption in .NET</a> (Erste Schritte mit clientseitiger Azure-Verschlüsselung in .NET)"
+    - html: <a href="https://azure.microsoft.com/resources/samples/storage-dotnet-client-side-encryption/">Getting Started with Azure Client Side Encryption in .NET</a> (Erste Schritte mit clientseitiger Azure-Verschlüsselung in .NET)
     - html: <a href="https://azure.microsoft.com/resources/samples/storage-table-dotnet-getting-started/ ">Getting Started with Azure Table Storage in .NET</a> (Erste Schritte mit Azure Table Storage in .NET)
-    - html: "<a href=\"https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/\">Azure Blob Storage Samples for .NET</a> (Azure Blob Storage-Beispiele für .NET)"
+    - html: <a href="https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/">Azure Blob Storage Samples for .NET</a> (Azure Blob Storage-Beispiele für .NET)
     - html: <a href="https://azure.microsoft.com/resources/samples/redis-cache-getting-started/">Get started with Azure Redis Cache</a> (Erste Schritte mit Azure Redis Cache)
-- title: "Schritt-für-Schritt-Tutorials"
+- title: Schritt-für-Schritt-Tutorials
   items:
   - type: paragraph
     text: Informationen zum Verwenden von Azure-Diensten und Tools in Ihren .NET-Apps.
@@ -119,7 +120,7 @@ sections:
     - html: <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Erstellen einer ASP.NET-App in Azure mit SQL-Datenbank</a>
     - html: '<a href="https://docs.microsoft.com/azure/documentdb/documentdb-dotnet-application">ASP.NET MVC-Tutorial: Entwicklung von Webanwendungen mit Azure Cosmos DB</a>'
     - html: <a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Erste Schritte mit API-Apps, ASP.NET und Swagger in Azure App Service</a>
-    - html: "<a href=\"https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough\">Bereitstellen eines Kubernetes-Clusters für Windows-Container</a>"
+    - html: <a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Bereitstellen eines Kubernetes-Clusters für Windows-Container</a>
     - html: <a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Herstellen einer Verbindung mit einer Azure SQL-Datenbank und Abfragen der Datenbank mit .NET (C#) und Visual Studio</a>
-    - html: "<a href=\"https://docs.microsoft.com/azure/postgresql/connect-csharp\">Azure-Datenbank für PostgreSQL: Verwenden von .NET (C#) zum Herstellen von Verbindungen mit Daten und Durchführen von Abfragen</a>"
+    - html: '<a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Azure-Datenbank für PostgreSQL: Verwenden von .NET (C#) zum Herstellen von Verbindungen mit Daten und Durchführen von Abfragen</a>'
     - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Azure Cosmos DB: Erste Schritte mit der DocumentDB-API und .NET Core</a>'
