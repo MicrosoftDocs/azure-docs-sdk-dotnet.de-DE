@@ -1,6 +1,6 @@
 ---
-title: "Azure Notification Hubs-Bibliotheken für .NET"
-description: "Referenz für Azure Notification Hubs-Bibliotheken für .NET"
+title: Azure Notification Hubs-Bibliotheken für .NET
+description: Referenz für Azure Notification Hubs-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Notification Hubs
 author: camsoper
 ms.author: casoper
@@ -12,15 +12,15 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: notification-hubs
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 9fd49ccc8d02eff09a8a53e6f1b9baa6a7a59082
-ms.sourcegitcommit: 33732307162ddf6f272b0e9cc7f74eb8e6fdda1b
+ms.openlocfilehash: f863bf9d5d63129e04dd31ba96b3e803bead87bc
+ms.sourcegitcommit: 4c42de7e066b6aa0a5b5df02cce4d1d245aa558d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="azure-notification-hubs-libraries-for-net"></a>Azure Notification Hubs-Bibliotheken für .NET
 
-Azure Notification Hubs bietet ein einfach zu bedienendes, horizontal skaliertes Pushmodul. Mit einem einzelnen plattformübergreifende API-Aufruf können Sie zielgerichtete und personalisierte Pushbenachrichtigungen aus einem beliebigen Cloud- oder lokalen Back-End an sämtliche mobile Plattformen senden.
+Azure Notification Hubs bietet eine einfach zu bedienende, horizontal skalierte Push-Engine. Mit einem einzelnen plattformübergreifende API-Aufruf können Sie zielgerichtete und personalisierte Pushbenachrichtigungen aus einem beliebigen Cloud- oder lokalen Back-End an sämtliche mobile Plattformen senden.
 
 ## <a name="client-library"></a>Clientbibliothek
 
@@ -41,7 +41,7 @@ dotnet add package Microsoft.Azure.NotificationHubs
 
 ### <a name="code-example"></a>Codebeispiel
 
-In diesem Beispiel wird eine Verbindung mit einer Datenbank hergestellt. Anschließend werden Zeilen in einer Tabelle gelesen.
+In diesem Beispiel wird eine Verbindung mit einem Notification Hub hergestellt und eine Nachricht des Windows-Pushbenachrichtigungsdiensts (Windows Push Notification Service, WPNS) gesendet.
 
 ```csharp
 NotificationHubClient hub = NotificationHubClient

@@ -12,23 +12,23 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: cosmos-db
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 4791e00c18d00fbed13bdf2c626a24fed2ff2863
-ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
+ms.openlocfilehash: fa9bc7497ac189f18ee0ba14d72d4cdb23a05f0b
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/14/2018
 ---
-# <a name="azure-cosmosdb-libraries-for-net"></a>Azure Cosmos DB-Bibliotheken für .NET
+# <a name="azure-cosmos-db-libraries-for-net"></a>Azure Cosmos DB-Bibliotheken für .NET
 
 ## <a name="overview"></a>Übersicht
 
 [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) ist ein verteilter und skalierbarer Datenspeicher, der viele verschiedene Datenbanktypen unterstützt.
 
-[Erste Schritte mit CosmosDB](https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet).
+[Erste Schritte mit Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet)
 
 ## <a name="client-library"></a>Clientbibliothek
 
-Verwenden Sie die Cosmos DB-.NET-Clientbibliothek, um auf Daten in einem vorhandenen Cosmos DB-Datenspeicher zuzugreifen und Daten dort zu speichern.  Die Erstellung eines neuen Cosmos DB-Kontos können Sie mit dem Azure-Portal, mit der CLI oder mit PowerShell automatisieren.
+Verwenden Sie die Azure Cosmos DB-.NET-Clientbibliothek, um auf Daten in einem vorhandenen Azure Cosmos DB-Datenspeicher zuzugreifen und Daten dort zu speichern.  Die Erstellung eines neuen Azure Cosmos DB-Kontos können Sie mit dem Azure-Portal, mit der CLI oder mit PowerShell automatisieren.
 
 Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
 
@@ -46,7 +46,7 @@ dotnet add package Microsoft.Azure.DocumentDB.Core
 
 ### <a name="code-example"></a>Codebeispiel
 
-In diesem Beispiel wird eine Verbindung mit einer vorhandenen Cosmos DB-DocumentDB-API-Datenbank hergestellt sowie ein Dokument aus einer Sammlung gelesen und als `Item`-Objekt deserialisiert.   
+In diesem Beispiel wird eine Verbindung mit einer vorhandenen Azure Cosmos DB-SQL-API-Datenbank hergestellt sowie ein Dokument aus einer Sammlung gelesen und als `Item`-Objekt deserialisiert.   
 
 ```csharp
 /* Include this "using" directive...

@@ -10,11 +10,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 31023bc25b73c0d02f768aeb357d7c7b5ccf88d0
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: f03f1cc7e2d973aa270f99f7ca29c9cb4d6fd720
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="tutorials-for-using-net-with-azure-databases"></a>Tutorials für die Verwendung von .NET mit Azure-Datenbanken
 
@@ -28,9 +28,9 @@ Beispielquellcode finden Sie in der Liste der [Beispiele für Azure-Dienste](htt
 | [Verwenden von .NET zum Herstellen einer Verbindung und Abfragen von Daten][1] | Verwenden Sie ADO.NET zum Herstellen einer Verbindung mit einer Azure SQL-Datenbank und anschließend Transact-SQL-Anweisungen, um Daten in der Datenbank abzufragen, einzufügen, zu aktualisieren und zu löschen. | 
 | **Azure-Datenbank für PostgreSQL** ||
 | [Verwenden von .NET zum Herstellen einer Verbindung und Abfragen von Daten][2] | Verwenden Sie SQL-Anweisungen zum Abfragen, Einfügen, Aktualisieren und Löschen von Daten in der Datenbank. | 
-| **Cosmos DB** ||
-| [Erste Schritte mit der DocumentDB-API][4] | Erstellen Sie mit der DocumentDB-API eine einfache Konsolenanwendung. | 
-| [Erstellen einer ASP.NET-Web-App mit CosmosDB][3] | Erstellen Sie eine Webanwendung mithilfe der DocumentDB NoSQL-Datenbank von CosmosDB. | 
+| **Azure Cosmos DB** ||
+| [Erste Schritte mit der SQL-API von Azure Cosmos DB][4] | Erstellen Sie eine einfache Konsolenanwendung mit der SQL-API. | 
+| [Erstellen einer ASP.NET-Web-App mit der SQL-API von Azure Cosmos DB][3] | Erstellen Sie eine Webanwendung mit der SQL-API von Azure Cosmos DB. | 
 | **Redis Cache** | |
 | [Verwenden von Azure Redis Cache][6] | Erste Schritte mit Azure Redis Cache. |
 | [Erstellen einer Web-App mit Redis Cache][5] | Erfahren Sie, wie Sie mithilfe von Visual Studio 2017 eine ASP.NET-Webanwendung erstellen und für eine Web-App in Azure App Service bereitstellen.  | 
@@ -40,8 +40,8 @@ Beispielquellcode finden Sie in der Liste der [Beispiele für Azure-Dienste](htt
 
 [1]: /azure/sql-database/sql-database-connect-query-dotnet
 [2]: /azure/postgresql/connect-csharp
-[3]: /azure/cosmos-db/documentdb-dotnet-application
-[4]: /azure/cosmos-db/documentdb-dotnetcore-get-started
+[3]: /azure/cosmos-db/sql-api-dotnet-application
+[4]: /azure/cosmos-db/sql-api-get-started
 [5]: /azure/redis-cache/cache-web-app-howto
 [6]: /azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache
 [7]: /azure/redis-cache/cache-aspnet-session-state-provider

@@ -10,24 +10,24 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.openlocfilehash: d5c34dfc7e649e00e8ef458537f3f76410db61d4
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 87f65d8b8b1b1a5184b9d71770c08be472c7e498
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="deploy-to-azure-from-visual-studio"></a>Bereitstellen in Azure mithilfe von Visual Studio
 
-Dieses Tutorial führt Sie durch das Erstellen und Bereitstellen einer Microsoft Azure-Anwendung mithilfe von Visual Studio und .NET.  Im Anschluss verfügen Sie über eine webbasierte in ASP.NET MVC Core erstellte Anwendung, die als Azure-Web-App gehostet wird und Azure CosmosDB zur Datenspeicherung nutzt.
+Dieses Tutorial führt Sie durch das Erstellen und Bereitstellen einer Microsoft Azure-Anwendung mithilfe von Visual Studio und .NET.  Am Ende verfügen Sie über eine webbasierte, in ASP.NET MVC Core erstellte Aufgabenanwendung, die als Azure-Web-App gehostet wird und Azure Cosmos DB zur Datenspeicherung nutzt.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
 * [Visual Studio 2017](https://www.visualstudio.com/downloads/)
 * Ein [Microsoft Azure-Abonnement](https://azure.microsoft.com/free/)
 
-## <a name="create-a-cosmosdb-account"></a>Erstellen eines CosmosDB-Kontos
+## <a name="create-an-azure-cosmos-db-account"></a>Erstellen eines Azure Cosmos DB-Kontos
 
-CosmosDB dient in diesem Tutorial als Datenspeicher, weshalb Sie ein Konto erstellen müssen.  Führen Sie dieses Skript entweder lokal oder in der Cloud Shell aus, um ein Azure CosmosDB DocumentDB-API-Konto zu erstellen.  Klicken Sie im nachstehenden Codeblock auf die Schaltfläche **Ausprobieren**, um die [Azure Cloud Shell](/azure/cloud-shell/) zu öffnen. Kopieren Sie den Skriptblock, und fügen Sie ihn in die Shell ein.
+Da in diesem Tutorial Azure Cosmos DB als Datenspeicher verwendet wird, muss ein Konto erstellt werden.  Führen Sie dieses Skript lokal oder in der Cloud Shell aus, um ein Azure Cosmos DB-Konto für die SQL-API zu erstellen.  Klicken Sie im nachstehenden Codeblock auf die Schaltfläche **Ausprobieren**, um die [Azure Cloud Shell](/azure/cloud-shell/) zu öffnen. Kopieren Sie den Skriptblock, und fügen Sie ihn in die Shell ein.
 
 ```azurecli-interactive
 # Create the DotNetAzureTutorial resource group
@@ -37,7 +37,7 @@ az group create --name DotNetAzureTutorial --location EastUS
 let randomNum=$RANDOM*$RANDOM
 cosmosdbname=dotnettutorial$randomNum
 
-# Create the CosmosDB account
+# Create the Azure Cosmos DB account
 az cosmosdb create --name $cosmosdbname --resource-group DotNetAzureTutorial
 
 # Retrieve the endpoint and key (you'll need these later)
@@ -53,7 +53,7 @@ Notieren Sie sich die angezeigten Werte für **authKey** und **endpoint**.
 
 ## <a name="downloading-and-running-the-application"></a>Herunterladen und Ausführen der Anwendung
 
-Rufen Sie den Beispielcode für diese exemplarische Vorgehensweise ab, und verknüpfen Sie ihn mit Ihrem CosmosDB-Konto.
+Rufen Sie den Beispielcode für diese exemplarische Vorgehensweise ab, und verknüpfen Sie ihn mit Ihrem Azure Cosmos DB-Konto.
 
 1. Laden Sie den Beispielcode herunter.  Sie können [ihn von GitHub abrufen](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/). Wenn Sie über den [Git-Befehlszeilenclient](https://git-scm.com/) verfügen, können Sie ihn auch über den folgenden Befehl auf Ihren lokalen Computer klonen:
 
@@ -73,11 +73,11 @@ Rufen Sie den Beispielcode für diese exemplarische Vorgehensweise ab, und verkn
 
 4. Drücken Sie **F5** zum Wiederherstellen der NuGet-Pakete des Projekts. Erstellen Sie das Projekt, und führen Sie es lokal aus.
 
-Die Webanwendung muss lokal in Ihrem Browser ausgeführt werden.  Sie können der Aufgabenliste neue Elemente hinzufügen, indem Sie auf **Neu erstellen** klicken.  Beachten Sie, dass die Daten, die Sie in die Anwendung eingeben, in Ihrem CosmosDB-Konto gespeichert werden.  Sie können [Ihre Daten im Azure-Portal anzeigen](/azure/documentdb/documentdb-view-json-document-explorer).
+Die Webanwendung muss lokal in Ihrem Browser ausgeführt werden.  Sie können der Aufgabenliste neue Elemente hinzufügen, indem Sie auf **Neu erstellen** klicken.  Beachten Sie, dass die Daten, die Sie in die Anwendung eingeben, in Ihrem Azure Cosmos DB-Konto gespeichert werden.  Ihre Daten können Sie im [Azure-Portal](https://portal.azure.com) anzeigen. Klicken Sie hierzu im linken Menü auf „Azure Cosmos DB“, klicken Sie auf Ihr Konto, und klicken Sie anschließend auf **Daten-Explorer**.
 
 ## <a name="deploying-the-application-as-an-azure-web-app"></a>Bereitstellen der Anwendung als Azure-Web-App
 
-Sie haben erfolgreich eine Anwendung erstellt, die Azure-Dienste wie DocumentDB verwendet.  Als Nächstes stellen wir unsere Webanwendung in der Cloud bereit.
+Sie haben erfolgreich eine Anwendung erstellt, die Azure-Dienste wie Azure Cosmos DB verwendet.  Als Nächstes stellen wir unsere Webanwendung in der Cloud bereit.
 
 > [!IMPORTANT]
 > Vergewissern Sie sich, dass Sie in Visual Studio mit dem Konto angemeldet sind, das Ihrem Azure-Abonnement zugeordnet ist.
@@ -99,7 +99,7 @@ Sie haben erfolgreich eine Anwendung erstellt, die Azure-Dienste wie DocumentDB 
 
 ## <a name="clean-up"></a>Bereinigen
 
-Wenn Sie mit dem Testen der App und Untersuchen des Codes und der Ressourcen fertig sind, können Sie die Web-App und das CosmosDB-Konto löschen, indem Sie die Ressourcengruppe löschen. Verwenden Sie dazu die Cloud Shell.
+Wenn Sie die App getestet und sich mit dem Code und den Ressourcen vertraut gemacht haben, können Sie die Web-App und das Azure Cosmos DB-Konto löschen, indem Sie die Ressourcengruppe in der Cloud Shell löschen.
 
 ```azurecli-interactive
 az group delete -n DotNetAzureTutorial
