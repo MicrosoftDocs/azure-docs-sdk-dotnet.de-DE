@@ -16,11 +16,11 @@ metadata:
   ms.technology: azure
   ms.devlang: dotnet
   ms.service: multiple
-  ms.openlocfilehash: 297b6fbef2ed626667dccb72b1a30dd278ab5fb5
-  ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+  ms.openlocfilehash: 3d54f9aa3848ad07eec89ccef109967c7bccf19c
+  ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 03/05/2018
+  ms.lasthandoff: 04/14/2018
 sections:
 - items:
   - type: markdown
@@ -37,7 +37,7 @@ sections:
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
       title: Erste Schritte
-    - href: https://azure.microsoft.com/resources/samples/?platform=dotnet&view=azure-dotnet
+    - href: ./dotnet-samples?view=azure-dotnet
       html: <p>Azure-Codebeispiele mit .NET</p>
       image:
         src: https://docs.microsoft.com/en-us/media/common/i_code-samples.svg
@@ -75,8 +75,8 @@ sections:
       href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg
-      title: Erstellen einer .NET-App mit Cosmos DB
-      href: https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet
+      title: Erstellen einer .NET-App mit Azure Cosmos DB
+      href: https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/fabric.svg
       title: Erstellen einer .NET-Microservice-App mit Service Fabric
@@ -118,9 +118,9 @@ sections:
     style: unordered
     items:
     - html: <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Erstellen einer ASP.NET-App in Azure mit SQL-Datenbank</a>
-    - html: '<a href="https://docs.microsoft.com/azure/documentdb/documentdb-dotnet-application">ASP.NET MVC-Tutorial: Entwicklung von Webanwendungen mit Azure Cosmos DB</a>'
+    - html: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-application">Erstellen einer ASP.NET-Web-App mit Azure Cosmos DB</a>
     - html: <a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Erste Schritte mit API-Apps, ASP.NET und Swagger in Azure App Service</a>
     - html: <a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Bereitstellen eines Kubernetes-Clusters für Windows-Container</a>
     - html: <a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Herstellen einer Verbindung mit einer Azure SQL-Datenbank und Abfragen der Datenbank mit .NET (C#) und Visual Studio</a>
     - html: '<a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Azure-Datenbank für PostgreSQL: Verwenden von .NET (C#) zum Herstellen von Verbindungen mit Daten und Durchführen von Abfragen</a>'
-    - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Azure Cosmos DB: Erste Schritte mit der DocumentDB-API und .NET Core</a>'
+    - html: <a href="https://docs.microsoft.com/azure/cosmos-db/sql-api-get-started">Erste Schritte mit der SQL-API von Azure Cosmos DB in .NET</a>
