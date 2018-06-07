@@ -16,16 +16,17 @@ metadata:
   ms.technology: azure
   ms.devlang: dotnet
   ms.service: multiple
-  ms.openlocfilehash: b2f97eee78d6e4e5b71b036c3550e0532ff7962d
-  ms.sourcegitcommit: 7d88aef45df03d9a2be5b9ac5c9f1f146462427b
+  ms.openlocfilehash: 0df719af621462048f432589f4235b220721c591
+  ms.sourcegitcommit: 4ec8ceb3a22c209c9c620dd0982cfbc08d21006c
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/11/2018
+  ms.lasthandoff: 06/05/2018
+  ms.locfileid: "34761378"
 sections:
 - items:
   - type: markdown
     text: >
-      Steigen Sie mithilfe der unten aufgeführten Ressourcen in das Entwickeln von Apps mit Azure ein, um hervorragende Tutorials und Tools für .NET-Entwickler zu finden.
+      Steigen Sie mithilfe der unten aufgeführten cloudfähigen Ressourcen in das Entwickeln von Apps mit Azure ein, um hervorragende Tutorials und Tools für .NET-Entwickler zu finden.
 - items:
   - type: list
     style: cards
@@ -63,8 +64,8 @@ sections:
     items:
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/app-service-web.svg
-      title: Bereitstellen Ihrer ersten .NET-App in Azure
-      href: https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet
+      title: Erstellen einer ASP.NET-App mit einer Azure SQL-Datenbank
+      href: https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
     - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/azurefunctions.svg
       title: Erstellen einer serverlosen .NET-Funktion
@@ -82,13 +83,13 @@ sections:
       title: Erstellen einer .NET-Microservice-App mit Service Fabric
       href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
     - image:
-        src: https://docs.microsoft.com/media/logos/logo_vs-team-services.svg
-      title: Erstellen einer CI/CD-Pipeline für .NET
-      href: https://docs.microsoft.com/vsts/build-release/apps/cd/azure/azure-devops-project-aspnetcore
+        src: https://docs.microsoft.com/azure/media/index/api_textanalytics.svg
+      title: Analysieren von Sprache mit der C#- und Textanalyse-API
+      href: https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/csharp
 - title: Erste Schritte mit .NET in Azure
   items:
   - type: markdown
-    text: <iframe src="https://channel9.msdn.com/Shows/Azure-for-NET-Developers/Welcome-to-the-Azure-for-NET-Developer-Center/player" width="640" height="360" allowFullScreen="true" frameBorder="0"></iframe>
+    text: <iframe src="https://channel9.msdn.com/Shows/Azure-for-NET-Developers/Create-a-NET-app-in-Azure-Quickstart/player" width="640" height="360" allowFullScreen="true" frameBorder="0"></iframe>
 - title: Kostenloses .NET- und Azure-Videotraining auf Pluralsight
   items:
   - type: list
@@ -100,16 +101,6 @@ sections:
       image:
         src: https://docs.microsoft.com/en-us/media/logos/logo_pluralsight.svg
       title: Entwickeln mit .NET und C# in Azure
-- title: Beispiele
-  items:
-  - type: list
-    style: unordered
-    items:
-    - html: <a href="https://azure.microsoft.com/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/">Developing a .NET app using Azure Cosmos DB's MongoDB API</a> (Entwickeln einer .NET-App mit der MongoDB-API von Azure Cosmos DB)
-    - html: <a href="https://azure.microsoft.com/resources/samples/storage-dotnet-client-side-encryption/">Getting Started with Azure Client Side Encryption in .NET</a> (Erste Schritte mit clientseitiger Azure-Verschlüsselung in .NET)
-    - html: <a href="https://azure.microsoft.com/resources/samples/storage-table-dotnet-getting-started/ ">Getting Started with Azure Table Storage in .NET</a> (Erste Schritte mit Azure Table Storage in .NET)
-    - html: <a href="https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/">Azure Blob Storage Samples for .NET</a> (Azure Blob Storage-Beispiele für .NET)
-    - html: <a href="https://azure.microsoft.com/resources/samples/redis-cache-getting-started/">Get started with Azure Redis Cache</a> (Erste Schritte mit Azure Redis Cache)
 - title: Schritt-für-Schritt-Tutorials
   items:
   - type: paragraph
