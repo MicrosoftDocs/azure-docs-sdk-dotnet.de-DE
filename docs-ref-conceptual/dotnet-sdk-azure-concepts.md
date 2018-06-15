@@ -16,6 +16,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752862"
 ---
 # <a name="azure-management-library-for-net-fluent-concepts"></a>Azure-Verwaltungsbibliothek für .NET Fluent-Konzepte
 
