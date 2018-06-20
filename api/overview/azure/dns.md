@@ -1,6 +1,6 @@
 ---
-title: "Azure DNS-Bibliotheken für .NET"
-description: "Referenz für Azure DNS-Bibliotheken für .NET"
+title: Azure DNS-Bibliotheken für .NET
+description: Referenz für Azure DNS-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, DNS
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487053"
 ---
 # <a name="azure-dns-libraries-for-net"></a>Azure DNS-Bibliotheken für .NET
 

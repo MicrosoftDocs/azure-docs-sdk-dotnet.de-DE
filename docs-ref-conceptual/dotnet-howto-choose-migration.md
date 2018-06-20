@@ -1,6 +1,6 @@
 ---
-title: "Auswählen der passenden Azure-Hostingoption"
-description: "Hier erfahren Sie, welcher Azure-Migrationspfad für Ihre ASP.NET-Webanwendung der richtige ist."
+title: Auswählen der passenden Azure-Hostingoption
+description: Hier erfahren Sie, welcher Azure-Migrationspfad für Ihre ASP.NET-Webanwendung der richtige ist.
 keywords: Azure .NET, ASP.NET, App Service, VM, virtueller Computer, Web-App, migrieren, Migration
 author: CESARDELATORRE
 manager: wpickett
@@ -16,6 +16,7 @@ ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 12/09/2017
+ms.locfileid: "26588463"
 ---
 # <a name="choose-the-right-azure-hosting-option"></a>Auswählen der passenden Azure-Hostingoption
 

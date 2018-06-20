@@ -1,6 +1,6 @@
 ---
-title: "Azure Service Fabric-Bibliotheken für .NET"
-description: "Referenz für Azure Service Fabric-Bibliotheken für .NET"
+title: Azure Service Fabric-Bibliotheken für .NET
+description: Referenz für Azure Service Fabric-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Service Fabric
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566093"
 ---
 # <a name="azure-service-fabric-libraries-for-net"></a>Azure Service Fabric-Bibliotheken für .NET
 

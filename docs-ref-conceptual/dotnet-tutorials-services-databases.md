@@ -15,6 +15,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005747"
 ---
 # <a name="tutorials-for-using-net-with-azure-databases"></a>Tutorials für die Verwendung von .NET mit Azure-Datenbanken
 

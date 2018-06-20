@@ -1,6 +1,6 @@
 ---
-title: "Azure SQL-Datenbank-APIs für .NET"
-description: "Referenz für Azure SQL-Datenbank-Bibliotheken für .NET"
+title: Azure SQL-Datenbank-APIs für .NET
+description: Referenz für Azure SQL-Datenbank-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, SQL, SQL-Datenbank
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: c360a22d5bff6eedd714b28b847d2f26b06665f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/15/2017
+ms.locfileid: "24533105"
 ---
 # <a name="azure-sql-database-apis-for-net"></a>Azure SQL-Datenbank-APIs für .NET
 

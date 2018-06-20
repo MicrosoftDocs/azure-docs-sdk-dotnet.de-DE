@@ -15,6 +15,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005877"
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Bereitstellen in Azure über die Befehlszeile mit .NET Core
 

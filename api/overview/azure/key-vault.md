@@ -1,6 +1,6 @@
 ---
-title: "Azure Key Vault-Bibliotheken für .NET"
-description: "Referenz für Azure Key Vault-Bibliotheken für .NET"
+title: Azure Key Vault-Bibliotheken für .NET
+description: Referenz für Azure Key Vault-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Key Vault
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/24/2017
+ms.locfileid: "23489184"
 ---
 # <a name="azure-key-vault-libraries-for-net"></a>Azure Key Vault-Bibliotheken für .NET
 

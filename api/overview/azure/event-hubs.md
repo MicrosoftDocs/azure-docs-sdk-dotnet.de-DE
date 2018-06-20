@@ -1,6 +1,6 @@
 ---
-title: "Azure Event Hubs-Bibliotheken für .NET"
-description: "Referenz für Azure Event Hubs-Bibliotheken für .NET"
+title: Azure Event Hubs-Bibliotheken für .NET
+description: Referenz für Azure Event Hubs-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Event Hubs
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487293"
 ---
 # <a name="azure-event-hubs-libraries-for-net"></a>Azure Event Hubs-Bibliotheken für .NET
 

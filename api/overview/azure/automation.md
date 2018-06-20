@@ -1,6 +1,6 @@
 ---
-title: "Azure Automation-Bibliotheken für .NET"
-description: "Referenz für Azure Automation-Bibliotheken für .NET"
+title: Azure Automation-Bibliotheken für .NET
+description: Referenz für Azure Automation-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Automation
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23486693"
 ---
 # <a name="azure-automation-libraries-for-net"></a>Azure Automation-Bibliotheken für .NET
 
