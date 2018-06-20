@@ -1,6 +1,6 @@
 ---
-title: "Power BI Embedded-Bibliotheken für .NET"
-description: "Referenz für Power BI Embedded-Bibliotheken für .NET"
+title: Power BI Embedded-Bibliotheken für .NET
+description: Referenz für Power BI Embedded-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Power BI Embedded
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487523"
 ---
 # <a name="power-bi-embedded-libraries-for-net"></a><span data-ttu-id="3a416-104">Power BI Embedded-Bibliotheken für .NET</span><span class="sxs-lookup"><span data-stu-id="3a416-104">Power BI Embedded libraries for .NET</span></span>
 

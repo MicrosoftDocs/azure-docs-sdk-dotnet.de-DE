@@ -1,6 +1,6 @@
 ---
-title: "Azure Resource Manager-Bibliotheken für .NET"
-description: "Referenz für Azure Resource Manager-Bibliotheken für .NET"
+title: Azure Resource Manager-Bibliotheken für .NET
+description: Referenz für Azure Resource Manager-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Resource Manager
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566371"
 ---
 # <a name="azure-resource-manager-libraries-for-net"></a><span data-ttu-id="2b457-104">Azure Resource Manager-Bibliotheken für .NET</span><span class="sxs-lookup"><span data-stu-id="2b457-104">Azure Resource Manager libraries for .NET</span></span>
 

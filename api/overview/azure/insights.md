@@ -1,6 +1,6 @@
 ---
-title: "Azure Application Insights-Bibliotheken für .NET"
-description: "Referenz für Azure Application Insights-Bibliotheken für .NET"
+title: Azure Application Insights-Bibliotheken für .NET
+description: Referenz für Azure Application Insights-Bibliotheken für .NET
 keywords: Azure .NET, SDK, API, Application Insights
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487213"
 ---
 # <a name="azure-application-insights-libraries-for-net"></a><span data-ttu-id="b1b1a-104">Azure Application Insights-Bibliotheken für .NET</span><span class="sxs-lookup"><span data-stu-id="b1b1a-104">Azure Application Insights libraries for .NET</span></span>
 

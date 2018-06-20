@@ -1,6 +1,6 @@
 ---
-title: "Azure Virtual Network-Bibliotheken für .NET"
-description: "Referenz für Azure Virtual Network-Bibliotheken für .NET"
+title: Azure Virtual Network-Bibliotheken für .NET
+description: Referenz für Azure Virtual Network-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Virtual Network
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487003"
 ---
 # <a name="azure-virtual-network-libraries-for-net"></a><span data-ttu-id="66fe4-104">Azure Virtual Network-Bibliotheken für .NET</span><span class="sxs-lookup"><span data-stu-id="66fe4-104">Azure Virtual Network libraries for .NET</span></span>
 

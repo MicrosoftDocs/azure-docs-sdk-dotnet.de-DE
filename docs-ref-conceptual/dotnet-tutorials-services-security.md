@@ -15,6 +15,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752852"
 ---
 # <a name="tutorials-for-authenticating-users-in-your-net-apps-running-on-azure"></a><span data-ttu-id="4f382-103">Tutorials zum Authentifizieren von Benutzern in Ihren in Azure ausgeführten .NET-Anwendungen.</span><span class="sxs-lookup"><span data-stu-id="4f382-103">Tutorials for authenticating users in your .NET apps running on Azure</span></span>
 

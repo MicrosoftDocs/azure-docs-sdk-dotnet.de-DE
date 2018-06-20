@@ -1,6 +1,6 @@
 ---
-title: "Azure Batch-Bibliotheken für .NET"
-description: "Referenz für Azure Batch-Bibliotheken für .NET"
+title: Azure Batch-Bibliotheken für .NET
+description: Referenz für Azure Batch-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Batch
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487263"
 ---
 # <a name="azure-batch-libraries-for-net"></a><span data-ttu-id="41237-104">Azure Batch-Bibliotheken für .NET</span><span class="sxs-lookup"><span data-stu-id="41237-104">Azure Batch libraries for .NET</span></span>
 

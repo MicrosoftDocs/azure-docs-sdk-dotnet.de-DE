@@ -1,6 +1,6 @@
 ---
-title: "Azure Media Services-Bibliotheken für .NET"
-description: "Referenz für Azure Media Services-Bibliotheken für .NET"
+title: Azure Media Services-Bibliotheken für .NET
+description: Referenz für Azure Media Services-Bibliotheken für .NET
 keywords: Azure, .NET, SDK, API, Media Services
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487443"
 ---
 # <a name="azure-media-services-libraries-for-net"></a><span data-ttu-id="8d0d1-104">Azure Media Services-Bibliotheken für .NET</span><span class="sxs-lookup"><span data-stu-id="8d0d1-104">Azure Media Services libraries for .NET</span></span>
 
