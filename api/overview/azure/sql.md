@@ -7,23 +7,21 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: sql-database
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 3aba3c77935e0f00c7396b4cafa06be32ae2a50d
-ms.sourcegitcommit: c360a22d5bff6eedd714b28b847d2f26b06665f4
+ms.openlocfilehash: 30d5f9ffa0654673fe358872cbb7342fb87d4127
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2017
-ms.locfileid: "24533105"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065890"
 ---
 # <a name="azure-sql-database-apis-for-net"></a>Azure SQL-Datenbank-APIs für .NET
 
 ## <a name="overview"></a>Übersicht
 
-[Azure SQL-Datenbank](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) ist Datenbankdienst, der mit dem Microsoft SQL Server-Modul arbeitet und relationale, JSON-, räumliche und XML-Daten unterstützt. 
+[Azure SQL-Datenbank](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) ist ein Datenbankdienst, der mit der Microsoft SQL Server-Engine arbeitet und relationale, JSON-, räumliche und XML-Daten unterstützt. 
 
 Weitere Informationen zum Verwenden von SQL-Datenbank mit .NET finden Sie unter [Herstellen einer Verbindung mit einer Azure SQL-Datenbank und Abfragen der Datenbank mit .NET (C#) und Visual Studio](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet-visual-studio).
 

@@ -12,10 +12,10 @@ ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
 ms.openlocfilehash: 5890df018eea61bcc0f8bce1cd4bc02fa84b37cf
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.sourcegitcommit: 9dd801d659803f5efb16d65454cd09258e1cc7d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "29752673"
 ---
 # <a name="tools-for-net-azure-developers"></a>Tools für .NET Azure-Entwickler
@@ -30,7 +30,7 @@ Unabhängig von Ihrem Betriebssystem bieten wir eine leistungsstarke Reihe von T
         <img src="https://docs.microsoft.com/en-us/media/logos/logo_vs-ide.svg" width="50" height="50"></img>
     </td>
     <td>
-Visual Studio 2017 bietet integrierte Unterstützung für die Azure-Entwicklung.
+        Visual Studio 2017 bietet integrierte Unterstützung für die Azure-Entwicklung.
     </td>
   </tr>
 </table>
@@ -63,7 +63,7 @@ Starten Sie, indem Sie [Ihre erste .NET-App in Azure bereitstellen](https://docs
         <img src="https://docs.microsoft.com/en-us/media/logos/logo_vs-mac.svg" width="50" height="50"></img>
     </td>
     <td>
-Visual Studio für Mac ist alles, was Sie für die Azure-Entwicklung brauchen.
+        Visual Studio für Mac ist alles, was Sie für die Azure-Entwicklung brauchen.
     </td>
   </tr>
 </table>
