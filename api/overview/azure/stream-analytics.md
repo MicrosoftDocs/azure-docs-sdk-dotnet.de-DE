@@ -7,23 +7,21 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: stream-analytics
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 2a5e8b8481548d6cfebc5104eb459f8772f51462
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 4fc8c5700122a82a5e31df870787a67dad277542
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487133"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065930"
 ---
 # <a name="azure-stream-analytics-libraries-for-net"></a>Azure Stream Analytics-Bibliotheken für .NET
 
 ## <a name="overview"></a>Übersicht
 
-[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-introduction) ist ein vollständig verwaltetes Modul für die Ereignisverarbeitung, mit dem Sie analytische Echtzeitberechnungen von Datenströmen einrichten können. Die Daten können von Geräten, Sensoren, Websites, Feeds sozialer Medien, Anwendungen, Infrastruktursystemen usw. stammen. 
+[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-introduction) ist eine vollständig verwaltete Engine für die Ereignisverarbeitung, mit der Sie analytische Echtzeitberechnungen von Datenströmen einrichten können. Die Daten können von Geräten, Sensoren, Websites, Feeds sozialer Medien, Anwendungen, Infrastruktursystemen usw. stammen. 
 
 Weitere Informationen zu Azure Stream Analytics finden Sie unter [Erste Schritte mit Azure Stream Analytics: Betrugserkennung in Echtzeit](/azure/stream-analytics/stream-analytics-real-time-fraud-detection).
 
@@ -32,7 +30,7 @@ Weitere Informationen zu Azure Stream Analytics finden Sie unter [Erste Schritte
 
 Verwenden Sie die Azure Stream Analytics-Verwaltungsbibliothek zum Erstellen, Starten und Beenden von Azure Stream Analytics-Aufträgen.
 
-Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.StreamAnalytics) direkt von der [Paket-Manager-Konsole][PackageManager] in Visual Studio aus oder mit der [.NET Core-CLI][DotNetCLI].
+Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.StreamAnalytics) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio-Paket-Manager
 

@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: event-hubs
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 2ec234959ffc46d2399d1c763e05f173a311b0d2
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 5502ae24574c7883c34522ae18ca81bb516a33d2
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487293"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065310"
 ---
 # <a name="azure-event-hubs-libraries-for-net"></a>Azure Event Hubs-Bibliotheken für .NET
 
@@ -31,7 +29,7 @@ Weitere Informationen zu Azure Event Hubs finden Sie im Artikel [Was ist Event H
 
 Verwenden Sie den Event Hubs-Client zum Senden und Empfangen von Nachrichten an und von Event Hubs.
 
-Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.EventHubs) direkt von der [Paket-Manager-Konsole][PackageManager] in Visual Studio aus oder mit der [.NET Core-CLI][DotNetCLI].
+Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.EventHubs) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio-Paket-Manager
 
@@ -66,7 +64,7 @@ await eventHubClient.SendAsync(new EventData(Encoding.UTF8.GetBytes(message)));
 
 Verwenden Sie die Event Hubs-Verwaltungsbibliothek zum Erstellen, Aktualisieren und Entfernen von Hubs und Verbrauchergruppen.
 
-Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.EventHub) direkt von der [Paket-Manager-Konsole][PackageManager] in Visual Studio aus oder mit der [.NET Core-CLI][DotNetCLI].
+Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.EventHub) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Visual Studio-Paket-Manager
 
@@ -102,7 +100,7 @@ Console.WriteLine("Created Event Hub successfully.");
 > [!div class="nextstepaction"]
 > [Informationen zu den Verwaltungs-APIs](/dotnet/api/overview/azure/eventhub/management)
 
-## <a name="tutorials"></a>Lernprogramme
+## <a name="tutorials"></a>Tutorials
 
 * [Senden von Ereignissen an Azure Event Hubs mithilfe von .NET Framework](/azure/event-hubs/event-hubs-dotnet-framework-getstarted-send)
 
