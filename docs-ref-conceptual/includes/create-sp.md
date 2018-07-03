@@ -17,11 +17,15 @@ SubscriptionName      : my-subscription
 CurrentStorageAccount : 
 ```
 
-[Erstellen Sie einen Dienstprinzipal mithilfe von PowerShell](/powershell/azure/create-azure-service-principal-azureps), wie hier:
+[Erstellen Sie einen Dienstprinzipal mithilfe von PowerShell](/powershell/azure/create-azure-service-principal-azureps), wie hier gezeigt: 
+
+> [!NOTE]
+> Wenn das Cmdlet `New-AzureRmADServicePrincipal` unten „Another object with the same value for property identifierUris already exists“ zurückgibt, enthält Ihr Mandant bereits einen Dienstprinzipal mit diesem Namen. Verwenden Sie einen anderen Wert für den Parameter **DisplayName**. 
 
 ```powershell
 # Create the service principal (use a strong password)
-$sp = New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password "password"
+$cred = Get-Credential
+$sp = New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password $cred.Password
 
 # Give it the permissions it needs...
 New-AzureRmRoleAssignment -ServicePrincipalName $sp.ApplicationId -RoleDefinitionName Contributor
