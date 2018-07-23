@@ -1,26 +1,26 @@
 ---
-title: Azure-C#-Codebeispiele für .NET
-description: C#-Codebeispiele für .NET und Azure.
+title: Azure-C#-Codebeispiele für .NET und .NET Core
+description: C#-Codebeispiele für Azure mit .NET, .NET Core, ASP.NET und ASP.NET Core
 layout: LandingPage
 ms.topic: reference
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 04/12/2018
+ms.date: 07/17/2018
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 2952f2999ae53100d35d90f44bfcc6c9df696b00
-ms.sourcegitcommit: 7d88aef45df03d9a2be5b9ac5c9f1f146462427b
+ms.openlocfilehash: b4a67a2b3c942ea5282878a61ccabb7c1d3aa95c
+ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2018
-ms.locfileid: "34051960"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39135678"
 ---
-# <a name="azure-c-code-samples-for-net"></a>Azure-C#-Codebeispiele für .NET
+# <a name="azure-c-code-samples-for-net-and-net-core"></a>Azure-C#-Codebeispiele für .NET und .NET Core
 
-Hier finden Sie die empfehlenswertesten Beispiele und Tutorials für den Einstieg in die Verwendung von Azure mit C# und .NET.
+Hier finden Sie die empfehlenswertesten Beispiele und Tutorials für den Einstieg in die Verwendung von Azure mit C# und .NET und .NET Core.
 
 <div id="main" class="v2">
     <div class="container">
@@ -36,8 +36,8 @@ Hier finden Sie die empfehlenswertesten Beispiele und Tutorials für den Einstie
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>Einfache Website</h3>
-                                    <p>Hier erfahren Sie, wie Sie eine einfache ASP.NET Core-Website zum Speichern von Informationen in einem SQL-Back-End erstellen.</p>
+                                    <h3>Basic-Web-App</h3>
+                                    <p>Hier erfahren Sie, wie Sie in Azure App Service eine einfache ASP.NET Core-Web-App zum Speichern von Informationen in einem Azure SQL-Back-End erstellen.</p>
                                 </div>
                             </div>
                         </a>
@@ -113,7 +113,7 @@ Hier finden Sie die empfehlenswertesten Beispiele und Tutorials für den Einstie
                                 </div>
                                 <div class="cardText">
                                     <h3>Analysieren von Bildern mit KI</h3>
-                                    <p>Zeigt die Erkennung optischer Merkmale in einem Bild mithilfe von Cognitive Services.</p>
+                                    <p>Zeigt die Erkennung optischer Merkmale in einem Bild mithilfe von Azure Cognitive Services.</p>
                                 </div>
                             </div>
                         </a>
@@ -132,13 +132,13 @@ Hier finden Sie die empfehlenswertesten Beispiele und Tutorials für den Einstie
                                 </div>
                                 <div class="cardText">
                                     <h3>Clouddatenbank</h3>
-                                    <p>Hier erfahren Sie, wie Sie mit Cosmos DB in einer modernen Clouddatenbank Standardsuchanfragen sowie Erstellungs- und Bearbeitungsvorgänge ausführen.</p>
+                                    <p>Hier erfahren Sie, wie Sie mit Azure Cosmos DB in einer modernen Clouddatenbank Standardsuchanfragen sowie Erstellungs- und Bearbeitungsvorgänge ausführen.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-            </li>             
+            </li>
         </ul>
     </div>
 </div>
