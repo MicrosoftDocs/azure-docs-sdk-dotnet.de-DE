@@ -52,7 +52,7 @@ Wählen Sie eine VM-Größe und einen VM-Typ, die am besten für Ihre Workload g
 
 Virtuelle Computer müssen genau wie lokale Computer gewartet und aktualisiert werden<sup>& #42;</sup>.  Bei Anwendungen, die in einer PaaS-Umgebung (Plattform-as-a-Service) wie etwa [Azure App Service](https://docs.microsoft.com/azure/app-service/) oder in einem [Container](https://docs.microsoft.com/azure/app-service/containers/) ausgeführt werden können, entfällt diese Aufgabe.
 
-*<sup>& #42; </sup>[Automatische Betriebssystemupgrades für Azure-VM-Skalierungsgruppen](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) stehen derzeit als Vorschauversion zur Verfügung.*
+*<sup>& #42;</sup>[Automatische Betriebssystemupgrades für Azure-VM-Skalierungsgruppen](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) stehen derzeit als Vorschauversion zur Verfügung.*
 
 ### <a name="virtual-networks"></a>Virtuelle Netzwerke
 
