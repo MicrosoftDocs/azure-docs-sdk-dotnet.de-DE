@@ -10,42 +10,42 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: storage
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 273e7ffc8794ef531e2bd35858b8ad1299755882
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: e953f38f103631f94b844d803d20a6576e841ed3
+ms.sourcegitcommit: 2a00655810b9b2c78a3edb31c974a9989bff8bc0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065530"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "42623350"
 ---
-# <a name="azure-storage-apis-for-net"></a><span data-ttu-id="16af9-104">Azure Storage-APIs für .NET</span><span class="sxs-lookup"><span data-stu-id="16af9-104">Azure Storage APIs for .NET</span></span>
+# <a name="azure-storage-apis-for-net"></a><span data-ttu-id="ae86b-104">Azure Storage-APIs für .NET</span><span class="sxs-lookup"><span data-stu-id="ae86b-104">Azure Storage APIs for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="16af9-105">Übersicht</span><span class="sxs-lookup"><span data-stu-id="16af9-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="ae86b-105">Übersicht</span><span class="sxs-lookup"><span data-stu-id="ae86b-105">Overview</span></span>
 
-<span data-ttu-id="16af9-106">Lesen und schreiben Sie mit [Azure Storage](https://review.docs.microsoft.com/azure/storage/storage-introduction) Dateien, Blob- bzw. Objektdaten, Schlüssel-Wert-Paare und Nachrichten aus Ihren .NET-Anwendungen.</span><span class="sxs-lookup"><span data-stu-id="16af9-106">Read and write files, blob (object) data, key-value pairs, and messages from your .NET applications with [Azure Storage](https://review.docs.microsoft.com/azure/storage/storage-introduction).</span></span>
+<span data-ttu-id="ae86b-106">Lesen und schreiben Sie mit [Azure Storage](https://docs.microsoft.com/azure/storage/storage-introduction) Dateien, Blob- bzw. Objektdaten, Schlüssel-Wert-Paare und Nachrichten aus Ihren .NET-Anwendungen.</span><span class="sxs-lookup"><span data-stu-id="ae86b-106">Read and write files, blob (object) data, key-value pairs, and messages from your .NET applications with [Azure Storage](https://docs.microsoft.com/azure/storage/storage-introduction).</span></span>
 
-<span data-ttu-id="16af9-107">Informationen zu den ersten Schritten mit Azure Storage finden Sie unter [Erste Schritte mit Azure Blob Storage mithilfe von .NET](/azure/storage/storage-dotnet-how-to-use-blobs).</span><span class="sxs-lookup"><span data-stu-id="16af9-107">To get started with Azure Storage, see [Get started with Azure Blob storage using .NET](/azure/storage/storage-dotnet-how-to-use-blobs).</span></span>
+<span data-ttu-id="ae86b-107">Informationen zu den ersten Schritten mit Azure Storage finden Sie unter [Erste Schritte mit Azure Blob Storage mithilfe von .NET](/azure/storage/storage-dotnet-how-to-use-blobs).</span><span class="sxs-lookup"><span data-stu-id="ae86b-107">To get started with Azure Storage, see [Get started with Azure Blob storage using .NET](/azure/storage/storage-dotnet-how-to-use-blobs).</span></span>
 
-## <a name="client-library"></a><span data-ttu-id="16af9-108">Clientbibliothek</span><span class="sxs-lookup"><span data-stu-id="16af9-108">Client library</span></span>
+## <a name="client-library"></a><span data-ttu-id="ae86b-108">Clientbibliothek</span><span class="sxs-lookup"><span data-stu-id="ae86b-108">Client library</span></span>
 
-<span data-ttu-id="16af9-109">Verwenden Sie [Verbindungszeichenfolgen](/azure/storage/storage-create-storage-account#manage-your-storage-account), um eine Verbindung mit einem Azure Storage-Konto herzustellen. Nutzen Sie anschließend die Klassen und Methoden der Clientbibliotheken, um mit Blob-, Tabellen-, Datei- oder Warteschlangenspeicher zu arbeiten.</span><span class="sxs-lookup"><span data-stu-id="16af9-109">Use [connection strings](/azure/storage/storage-create-storage-account#manage-your-storage-account) to connect to an Azure Storage account, then use the client libraries' classes and methods to work with blob, table, file, or queue storage.</span></span>
+<span data-ttu-id="ae86b-109">Verwenden Sie [Verbindungszeichenfolgen](/azure/storage/storage-create-storage-account#manage-your-storage-account), um eine Verbindung mit einem Azure Storage-Konto herzustellen. Nutzen Sie anschließend die Klassen und Methoden der Clientbibliotheken, um mit Blob-, Tabellen-, Datei- oder Warteschlangenspeicher zu arbeiten.</span><span class="sxs-lookup"><span data-stu-id="ae86b-109">Use [connection strings](/azure/storage/storage-create-storage-account#manage-your-storage-account) to connect to an Azure Storage account, then use the client libraries' classes and methods to work with blob, table, file, or queue storage.</span></span>
 
-<span data-ttu-id="16af9-110">Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/WindowsAzure.Storage) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="16af9-110">Install the [NuGet package](https://www.nuget.org/packages/WindowsAzure.Storage) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="ae86b-110">Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/WindowsAzure.Storage) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="ae86b-110">Install the [NuGet package](https://www.nuget.org/packages/WindowsAzure.Storage) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="16af9-111">Visual Studio-Paket-Manager</span><span class="sxs-lookup"><span data-stu-id="16af9-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="ae86b-111">Visual Studio-Paket-Manager</span><span class="sxs-lookup"><span data-stu-id="ae86b-111">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package WindowsAzure.Storage
 ```
 
-### <a name="net-core-cli"></a><span data-ttu-id="16af9-112">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="16af9-112">.NET Core CLI</span></span>
+### <a name="net-core-cli"></a><span data-ttu-id="ae86b-112">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="ae86b-112">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package WindowsAzure.Storage
 ```
 
-### <a name="code-example"></a><span data-ttu-id="16af9-113">Codebeispiel</span><span class="sxs-lookup"><span data-stu-id="16af9-113">Code Example</span></span>
+### <a name="code-example"></a><span data-ttu-id="ae86b-113">Codebeispiel</span><span class="sxs-lookup"><span data-stu-id="ae86b-113">Code Example</span></span>
 
-<span data-ttu-id="16af9-114">In diesem Beispiel wird in einem vorhandenen Speicherkonto ein neues Blob in einem neuen Container erstellt.</span><span class="sxs-lookup"><span data-stu-id="16af9-114">This example creates a new blob to a new container in an existing storage account.</span></span>
+<span data-ttu-id="ae86b-114">In diesem Beispiel wird in einem vorhandenen Speicherkonto ein neues Blob in einem neuen Container erstellt.</span><span class="sxs-lookup"><span data-stu-id="ae86b-114">This example creates a new blob to a new container in an existing storage account.</span></span>
 
 ```csharp
 /* Include these "using" directives...
@@ -72,29 +72,29 @@ blob.UploadTextAsync("Hello, World!").Wait();
 ```
 
 > [!div class="nextstepactions"]
-> [<span data-ttu-id="16af9-115">Informationen zu den Client-APIs</span><span class="sxs-lookup"><span data-stu-id="16af9-115">Explore the client APIs</span></span>](/dotnet/api/overview/azure/storage/client)
+> [<span data-ttu-id="ae86b-115">Informationen zu den Client-APIs</span><span class="sxs-lookup"><span data-stu-id="ae86b-115">Explore the client APIs</span></span>](/dotnet/api/overview/azure/storage/client)
 
-## <a name="management-apis"></a><span data-ttu-id="16af9-116">Verwaltungs-APIs</span><span class="sxs-lookup"><span data-stu-id="16af9-116">Management APIs</span></span>
+## <a name="management-apis"></a><span data-ttu-id="ae86b-116">Verwaltungs-APIs</span><span class="sxs-lookup"><span data-stu-id="ae86b-116">Management APIs</span></span>
 
-<span data-ttu-id="16af9-117">Erstellen und verwalten Sie Azure Storage-Konten und -Verbindungsschlüssel mit der Verwaltungs-API.</span><span class="sxs-lookup"><span data-stu-id="16af9-117">Create and manage Azure Storage accounts and connection keys with the management API.</span></span>
+<span data-ttu-id="ae86b-117">Erstellen und verwalten Sie Azure Storage-Konten und -Verbindungsschlüssel mit der Verwaltungs-API.</span><span class="sxs-lookup"><span data-stu-id="ae86b-117">Create and manage Azure Storage accounts and connection keys with the management API.</span></span>
 
-<span data-ttu-id="16af9-118">Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.Storage.Fluent) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="16af9-118">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Storage.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="ae86b-118">Installieren Sie das [NuGet-Paket](https://www.nuget.org/packages/Microsoft.Azure.Management.Storage.Fluent) direkt über die [Paket-Manager-Konsole][PackageManager] in Visual Studio oder mit der [.NET Core CLI][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="ae86b-118">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Storage.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="16af9-119">Visual Studio-Paket-Manager</span><span class="sxs-lookup"><span data-stu-id="16af9-119">Visual Studio package manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="ae86b-119">Visual Studio-Paket-Manager</span><span class="sxs-lookup"><span data-stu-id="ae86b-119">Visual Studio package manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.Storage.Fluent
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="16af9-120">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="16af9-120">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="ae86b-120">.NET Core CLI</span><span class="sxs-lookup"><span data-stu-id="ae86b-120">.NET Core CLI</span></span>
 
 ````bash
 dotnet add package Microsoft.Azure.Management.Storage.Fluent
 ````
 
-### <a name="code-example"></a><span data-ttu-id="16af9-121">Codebeispiel</span><span class="sxs-lookup"><span data-stu-id="16af9-121">Code Example</span></span>
+### <a name="code-example"></a><span data-ttu-id="ae86b-121">Codebeispiel</span><span class="sxs-lookup"><span data-stu-id="ae86b-121">Code Example</span></span>
 
-<span data-ttu-id="16af9-122">In diesem Beispiel wird ein Speicherkonto erstellt.</span><span class="sxs-lookup"><span data-stu-id="16af9-122">This example creates a storage account.</span></span>
+<span data-ttu-id="ae86b-122">In diesem Beispiel wird ein Speicherkonto erstellt.</span><span class="sxs-lookup"><span data-stu-id="ae86b-122">This example creates a storage account.</span></span>
 
 ```csharp
 /* Include this "using" directive...
@@ -108,14 +108,14 @@ IStorageAccount storage = azure.StorageAccounts.Define(storageAccountName)
 ```
 
 > [!div class="nextstepactions"]
-> [<span data-ttu-id="16af9-123">Informationen zu den Verwaltungs-APIs</span><span class="sxs-lookup"><span data-stu-id="16af9-123">Explore the management APIs</span></span>](/dotnet/api/overview/azure/storage/management)
+> [<span data-ttu-id="ae86b-123">Informationen zu den Verwaltungs-APIs</span><span class="sxs-lookup"><span data-stu-id="ae86b-123">Explore the management APIs</span></span>](/dotnet/api/overview/azure/storage/management)
 
-## <a name="samples"></a><span data-ttu-id="16af9-124">Beispiele</span><span class="sxs-lookup"><span data-stu-id="16af9-124">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="ae86b-124">Beispiele</span><span class="sxs-lookup"><span data-stu-id="ae86b-124">Samples</span></span>
 
-* [<span data-ttu-id="16af9-125">Erste Schritte mit Azure Blob Storage in .NET</span><span class="sxs-lookup"><span data-stu-id="16af9-125">Get started with Azure Blob Storage in .NET</span></span>](https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/) 
-* [<span data-ttu-id="16af9-126">Erste Schritte mit Azure Queue Storage in .NET</span><span class="sxs-lookup"><span data-stu-id="16af9-126">Get started with Azure Queue Storage in .NET</span></span>](https://azure.microsoft.com/resources/samples/storage-queue-dotnet-getting-started/)
+* [<span data-ttu-id="ae86b-125">Erste Schritte mit Azure Blob Storage in .NET</span><span class="sxs-lookup"><span data-stu-id="ae86b-125">Get started with Azure Blob Storage in .NET</span></span>](https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/) 
+* [<span data-ttu-id="ae86b-126">Erste Schritte mit Azure Queue Storage in .NET</span><span class="sxs-lookup"><span data-stu-id="ae86b-126">Get started with Azure Queue Storage in .NET</span></span>](https://azure.microsoft.com/resources/samples/storage-queue-dotnet-getting-started/)
 
-<span data-ttu-id="16af9-127">Zeigen Sie die [vollständige Liste](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=storage) von Beispielen für Azure Storage an.</span><span class="sxs-lookup"><span data-stu-id="16af9-127">View the [complete list](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=storage) of Azure Storage samples.</span></span>
+<span data-ttu-id="ae86b-127">Zeigen Sie die [vollständige Liste](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=storage) von Beispielen für Azure Storage an.</span><span class="sxs-lookup"><span data-stu-id="ae86b-127">View the [complete list](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=storage) of Azure Storage samples.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
