@@ -5,18 +5,18 @@ keywords: Azure, .NET, SDK, API, Authentifizierung, Active Directory, Dienstprin
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 10/19/2017
+ms.date: 08/22/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 783b5ebf14abad992c18726df7232e4f3a68b72b
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 019f0047fb141842eb1481ad9b835fa865a9a139
+ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752772"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703043"
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a>Authentifizieren bei den Azure-Bibliotheken für .NET
 
@@ -103,9 +103,7 @@ var credentials = SdkContext.AzureCredentialsFactory
     AzureEnvironment.AzureGlobalCloud);
 ```
 
-- clientId: Verwenden Sie den Wert von *ApplicationId* aus der Dienstprinzipalausgabe.
-- clientSecret: Verwenden Sie den Parameter *-Password* (ohne Anführungszeichen), den Sie bei Ausführung von `New-AzureRmADServicePrincipal` zugewiesen haben.
-- tenantid: Verwenden Sie den Wert von *TenantId* nach der Ausführung von `Login-AzureRmAccount`.
+Verwenden Sie die Werte *clientId*, *clientSecret* und *tenantId* aus der JSON-Ausgabe, die Sie beim Erstellen des Dienstprinzipals erhalten haben.
 
 Erstellen Sie dann das Einstiegspunktobjekt `Azure`, um mit der Verwendung der API zu beginnen:
 

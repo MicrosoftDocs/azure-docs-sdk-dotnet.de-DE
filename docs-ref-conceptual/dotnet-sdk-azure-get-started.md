@@ -5,18 +5,18 @@ keywords: Azure, .NET, .NET Core, ASP.NET, ASP.NET Core SDK, API, authentifizier
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 07/17/2018
+ms.date: 08/22/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: a8775993e71566b7659a8ae8ceb2c376ece14e45
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: ad894e47704fcccc83f7d02acb8e418b167993f9
+ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135778"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703053"
 ---
 # <a name="get-started-with-the-azure-net-and-net-core-apis"></a>Erste Schritte mit den Azure .NET- und .NET Core-APIs
 
@@ -25,7 +25,6 @@ Dieses Tutorial veranschaulicht die Verwendung mehrerer [Azure-APIs für .NET](/
 ## <a name="prerequisites"></a>Voraussetzungen
 
 - Ein Azure-Konto. Falls Sie noch kein Konto haben, können Sie eine [kostenlose Testversion](https://azure.microsoft.com/free/) verwenden.
-- [Azure PowerShell](/powershell/azure/install-azurerm-ps)
 
 ## <a name="set-up-authentication"></a>Einrichten der Authentifizierung
 
@@ -83,7 +82,7 @@ static void Main(string[] args)
     string password = "MY_PASSWORD";
     string rgName = "sampleResourceGroup";
     string windowsVmName = "sampleWindowsVM";
-    string publicIpDnsLabel = "samplePublicIP";
+    string publicIpDnsLabel = "samplePublicIP" + (new Random().Next(0,100000)).ToString();
 
     // Authenticate
     var credentials = SdkContext.AzureCredentialsFactory
@@ -117,10 +116,10 @@ static void Main(string[] args)
 
 Drücken Sie **F5**, um das Beispiel auszuführen.
 
-Nach einigen Minuten wird das Programm beendet, und Sie werden aufgefordert, die EINGABETASTE zu drücken. Überprüfen Sie nach Drücken der EINGABETASTE die VM in Ihrem Abonnement mit PowerShell:
+Nach einigen Minuten wird das Programm beendet, und Sie werden aufgefordert, die EINGABETASTE zu drücken. Überprüfen Sie nach Drücken der EINGABETASTE den virtuellen Computer in Ihrem Abonnement mit Cloud Shell:
 
-```powershell
-Get-AzureRmVm -ResourceGroupName sampleResourceGroup
+```azurecli-interactive
+az vm list
 ```
 
 ## <a name="deploy-a-web-app-from-a-github-repo"></a>Bereitstellen einer Web-App aus einem GitHub-Repository
@@ -313,10 +312,10 @@ Nach einigen Minuten wird das Programm beendet. Vergewissern Sie sich, dass das 
 > [!IMPORTANT]
 > Wenn Sie die in diesem Tutorial verwendeten Ressourcen nicht bereinigen, werden Sie Ihnen weiter in Rechnung gestellt.  Versäumen Sie deshalb diesen Schritt nicht.
 
-Löschen Sie alle Ressourcen, die Sie erstellt haben, durch folgende Eingabe in PowerShell:
+Löschen Sie alle Ressourcen, die Sie erstellt haben, durch folgende Eingabe in Cloud Shell:
 
-```powershell
-Remove-AzureRmResourceGroup -ResourceGroupName sampleResourceGroup
+```azurecli-interactive
+az group delete --name sampleResourceGroup
 ```
 
 ## <a name="explore-more-samples"></a>Erkunden weiterer Beispiele
