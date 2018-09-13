@@ -11,12 +11,12 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: 643d758af8f90f22791d3b7deb18ae6233067ef0
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: af17a7dee8dd93aa50807b0b6b7eebadb673151b
+ms.sourcegitcommit: 6a1974bc7c7511aacac5b69daa296a59ab3f8000
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135718"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44700952"
 ---
 # <a name="migrate-your-net-web-app-or-service-to-azure-app-service"></a>Migrieren von .NET Web-Apps oder -Diensten zu Azure App Service 
 
@@ -30,10 +30,10 @@ Wollen Sie loslegen? [Veröffentlichen Sie Ihre ASP.NET- und SQL-Anwendung in Az
 
 Überprüfen Sie den Zugriff auf lokale Ressourcen, da diese möglicherweise migriert oder geändert werden müssen. Folgende Optionen für Maßnahmen im Zusammenhang mit dem Zugriff auf lokale Ressourcen sind verfügbar:
 
-* Erstellen Sie mithilfe von [Azure Virtual Networks](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet) ein VPN für die Verbindung von App Service mit lokalen Ressourcen.
-* Machen Sie lokale Dienste mithilfe von [Azure Relay](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it) ohne Firewall Änderungen sicher in der Cloud verfügbar.
+* Erstellen Sie mithilfe von [Azure Virtual Networks](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet) ein VPN für die Verbindung von App Service mit lokalen Ressourcen.
+* Machen Sie lokale Dienste mithilfe von [Azure Relay](https://docs.microsoft.com/azure/service-bus-relay/relay-what-is-it) ohne Firewall Änderungen sicher in der Cloud verfügbar.
 * Migrieren Sie Abhängigkeiten wie eine [SQL-Datenbank](https://go.microsoft.com/fwlink/?linkid=863217) zu Azure.
-* Verwenden Sie Platform-as-a-Service-Angebote in der Cloud, um Abhängigkeiten zu reduzieren. Erwägen Sie beispielsweise die Verwendung von [SendGrid](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email) anstatt eine Verbindung mit einem lokalen Mailserver herzustellen. 
+* Verwenden Sie Platform-as-a-Service-Angebote in der Cloud, um Abhängigkeiten zu reduzieren. Erwägen Sie beispielsweise die Verwendung von [SendGrid](https://docs.microsoft.com/azure/sendgrid-dotnet-how-to-send-email) anstatt eine Verbindung mit einem lokalen Mailserver herzustellen. 
 
 ### <a name="port-bindings"></a>Portbindungen
 
@@ -64,7 +64,7 @@ Dies wird nicht unterstützt. Erwägen Sie das Kopieren der erforderlichen Assem
 Alles, was in Ihrer Anwendung üblicherweise über „applicationHost.config“ konfiguriert wurde, kann jetzt über das Azure-Portal konfiguriert werden. Das gilt beispielsweise für die AppPool-Bitanzahl, für das Aktivieren/Deaktivieren von Websockets, für die verwaltete Pipelineversion und für die .NET Framework-Version (2.0/4.0). Öffnen Sie zum Ändern Ihrer [Anwendungseinstellungen](https://docs.microsoft.com/azure/app-service/web-sites-configure) im [Azure-Portal](https://portal.azure.com) das Blatt für Ihre Web-App, und klicken Sie auf die Registerkarte **Anwendungseinstellungen**.
 
 #### <a name="iis5-compatibility-mode"></a>IIS5-Kompatibilitätsmodus
-IIS5-Kompatibilitätsmodus wird Apps nicht unterstützt. In Azure App Service werden jede Web-App und alle Anwendungen darunter im gleichen Workerprozess mit einem bestimmten [Anwendungspoolsatz](http://technet.microsoft.com/en-us/library/cc735247(v=WS.10).aspx) ausgeführt.
+IIS5-Kompatibilitätsmodus wird Apps nicht unterstützt. In Azure App Service werden jede Web-App und alle Anwendungen darunter im gleichen Workerprozess mit einem bestimmten [Anwendungspoolsatz](http://technet.microsoft.com/library/cc735247(v=WS.10).aspx) ausgeführt.
 
 #### <a name="iis7-schema-compliance"></a>IIS7+-Schemakompatibilität  
 Einige Elemente und Attribute sind im Azure App Service-IIS-Schema nicht definiert. Sollten Probleme auftreten, ziehen Sie die Verwendung von [XDT-Transformationen](http://azure.microsoft.com/documentation/articles/web-sites-transform-extend/) in Betracht.
