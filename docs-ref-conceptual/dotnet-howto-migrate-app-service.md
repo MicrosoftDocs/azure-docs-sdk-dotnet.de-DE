@@ -5,18 +5,18 @@ keywords: Azure .NET, ASP.NET, WCF, App Service, Web-App, migrieren, Migration
 author: camsoper
 manager: wpickett
 ms.author: casoper
-ms.date: 07/16/2018
+ms.date: 08/11/2018
 ms.topic: article
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: af17a7dee8dd93aa50807b0b6b7eebadb673151b
-ms.sourcegitcommit: 6a1974bc7c7511aacac5b69daa296a59ab3f8000
+ms.openlocfilehash: 172ceb6956004dd560175d6662debdb4c898743d
+ms.sourcegitcommit: ed841c513dd332b14ca76a0c8a1893be13ec9f2c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44700952"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "45567322"
 ---
 # <a name="migrate-your-net-web-app-or-service-to-azure-app-service"></a>Migrieren von .NET Web-Apps oder -Diensten zu Azure App Service 
 
@@ -117,4 +117,4 @@ Wenn Ihre App nicht direkt zu App Service migriert werden kann, können Sie App 
 ## <a name="next-steps"></a>Nächste Schritte
 
 > [!div class="nextstepaction"]
-> [Migrieren einer ASP.NET-Webanwendung zu Azure App Service](https://aka.ms/azure-webapp-migrate)
+> [Veröffentlichen einer Web-App in Azure App Service mithilfe von Visual Studio](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017)
