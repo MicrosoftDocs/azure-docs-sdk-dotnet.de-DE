@@ -1,21 +1,13 @@
 ---
 title: Bereitstellen in Azure mithilfe von Visual Studio
 description: Dieses Tutorial führt Sie durch das Erstellen und Bereitstellen einer Microsoft Azure-Anwendung mithilfe von Visual Studio und .NET.
-keywords: Azure .NET, SDK, Azure .NET-API-Referenz, Azure .NET-Klassenbibliothek
-author: camsoper
-manager: douge
-ms.author: casoper
 ms.date: 06/20/2017
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
-ms.devlang: dotnet
-ms.openlocfilehash: 87f65d8b8b1b1a5184b9d71770c08be472c7e498
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: a4ddaa0dbf1cd71a0de031cc89b299baa381992c
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005887"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190423"
 ---
 # <a name="deploy-to-azure-from-visual-studio"></a>Bereitstellen in Azure mithilfe von Visual Studio
 

@@ -1,23 +1,19 @@
 ---
 title: Azure HDInsight .NET SDK
 description: Referenz zum Azure HDInsight .NET SDK
-keywords: Azure, .NET, SDK, API, HDInsight
-author: tylerfox
-ms.author: tyfox
-manager: arindamc
 ms.date: 9/19/2018
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: hd-insight
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 1f85a9333d3008977137f271df9acb72bb7c17d7
-ms.sourcegitcommit: a2c56781d52abbc09a5d56ca3103ed54545076a6
+ms.openlocfilehash: d25bdb1c9086cd93190b97f519654f2c193b9dc3
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46484585"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190683"
 ---
-# <a name="azure-hdinsight-libraries-for-net-2x"></a>Azure HD Insight-Bibliotheken für .NET 2.X
+# <a name="azure-hdinsight-net-sdk"></a>Azure HDInsight .NET SDK
+
+## <a name="azure-hdinsight-libraries-for-net-2x"></a>Azure HD Insight-Bibliotheken für .NET 2.X
 
 ## <a name="overview"></a>Übersicht
 
@@ -122,16 +118,19 @@ Zeigen Sie die [vollständige Liste](https://azure.microsoft.com/resources/sampl
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
 
-# <a name="hdinsight-net-management-sdk-3x-preview"></a>HDInsight .NET Management SDK 3.X – Vorschauversion
+## <a name="hdinsight-net-management-sdk-3x-preview"></a>HDInsight .NET Management SDK 3.X – Vorschauversion
 
 ## <a name="overview"></a>Übersicht
+
 Mit dem HDInsight .NET SDK werden Klassen und Methoden bereitgestellt, mit denen Sie Ihre HDInsight-Cluster verwalten können. Es enthält Vorgänge zum Erstellen, Löschen, Aktualisieren, Auflisten, Skalieren, Ausführen von Skriptaktionen, Überwachen, Abrufen der Eigenschaften von HDInsight-Clustern und mehr.
 
 ## <a name="prerequisites"></a>Voraussetzungen
+
 * Ein Azure-Konto. Falls Sie noch kein Konto haben, können Sie eine [kostenlose Testversion](https://azure.microsoft.com/free/) verwenden.
 * [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
 ## <a name="sdk-installation"></a>SDK-Installation
+
 Öffnen Sie über Ihr Visual Studio-Projekt die Paket-Manager-Konsole, indem Sie auf **Extras** > **NuGet-Paket-Manager** und dann auf **Paket-Manager-Konsole** klicken.
 
 Führen Sie in der Paket-Manager-Konsole die folgenden Befehle aus:
@@ -143,12 +142,14 @@ Führen Sie in der Paket-Manager-Konsole die folgenden Befehle aus:
 ```
 
 ## <a name="authentication"></a>Authentifizierung
+
 Das SDK muss zunächst für Ihr Azure-Abonnement authentifiziert werden.  Erstellen Sie anhand des Beispiels unten einen Dienstprinzipal, und verwenden Sie ihn für die Authentifizierung. Nachdem dies erfolgt ist, verfügen Sie über eine Instanz von `HDInsightManagementClient` mit vielen Methoden (in den Abschnitten unten beschrieben), die zum Durchführen von Verwaltungsvorgängen verwendet werden können.
 
 > [!NOTE]
 > Neben dem Beispiel unten gibt es noch andere Möglichkeiten der Authentifizierung, die für Ihre Anforderungen unter Umständen besser geeignet sind. Alle Methoden sind hier beschrieben: [Authentifizieren bei den Azure-Bibliotheken für .NET](https://docs.microsoft.com/en-us/dotnet/azure/dotnet-sdk-azure-authenticate?view=azure-dotnet).
 
 ### <a name="authentication-example-using-a-service-principal"></a>Beispiel für die Authentifizierung mit einem Dienstprinzipal
+
 Melden Sie sich zuerst bei [Azure Cloud Shell](https://shell.azure.com/bash) an. Vergewissern Sie sich, dass Sie derzeit das Abonnement verwenden, in dem der Dienstprinzipal erstellt werden soll. 
 
 ```azurecli-interactive
@@ -244,24 +245,29 @@ namespace HDI_SDK_Test
 
 
 ## <a name="cluster-management"></a>Clusterverwaltung
+
 > [!NOTE]
 > In diesem Abschnitt wird davon ausgegangen, dass Sie bereits eine `HDInsightManagementClient`-Instanz authentifiziert und in einer Variablen mit dem Namen `client` gespeichert haben. Eine Anleitung zum Authentifizieren und Abrufen eines `HDInsightManagementClient`-Elements finden Sie oben im Abschnitt „Authentifizierung“.
 
 ### <a name="create-a-cluster"></a>Erstellen eines Clusters
+
 Sie können einen neuen Cluster erstellen, indem Sie `client.Clusters.Create()` aufrufen. 
 
 #### <a name="example"></a>Beispiel
+
 In diesem Beispiel wird gezeigt, wie Sie einen Spark-Cluster mit zwei Hauptknoten und einem Workerknoten erstellen.
 
 > [!NOTE]
 > Sie müssen zuerst wie unten beschrieben eine Ressourcengruppe und ein Speicherkonto erstellen. Wenn Sie diese Komponenten bereits erstellt haben, können Sie diese Schritte überspringen.
 
 ##### <a name="creating-a-resource-group"></a>Erstellen einer Ressourcengruppe
+
 Sie können eine Ressourcengruppe erstellen, indem Sie mit [Azure Cloud Shell](https://shell.azure.com/bash) Folgendes ausführen:
 ```azurecli-interactive
 az group create -l <Region Name (i.e. eastus)> --n <Resource Group Name>
 ```
 ##### <a name="creating-a-storage-account"></a>Erstellen eines Speicherkontos
+
 Sie können ein Speicherkonto erstellen, indem Sie mit [Azure Cloud Shell](https://shell.azure.com/bash) Folgendes ausführen:
 ```azurecli-interactive
 az storage account create -n <Storage Account Name> -g <Existing Resource Group Name> -l <Region Name (i.e. eastus)> --sku <SKU i.e. Standard_LRS>
@@ -375,13 +381,15 @@ client.Clusters.Create(
 ```
 
 ### <a name="get-cluster-details"></a>Abrufen von Clusterdetails
+
 Rufen Sie die Eigenschaften für einen Cluster wie folgt ab:
 
 ```csharp
 client.Clusters.Get("<Resource Group Name>", "<Cluster Name>");
 ```
-https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.management.hdinsight.models.cluster?view=azure-dotnet-preview
+
 #### <a name="example"></a>Beispiel
+
 Sie können `get` verwenden, um zu bestätigen, dass die Erstellung des Clusters erfolgreich war.
 
 ```csharp
@@ -403,10 +411,12 @@ Die Ausgabe sollte wie folgt aussehen:
 ### <a name="list-clusters"></a>Auflisten von Clustern
 
 #### <a name="list-clusters-under-the-subscription"></a>Auflisten von Clustern unter dem Abonnement
+
 ```csharp
 client.Clusters.List();
 ```
 #### <a name="list-clusters-by-resource-group"></a>Auflisten von Clustern nach Ressourcengruppe
+
 ```csharp
 client.Clusters.ListByResourceGroup("<Resource Group Name>");
 ```
@@ -433,6 +443,7 @@ while (true)
 ```
 
 ### <a name="delete-a-cluster"></a>Löschen eines Clusters
+
 Löschen Sie einen Cluster wie folgt:
 
 ```csharp
@@ -440,6 +451,7 @@ client.Clusters.Delete("<Resource Group Name>", "<Cluster Name>");
 ```
 
 ### <a name="update-cluster-tags"></a>Aktualisieren von Clustermarkierungen
+
 Sie können die Markierungen eines Clusters wie folgt aktualisieren:
 
 ```csharp
@@ -452,6 +464,7 @@ client.Clusters.Update("<Resource Group Name>", "<Cluster Name>", new ClusterPat
 ```
 
 ### <a name="scale-cluster"></a>Skalieren von Clustern
+
 Sie können die Anzahl von Workerknoten für einen Cluster skalieren, indem Sie wie folgt eine neue Größe angeben:
 
 ```csharp
@@ -459,6 +472,7 @@ client.Clusters.Resize("<Resource Group Name>", "<Cluster Name>", <Num of Worker
 ```
 
 ## <a name="cluster-monitoring"></a>Clusterüberwachung
+
 Das HDInsight Management SDK kann auch verwendet werden, um die Überwachung Ihrer Cluster per Operations Management Suite (OMS) zu verwalten.
 
 ### <a name="enable-oms-monitoring"></a>Aktivieren der OMS-Überwachung
@@ -473,6 +487,7 @@ client.Extension.EnableMonitoring("<Resource Group Name", "Cluster Name", new Cl
 ```
 
 ### <a name="view-status-of-oms-monitoring"></a>Anzeigen des Status der OMS-Überwachung
+
 Rufen Sie den Status von OMS in Ihrem Cluster wie folgt ab:
 
 ```csharp
@@ -480,6 +495,7 @@ client.Extension.GetMonitoringStatus("<Resource Group Name", "Cluster Name");
 ```
 
 ### <a name="disable-oms-monitoring"></a>Deaktivieren der OMS-Überwachung
+
 Deaktivieren Sie OMS in Ihrem Cluster wie folgt:
 
 ```csharp
@@ -487,11 +503,13 @@ client.Extension.DisableMonitoring("<Resource Group Name>", "<Cluster Name>");
 ```
 
 ## <a name="script-actions"></a>Skriptaktionen
+
 HDInsight verfügt über eine Konfigurationsmethode mit der Bezeichnung „Skriptaktionen“, mit der benutzerdefinierte Skripts zum Anpassen des Clusters aufgerufen werden.
 > [!NOTE]
 > Weitere Informationen zur Verwendung von Skriptaktionen finden Sie unter [Anpassen Linux-basierter HDInsight-Cluster mithilfe von Skriptaktionen](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux).
 
 ### <a name="execute-script-actions"></a>Ausführen von Skriptaktionen
+
 Sie können Skriptaktionen für einen Cluster wie folgt ausführen:
 
 ```csharp
@@ -501,6 +519,7 @@ client.Clusters.ExecuteScriptActions("<Resource Group Name>", "<Cluster Name>", 
 ```
 
 ### <a name="delete-script-action"></a>Löschen der Skriptaktion
+
 Löschen Sie eine angegebene permanente Skriptaktion für einen Cluster wie folgt:
 
 ```csharp
@@ -536,6 +555,7 @@ while (true)
 ```
 
 ### <a name="list-all-scripts-execution-history"></a>Auflisten des Ausführungsverlaufs aller Skripts
+
 Listen Sie den Ausführungsverlauf aller Skripts für den angegebenen Cluster wie folgt auf:
 
 ```csharp
@@ -543,6 +563,7 @@ client.script_execution_history.list("<Resource Group Name>", "<Cluster Name>");
 ```
 
 #### <a name="example"></a>Beispiel
+
 In diesem Beispiel werden alle Details zu allen erfolgten Skriptausführungen ausgegeben.
 
 ```csharp

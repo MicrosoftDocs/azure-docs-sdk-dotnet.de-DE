@@ -1,21 +1,15 @@
 ---
 title: Azure Event Hubs-Bibliotheken für .NET
 description: Referenz für Azure Event Hubs-Bibliotheken für .NET
-keywords: Azure, .NET, SDK, API, Event Hubs
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: event-hubs
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 5502ae24574c7883c34522ae18ca81bb516a33d2
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 74c533bef598b90369009d68a759d35d122a368d
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065310"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190273"
 ---
 # <a name="azure-event-hubs-libraries-for-net"></a>Azure Event Hubs-Bibliotheken für .NET
 
@@ -100,7 +94,7 @@ Console.WriteLine("Created Event Hub successfully.");
 > [!div class="nextstepaction"]
 > [Informationen zu den Verwaltungs-APIs](/dotnet/api/overview/azure/eventhub/management)
 
-## <a name="tutorials"></a>Tutorials
+## <a name="tutorials"></a>Lernprogramme
 
 * [Senden von Ereignissen an Azure Event Hubs mithilfe von .NET Framework](/azure/event-hubs/event-hubs-dotnet-framework-getstarted-send)
 

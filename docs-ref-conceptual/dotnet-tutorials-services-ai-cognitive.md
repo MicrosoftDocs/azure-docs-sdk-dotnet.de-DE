@@ -1,21 +1,13 @@
 ---
 title: .NET-Tutorials für AI und Cognitive Services in Azure | Microsoft-Dokumentation
 description: Fügen Sie AI und Cognitive Services Ihren .NET-Apps mit Microsoft Azure-Diensten hinzu.
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 047bc30fd8918cb141aa02fc06be21d6a09f142c
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: b450c64837a6f9c20497c78bdfbb97746220389f
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752792"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190752"
 ---
 # <a name="azure-ai-and-cognitive-service-tutorials-using-net"></a>Tutorials zu Azure AI und Cognitive Services mit .NET
 

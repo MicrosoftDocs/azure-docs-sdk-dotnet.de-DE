@@ -1,22 +1,13 @@
 ---
 title: Authentifizieren bei den Azure-Bibliotheken für .NET
 description: Authentifizieren bei den Azure-Bibliotheken für .NET
-keywords: Azure, .NET, SDK, API, Authentifizierung, Active Directory, Dienstprinzipal
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 08/22/2018
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 019f0047fb141842eb1481ad9b835fa865a9a139
-ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
+ms.openlocfilehash: d0d8db89816a887fa23490a213917a3c554ecdb4
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42703043"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190859"
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a>Authentifizieren bei den Azure-Bibliotheken für .NET
 

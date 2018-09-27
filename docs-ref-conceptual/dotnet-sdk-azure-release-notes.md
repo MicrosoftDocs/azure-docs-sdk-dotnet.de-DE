@@ -1,22 +1,13 @@
 ---
 title: Versionshinweise zu Azure-Verwaltungsbibliotheken für .NET | Microsoft-Dokumentation
 description: Informieren Sie sich über Neuerungen und wichtige Änderungen in den Azure-Verwaltungsbibliotheken für .NET.
-keywords: Azure, .NET, API, Referenz, Hinweise, Updates, veraltet
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 48ff29507268f6b38acb24217801cf7b0227e444
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: dac9dee9c25fc349dedd50d6007f25c7d15b0928
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005907"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190673"
 ---
 # <a name="release-notes"></a>Versionsinformationen 
 
@@ -56,8 +47,8 @@ ms.locfileid: "31005907"
   </tr>
   <tr>
     <td>Weitere Dienste</td>
-    <td>Ressourcen-Manager<br>Schlüsseltresor<br>Redis<br>CDN<br>Batch</td>
-    <td valign="top">App Service (Web-Apps)<br>Funktionen<br>Service Bus</td>
+    <td>Ressourcen-Manager<br>Key Vault<br>Redis<br>CDN<br>Batch</td>
+    <td valign="top">App Service (Web-Apps)<br>Functions<br>Service Bus</td>
     <td valign="top">Überwachen<br>Graph (rollenbasierte Zugriffssteuerung)<br>Azure Cosmos DB<br>Scheduler</td>
   </tr>
   <tr>
