@@ -1,3 +1,14 @@
-## <a name="more-samples"></a><span data-ttu-id="4aebd-101">Weitere Beispiele</span><span class="sxs-lookup"><span data-stu-id="4aebd-101">More samples</span></span>
+---
+ms.service: multiple
+ms.date: 9/20/2018
+ms.topic: include
+ms.openlocfilehash: 1427356db2ec4b404b5b38e51f6b3bfa42493f42
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190213"
+---
+## <a name="more-samples"></a><span data-ttu-id="c5da2-101">Weitere Beispiele</span><span class="sxs-lookup"><span data-stu-id="c5da2-101">More samples</span></span>
 
-<span data-ttu-id="4aebd-102">Die vollständige Sammlung von Beispielen für die Azure-Verwaltungsbibliotheken für .NET finden Sie bei [GitHub](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/README.md#sample-code).</span><span class="sxs-lookup"><span data-stu-id="4aebd-102">The full collection of samples for the Azure Management Libraries for .NET can be found on [GitHub](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/README.md#sample-code).</span></span>
+<span data-ttu-id="c5da2-102">Die vollständige Sammlung von Beispielen für die Azure-Verwaltungsbibliotheken für .NET finden Sie bei [GitHub](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/README.md#sample-code).</span><span class="sxs-lookup"><span data-stu-id="c5da2-102">The full collection of samples for the Azure Management Libraries for .NET can be found on [GitHub](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/README.md#sample-code).</span></span>
