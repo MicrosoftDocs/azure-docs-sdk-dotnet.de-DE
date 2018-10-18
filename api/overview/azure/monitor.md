@@ -3,13 +3,13 @@ title: Azure Monitor-Bibliotheken für .NET
 description: Referenz für Azure Monitor-Bibliotheken für .NET
 ms.date: 10/27/2017
 ms.topic: reference
-ms.service: multiple
-ms.openlocfilehash: b81786590eb96a45da3ae08cecb8d11cf4c40bee
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.service: monitoring-alerts
+ms.openlocfilehash: dbfeb845edf513cf2b4ce102ecdae7d008076641
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190413"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348182"
 ---
 # <a name="azure-monitor-libraries-for-net"></a>Azure Monitor-Bibliotheken für .NET
 

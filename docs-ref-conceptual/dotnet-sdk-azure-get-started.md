@@ -2,12 +2,12 @@
 title: Erste Schritte mit Azure und .NET
 description: Lernen Sie die erforderlichen Grundlagen von Azure und .NET kennen.
 ms.date: 09/19/2018
-ms.openlocfilehash: 89fdae6afa5c040127975de43c79d837550a9fbc
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.openlocfilehash: 89586af18b816e24a7df5ce9d96f651995f02f01
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190593"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348142"
 ---
 # <a name="get-started-with-azure-and-net"></a>Erste Schritte mit Azure und .NET
 
@@ -63,7 +63,6 @@ Azure bietet je nach Ihren Anforderungen verschiedene Dienste zum Speichern von 
 > Informationen finden Sie unter [Auswählen des richtigen Datenspeichers](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview).
 
 ## <a name="diagnosing-problems-in-the-cloud"></a>Diagnostizieren von Problemen in der Cloud
-
 Beim Bereitstellen Ihrer Anwendung in Azure kann es vorkommen, dass Dinge nicht mehr funktionieren, die in der Entwicklung keine Probleme bereitet haben. Nachstehend finden Sie zwei gute Einstiegspunkte in das Diagnostizieren von Probleme:
 
 * **Remotedebuggen über Visual Studio**: Die meisten Azure-Computedienste (einschließlich der in diesem Dokument behandelten Dienste) unterstützen Remotedebuggen mit Visual Studio and das Abrufen von Protokollen. Zum Erkunden der Funktionen von Visual Studio mit Ihrer Anwendung öffnen Sie das Toolfenster „Cloud-Explorer“, indem Sie „Cloud-Explorer“ in die Schnellstart-Symbolleiste (rechts oben) von Visual Studio eingeben und dann in der Struktur Ihre Anwendung auswählen. Ausführliche Informationen finden Sie unter [Problembehandlung von Web-Apps in Azure App Service in Visual Studio](https://docs.microsoft.com/azure/app-service/web-sites-dotnet-troubleshoot-visual-studio#remotedebug).
