@@ -3,11 +3,11 @@ ms.service: multiple
 ms.date: 9/20/2018
 ms.topic: include
 ms.openlocfilehash: 5c8cb328802cfb94e944e4241852fb9568e8507f
-ms.sourcegitcommit: 70982e900bd4adfbc121eba55d94544f17c6b495
+ms.sourcegitcommit: e25b6ac74033f3b0a7610bf66feb654acb43054c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196055"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "53430519"
 ---
 Ihre .NET-Anwendung benötigt Berechtigungen zum Lesen und Erstellen von Ressourcen in Ihrem Azure-Abonnement, um die Azure-Verwaltungsbibliotheken für .NET zu verwenden. Erstellen Sie einen Dienstprinzipal, und konfigurieren Sie Ihre App so, dass sie mit dessen Anmeldeinformationen ausgeführt wird, um diesen Zugriff zu gewähren. Dienstprinzipale ermöglichen die Erstellung eines nicht interaktiven, Ihrer Identität zugeordneten Kontos, dem Sie nur die Berechtigungen erteilen, die zum Ausführen Ihrer App erforderlich sind.
 
