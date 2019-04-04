@@ -1,20 +1,20 @@
 ---
 title: Azure Batch AI-APIs für .NET
 description: Referenz zu Azure Batch AI-Bibliotheken für .NET
-ms.date: 12/14/18
+ms.date: 03/26/2019
 ms.topic: reference
 ms.service: batch-ai
-ms.openlocfilehash: ab4b86a0a4388163fcbe9a3fb4e5e10f2ef6d458
-ms.sourcegitcommit: 921a533464493aa05a3edefe40cfe9c27622980a
+ms.openlocfilehash: a9f31bc339b47a80aa5d987f936ecf60e77cb85c
+ms.sourcegitcommit: ba256a5b3122d8093fa303521ceae57f7ab023ed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "53425199"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58617010"
 ---
 # <a name="azure-batch-ai-apis-for-net"></a>Azure Batch AI-APIs für .NET
 
 >[!Note]
->**Azure Batch AI wird eingestellt.** Die Unterstützung für diesen Dienst wird nach und nach eingestellt. Die Funktionen von Azure Batch AI sind nun als verwaltetes Computeziel in Azure Machine Learning Service verfügbar. Weitere Informationen finden Sie unter [Was passiert mit Azure Batch AI?](https://aka.ms/batchai-retirement).
+>**Der Azure Batch AI-Dienst wurde eingestellt.** Die Funktionen von Azure Batch AI sind nun als verwaltetes Computeziel in Azure Machine Learning Service verfügbar. Weitere Informationen finden Sie unter [Was ist mit Azure Batch AI passiert?](https://aka.ms/batchai-retirement)
 
 ## <a name="namespaces"></a>Namespaces
 
