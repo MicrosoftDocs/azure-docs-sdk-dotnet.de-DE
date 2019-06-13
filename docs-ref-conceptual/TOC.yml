@@ -1,101 +1,94 @@
-items:
 - name: Azure für .NET-Entwickler
   href: index.yml
   items:
-  - name: .NET-Schnellstarts
-    items:
-    - name: Web-Apps
-      href: https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet
-      maintainContext: true
-    - name: Serverlose Funktionen
-      href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
-      maintainContext: true
-    - name: SQL-Datenbank
-      href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
-      maintainContext: true
-    - name: Cosmos DB
-      href: https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet
-      maintainContext: true
-    - name: Service Fabric
-      href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
-      maintainContext: true
-    - name: Blob Storage
-      href: https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet
-      maintainContext: true
-    expanded: true
-  - name: Erste Schritte mit Azure
-    href: dotnet-sdk-azure-get-started.md
-  - name: Tools
-    href: dotnet-tools.md
-  - name: .NET-Tutorials
-    href: dotnet-tutorials.md
-    items:
-    - name: Erstellen einer ASP.NET-Web-App mit Azure SQL-Datenbank
-      href: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
-      maintainContext: true
-    - name: Erstellen einer ASP.NET-Web-App mit Cosmos DB
-      href: /azure/documentdb/documentdb-dotnet-application
-      maintainContext: true
-    - name: Erstellen und Bereitstellen einer Web-API
-      href: /azure/app-service-api/app-service-api-dotnet-get-started
-      maintainContext: true
-    - name: Bereitstellen eines Kubernetes-Clusters für Windows-Container
-      href: /azure/container-service/container-service-kubernetes-windows-walkthrough
-      maintainContext: true
-    - name: Herstellen einer Verbindung mit einer SQL-Datenbank und Abfragen der Datenbank mit .NET (C#) und Visual Studio
-      href: /azure/sql-database/sql-database-connect-query-dotnet
-      maintainContext: true
-    - name: 'Azure-Datenbank für PostgreSQL: Verwenden von .NET (C#) zum Herstellen von Verbindungen mit Daten und Durchführen von Abfragen'
-      href: /azure/postgresql/connect-csharp
-      maintainContext: true
-    - name: Erste Schritte mit der SQL-API von Cosmos DB
-      href: /azure/cosmos-db/sql-api-get-started
-      maintainContext: true
-  - name: Anleitung
-    items:
-    - name: Migration
+    - name: .NET-Schnellstarts
+      expanded: true
       items:
-      - name: Auswählen der passenden Azure-Hostingoption
-        href: dotnet-howto-choose-migration.md
-      - name: Migrieren von .NET-Web-Apps oder -Diensten zu Azure App Service
-        href: dotnet-howto-migrate-app-service.md
-      - name: Migrieren einer ASP.NET-App zu einem virtuellen Azure-Computer
-        href: dotnet-howto-migrate-to-vm.md
-      - name: Migrieren einer SQL Server-Datenbank zu Azure
-        href: dotnet-howto-migrate-sql.md
-    - name: Authentifizierung
-      href: dotnet-sdk-azure-authenticate.md
-    - name: Verwenden von Fluent-APIs
-      href: dotnet-sdk-azure-concepts.md
-    - name: Bereitstellen
+        - name: Web-Apps
+          href: 'https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet'
+          maintainContext: true
+        - name: Serverlose Funktionen
+          href: 'https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio'
+          maintainContext: true
+        - name: SQL-Datenbank
+          href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
+          maintainContext: true
+        - name: Cosmos DB
+          href: 'https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet'
+          maintainContext: true
+        - name: Service Fabric
+          href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
+          maintainContext: true
+        - name: Blob Storage
+          href: 'https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet'
+          maintainContext: true
+    - name: Erste Schritte mit Azure
+      href: dotnet-sdk-azure-get-started.md
+    - name: Tools
+      href: dotnet-tools.md
+    - name: .NET-Tutorials
+      href: dotnet-tutorials.md
       items:
-      - name: Bereitstellen mit Visual Studio 2013
-        href: dotnet-quickstart-vs.md
-      - name: Bereitstellen mit Befehlszeilentools
-        href: dotnet-quickstart-xplat.md
-    - name: Datenbanken
-      href: dotnet-tutorials-services-databases.md
-    - name: Speicher
-      href: dotnet-tutorials-services-storage.md
-    - name: Container
-      href: dotnet-tutorials-services-containers.md
-    - name: Nachrichten + IoT
-      href: dotnet-tutorials-services-messaging-iot.md
-    - name: AI und Cognitive Services
-      href: dotnet-tutorials-services-ai-cognitive.md
-    - name: Daten und Analysen
-      href: dotnet-tutorials-services-analytics.md
-    - name: Web + Mobil
-      href: dotnet-tutorials-services-web-mobile.md
-    - name: Sicherheit + Identität
-      href: dotnet-tutorials-services-security.md
-    - name: Überwachung und Verwaltung
-      href: dotnet-tutorials-services-monitoring.md
-  - name: .NET-Codebeispiele
-    href: dotnet-samples.md
-ms.openlocfilehash: b2a0a7da4354b1699aaed766a5377cfaea64dcdf
-ms.sourcegitcommit: 0de939648fa01698016fed633200f8eb07c96eb7
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51276560"
+        - name: Erstellen einer ASP.NET-Web-App mit Azure SQL-Datenbank
+          href: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
+          maintainContext: true
+        - name: Erstellen einer ASP.NET-Web-App mit Cosmos DB
+          href: /azure/documentdb/documentdb-dotnet-application
+          maintainContext: true
+        - name: Erstellen und Bereitstellen einer Web-API
+          href: /azure/app-service-api/app-service-api-dotnet-get-started
+          maintainContext: true
+        - name: Bereitstellen eines Kubernetes-Clusters für Windows-Container
+          href: /azure/container-service/container-service-kubernetes-windows-walkthrough
+          maintainContext: true
+        - name: 'Herstellen einer Verbindung mit einer SQL-Datenbank und Abfragen der Datenbank mit .NET (C#) und Visual Studio'
+          href: /azure/sql-database/sql-database-connect-query-dotnet
+          maintainContext: true
+        - name: 'Azure-Datenbank für PostgreSQL: Verwenden von .NET (C#) zum Herstellen von Verbindungen mit Daten und Durchführen von Abfragen'
+          href: /azure/postgresql/connect-csharp
+          maintainContext: true
+        - name: Erste Schritte mit der SQL-API von Cosmos DB
+          href: /azure/cosmos-db/sql-api-get-started
+          maintainContext: true
+    - name: Anleitung
+      items:
+        - name: Migration
+          items:
+            - name: Auswählen der passenden Azure-Hostingoption
+              href: dotnet-howto-choose-migration.md
+            - name: Migrieren von .NET-Web-Apps oder -Diensten zu Azure App Service
+              href: dotnet-howto-migrate-app-service.md
+            - name: Migrieren einer ASP.NET-App zu einem virtuellen Azure-Computer
+              href: dotnet-howto-migrate-to-vm.md
+            - name: Migrieren einer SQL Server-Datenbank zu Azure
+              href: dotnet-howto-migrate-sql.md
+        - name: Authentifizierung
+          href: dotnet-sdk-azure-authenticate.md
+        - name: Verwenden von Fluent-APIs
+          href: dotnet-sdk-azure-concepts.md
+        - name: Bereitstellen
+          items:
+            - name: Bereitstellen mit Visual Studio 2013
+              href: dotnet-quickstart-vs.md
+            - name: Bereitstellen mit Befehlszeilentools
+              href: dotnet-quickstart-xplat.md
+        - name: Datenbanken
+          href: dotnet-tutorials-services-databases.md
+        - name: Speicher
+          href: dotnet-tutorials-services-storage.md
+        - name: Container
+          href: dotnet-tutorials-services-containers.md
+        - name: Nachrichten + IoT
+          href: dotnet-tutorials-services-messaging-iot.md
+        - name: KI + Cognitive Services
+          href: dotnet-tutorials-services-ai-cognitive.md
+        - name: Daten und Analysen
+          href: dotnet-tutorials-services-analytics.md
+        - name: Web + Mobil
+          href: dotnet-tutorials-services-web-mobile.md
+        - name: Sicherheit + Identität
+          href: dotnet-tutorials-services-security.md
+        - name: Überwachung und Verwaltung
+          href: dotnet-tutorials-services-monitoring.md
+    - name: .NET-Codebeispiele
+      href: dotnet-samples.md
